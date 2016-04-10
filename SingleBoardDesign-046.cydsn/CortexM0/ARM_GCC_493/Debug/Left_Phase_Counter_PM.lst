@@ -1,0 +1,946 @@
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc8WGu0G.s 			page 1
+
+
+   1              		.cpu cortex-m0
+   2              		.fpu softvfp
+   3              		.eabi_attribute 20, 1
+   4              		.eabi_attribute 21, 1
+   5              		.eabi_attribute 23, 3
+   6              		.eabi_attribute 24, 1
+   7              		.eabi_attribute 25, 1
+   8              		.eabi_attribute 26, 1
+   9              		.eabi_attribute 30, 1
+  10              		.eabi_attribute 34, 0
+  11              		.eabi_attribute 18, 4
+  12              		.code	16
+  13              		.file	"Left_Phase_Counter_PM.c"
+  14              		.text
+  15              	.Ltext0:
+  16              		.cfi_sections	.debug_frame
+  17              		.section	.text.Left_Phase_Counter_SaveConfig,"ax",%progbits
+  18              		.align	2
+  19              		.global	Left_Phase_Counter_SaveConfig
+  20              		.code	16
+  21              		.thumb_func
+  22              		.type	Left_Phase_Counter_SaveConfig, %function
+  23              	Left_Phase_Counter_SaveConfig:
+  24              	.LFB2:
+  25              		.file 1 ".\\Generated_Source\\PSoC4\\Left_Phase_Counter_PM.c"
+   1:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** /*******************************************************************************
+   2:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** * File Name: Left_Phase_Counter_PM.c  
+   3:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** * Version 3.0
+   4:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *
+   5:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *  Description:
+   6:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *    This file provides the power management source code to API for the
+   7:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *    Counter.  
+   8:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *
+   9:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *   Note:
+  10:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *     None
+  11:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *
+  12:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** ********************************************************************************
+  13:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** * Copyright 2008-2012, Cypress Semiconductor Corporation.  All rights reserved.
+  14:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** * You may use this file only in accordance with the license, terms, conditions, 
+  15:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** * disclaimers, and limitations in the end user license agreement accompanying 
+  16:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** * the software package with which this file was provided.
+  17:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *******************************************************************************/
+  18:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** 
+  19:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** #include "Left_Phase_Counter.h"
+  20:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** 
+  21:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** static Left_Phase_Counter_backupStruct Left_Phase_Counter_backup;
+  22:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** 
+  23:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** 
+  24:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** /*******************************************************************************
+  25:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** * Function Name: Left_Phase_Counter_SaveConfig
+  26:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** ********************************************************************************
+  27:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** * Summary:
+  28:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *     Save the current user configuration
+  29:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *
+  30:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** * Parameters:  
+  31:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *  void
+  32:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc8WGu0G.s 			page 2
+
+
+  33:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** * Return: 
+  34:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *  void
+  35:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *
+  36:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** * Global variables:
+  37:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *  Left_Phase_Counter_backup:  Variables of this global structure are modified to 
+  38:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *  store the values of non retention configuration registers when Sleep() API is 
+  39:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *  called.
+  40:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *
+  41:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *******************************************************************************/
+  42:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** void Left_Phase_Counter_SaveConfig(void) 
+  43:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** {
+  26              		.loc 1 43 0
+  27              		.cfi_startproc
+  28 0000 08B5     		push	{r3, lr}
+  29              		.cfi_def_cfa_offset 8
+  30              		.cfi_offset 3, -8
+  31              		.cfi_offset 14, -4
+  44:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****     #if (!Left_Phase_Counter_UsingFixedFunction)
+  45:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** 
+  46:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****         Left_Phase_Counter_backup.CounterUdb = Left_Phase_Counter_ReadCounter();
+  32              		.loc 1 46 0
+  33 0002 FFF7FEFF 		bl	Left_Phase_Counter_ReadCounter
+  34              	.LVL0:
+  35 0006 014B     		ldr	r3, .L2
+  36 0008 5860     		str	r0, [r3, #4]
+  47:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** 
+  48:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****         #if(!Left_Phase_Counter_ControlRegRemoved)
+  49:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****             Left_Phase_Counter_backup.CounterControlRegister = Left_Phase_Counter_ReadControlRegist
+  50:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****         #endif /* (!Left_Phase_Counter_ControlRegRemoved) */
+  51:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** 
+  52:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****     #endif /* (!Left_Phase_Counter_UsingFixedFunction) */
+  53:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** }
+  37              		.loc 1 53 0
+  38              		@ sp needed
+  39 000a 08BD     		pop	{r3, pc}
+  40              	.L3:
+  41              		.align	2
+  42              	.L2:
+  43 000c 00000000 		.word	.LANCHOR0
+  44              		.cfi_endproc
+  45              	.LFE2:
+  46              		.size	Left_Phase_Counter_SaveConfig, .-Left_Phase_Counter_SaveConfig
+  47              		.section	.text.Left_Phase_Counter_RestoreConfig,"ax",%progbits
+  48              		.align	2
+  49              		.global	Left_Phase_Counter_RestoreConfig
+  50              		.code	16
+  51              		.thumb_func
+  52              		.type	Left_Phase_Counter_RestoreConfig, %function
+  53              	Left_Phase_Counter_RestoreConfig:
+  54              	.LFB3:
+  54:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** 
+  55:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** 
+  56:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** /*******************************************************************************
+  57:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** * Function Name: Left_Phase_Counter_RestoreConfig
+  58:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** ********************************************************************************
+  59:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *
+  60:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** * Summary:
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc8WGu0G.s 			page 3
+
+
+  61:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *  Restores the current user configuration.
+  62:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *
+  63:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** * Parameters:  
+  64:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *  void
+  65:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *
+  66:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** * Return: 
+  67:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *  void
+  68:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *
+  69:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** * Global variables:
+  70:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *  Left_Phase_Counter_backup:  Variables of this global structure are used to 
+  71:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *  restore the values of non retention registers on wakeup from sleep mode.
+  72:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *
+  73:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *******************************************************************************/
+  74:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** void Left_Phase_Counter_RestoreConfig(void) 
+  75:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** {      
+  55              		.loc 1 75 0
+  56              		.cfi_startproc
+  57 0000 08B5     		push	{r3, lr}
+  58              		.cfi_def_cfa_offset 8
+  59              		.cfi_offset 3, -8
+  60              		.cfi_offset 14, -4
+  76:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****     #if (!Left_Phase_Counter_UsingFixedFunction)
+  77:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** 
+  78:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****        Left_Phase_Counter_WriteCounter(Left_Phase_Counter_backup.CounterUdb);
+  61              		.loc 1 78 0
+  62 0002 024B     		ldr	r3, .L5
+  63 0004 5868     		ldr	r0, [r3, #4]
+  64 0006 FFF7FEFF 		bl	Left_Phase_Counter_WriteCounter
+  65              	.LVL1:
+  79:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** 
+  80:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****         #if(!Left_Phase_Counter_ControlRegRemoved)
+  81:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****             Left_Phase_Counter_WriteControlRegister(Left_Phase_Counter_backup.CounterControlRegiste
+  82:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****         #endif /* (!Left_Phase_Counter_ControlRegRemoved) */
+  83:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** 
+  84:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****     #endif /* (!Left_Phase_Counter_UsingFixedFunction) */
+  85:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** }
+  66              		.loc 1 85 0
+  67              		@ sp needed
+  68 000a 08BD     		pop	{r3, pc}
+  69              	.L6:
+  70              		.align	2
+  71              	.L5:
+  72 000c 00000000 		.word	.LANCHOR0
+  73              		.cfi_endproc
+  74              	.LFE3:
+  75              		.size	Left_Phase_Counter_RestoreConfig, .-Left_Phase_Counter_RestoreConfig
+  76              		.section	.text.Left_Phase_Counter_Sleep,"ax",%progbits
+  77              		.align	2
+  78              		.global	Left_Phase_Counter_Sleep
+  79              		.code	16
+  80              		.thumb_func
+  81              		.type	Left_Phase_Counter_Sleep, %function
+  82              	Left_Phase_Counter_Sleep:
+  83              	.LFB4:
+  86:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** 
+  87:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** 
+  88:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** /*******************************************************************************
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc8WGu0G.s 			page 4
+
+
+  89:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** * Function Name: Left_Phase_Counter_Sleep
+  90:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** ********************************************************************************
+  91:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** * Summary:
+  92:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *     Stop and Save the user configuration
+  93:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *
+  94:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** * Parameters:  
+  95:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *  void
+  96:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *
+  97:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** * Return: 
+  98:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *  void
+  99:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *
+ 100:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** * Global variables:
+ 101:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *  Left_Phase_Counter_backup.enableState:  Is modified depending on the enable 
+ 102:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *  state of the block before entering sleep mode.
+ 103:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *
+ 104:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *******************************************************************************/
+ 105:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** void Left_Phase_Counter_Sleep(void) 
+ 106:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** {
+  84              		.loc 1 106 0
+  85              		.cfi_startproc
+  86 0000 08B5     		push	{r3, lr}
+  87              		.cfi_def_cfa_offset 8
+  88              		.cfi_offset 3, -8
+  89              		.cfi_offset 14, -4
+ 107:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****     #if(!Left_Phase_Counter_ControlRegRemoved)
+ 108:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****         /* Save Counter's enable state */
+ 109:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****         if(Left_Phase_Counter_CTRL_ENABLE == (Left_Phase_Counter_CONTROL & Left_Phase_Counter_CTRL_
+ 110:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****         {
+ 111:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****             /* Counter is enabled */
+ 112:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****             Left_Phase_Counter_backup.CounterEnableState = 1u;
+ 113:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****         }
+ 114:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****         else
+ 115:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****         {
+ 116:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****             /* Counter is disabled */
+ 117:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****             Left_Phase_Counter_backup.CounterEnableState = 0u;
+ 118:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****         }
+ 119:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****     #else
+ 120:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****         Left_Phase_Counter_backup.CounterEnableState = 1u;
+ 121:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****         if(Left_Phase_Counter_backup.CounterEnableState != 0u)
+ 122:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****         {
+ 123:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****             Left_Phase_Counter_backup.CounterEnableState = 0u;
+  90              		.loc 1 123 0
+  91 0002 0022     		mov	r2, #0
+  92 0004 034B     		ldr	r3, .L8
+  93 0006 1A70     		strb	r2, [r3]
+ 124:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****         }
+ 125:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****     #endif /* (!Left_Phase_Counter_ControlRegRemoved) */
+ 126:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****     
+ 127:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****     Left_Phase_Counter_Stop();
+  94              		.loc 1 127 0
+  95 0008 FFF7FEFF 		bl	Left_Phase_Counter_Stop
+  96              	.LVL2:
+ 128:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****     Left_Phase_Counter_SaveConfig();
+  97              		.loc 1 128 0
+  98 000c FFF7FEFF 		bl	Left_Phase_Counter_SaveConfig
+  99              	.LVL3:
+ 129:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** }
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc8WGu0G.s 			page 5
+
+
+ 100              		.loc 1 129 0
+ 101              		@ sp needed
+ 102 0010 08BD     		pop	{r3, pc}
+ 103              	.L9:
+ 104 0012 C046     		.align	2
+ 105              	.L8:
+ 106 0014 00000000 		.word	.LANCHOR0
+ 107              		.cfi_endproc
+ 108              	.LFE4:
+ 109              		.size	Left_Phase_Counter_Sleep, .-Left_Phase_Counter_Sleep
+ 110              		.section	.text.Left_Phase_Counter_Wakeup,"ax",%progbits
+ 111              		.align	2
+ 112              		.global	Left_Phase_Counter_Wakeup
+ 113              		.code	16
+ 114              		.thumb_func
+ 115              		.type	Left_Phase_Counter_Wakeup, %function
+ 116              	Left_Phase_Counter_Wakeup:
+ 117              	.LFB5:
+ 130:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** 
+ 131:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** 
+ 132:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** /*******************************************************************************
+ 133:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** * Function Name: Left_Phase_Counter_Wakeup
+ 134:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** ********************************************************************************
+ 135:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *
+ 136:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** * Summary:
+ 137:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *  Restores and enables the user configuration
+ 138:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *  
+ 139:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** * Parameters:  
+ 140:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *  void
+ 141:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *
+ 142:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** * Return: 
+ 143:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *  void
+ 144:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *
+ 145:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** * Global variables:
+ 146:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *  Left_Phase_Counter_backup.enableState:  Is used to restore the enable state of 
+ 147:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *  block on wakeup from sleep mode.
+ 148:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *
+ 149:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** *******************************************************************************/
+ 150:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** void Left_Phase_Counter_Wakeup(void) 
+ 151:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** {
+ 118              		.loc 1 151 0
+ 119              		.cfi_startproc
+ 120 0000 08B5     		push	{r3, lr}
+ 121              		.cfi_def_cfa_offset 8
+ 122              		.cfi_offset 3, -8
+ 123              		.cfi_offset 14, -4
+ 152:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****     Left_Phase_Counter_RestoreConfig();
+ 124              		.loc 1 152 0
+ 125 0002 FFF7FEFF 		bl	Left_Phase_Counter_RestoreConfig
+ 126              	.LVL4:
+ 153:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****     #if(!Left_Phase_Counter_ControlRegRemoved)
+ 154:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****         if(Left_Phase_Counter_backup.CounterEnableState == 1u)
+ 155:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****         {
+ 156:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****             /* Enable Counter's operation */
+ 157:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****             Left_Phase_Counter_Enable();
+ 158:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****         } /* Do nothing if Counter was disabled before */    
+ 159:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****     #endif /* (!Left_Phase_Counter_ControlRegRemoved) */
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc8WGu0G.s 			page 6
+
+
+ 160:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c ****     
+ 161:.\Generated_Source\PSoC4/Left_Phase_Counter_PM.c **** }
+ 127              		.loc 1 161 0
+ 128              		@ sp needed
+ 129 0006 08BD     		pop	{r3, pc}
+ 130              		.cfi_endproc
+ 131              	.LFE5:
+ 132              		.size	Left_Phase_Counter_Wakeup, .-Left_Phase_Counter_Wakeup
+ 133              		.bss
+ 134              		.align	2
+ 135              		.set	.LANCHOR0,. + 0
+ 136              		.type	Left_Phase_Counter_backup, %object
+ 137              		.size	Left_Phase_Counter_backup, 8
+ 138              	Left_Phase_Counter_backup:
+ 139 0000 00000000 		.space	8
+ 139      00000000 
+ 140              		.text
+ 141              	.Letext0:
+ 142              		.file 2 ".\\Generated_Source\\PSoC4\\cytypes.h"
+ 143              		.file 3 ".\\Generated_Source\\PSoC4\\Left_Phase_Counter.h"
+ 144              		.section	.debug_info,"",%progbits
+ 145              	.Ldebug_info0:
+ 146 0000 81010000 		.4byte	0x181
+ 147 0004 0400     		.2byte	0x4
+ 148 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 149 000a 04       		.byte	0x4
+ 150 000b 01       		.uleb128 0x1
+ 151 000c 27010000 		.4byte	.LASF22
+ 152 0010 01       		.byte	0x1
+ 153 0011 41020000 		.4byte	.LASF23
+ 154 0015 56000000 		.4byte	.LASF24
+ 155 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 156 001d 00000000 		.4byte	0
+ 157 0021 00000000 		.4byte	.Ldebug_line0
+ 158 0025 02       		.uleb128 0x2
+ 159 0026 01       		.byte	0x1
+ 160 0027 06       		.byte	0x6
+ 161 0028 35020000 		.4byte	.LASF0
+ 162 002c 02       		.uleb128 0x2
+ 163 002d 01       		.byte	0x1
+ 164 002e 08       		.byte	0x8
+ 165 002f B5010000 		.4byte	.LASF1
+ 166 0033 02       		.uleb128 0x2
+ 167 0034 02       		.byte	0x2
+ 168 0035 05       		.byte	0x5
+ 169 0036 72020000 		.4byte	.LASF2
+ 170 003a 02       		.uleb128 0x2
+ 171 003b 02       		.byte	0x2
+ 172 003c 07       		.byte	0x7
+ 173 003d 22020000 		.4byte	.LASF3
+ 174 0041 02       		.uleb128 0x2
+ 175 0042 04       		.byte	0x4
+ 176 0043 05       		.byte	0x5
+ 177 0044 E0010000 		.4byte	.LASF4
+ 178 0048 02       		.uleb128 0x2
+ 179 0049 04       		.byte	0x4
+ 180 004a 07       		.byte	0x7
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc8WGu0G.s 			page 7
+
+
+ 181 004b 9E000000 		.4byte	.LASF5
+ 182 004f 02       		.uleb128 0x2
+ 183 0050 08       		.byte	0x8
+ 184 0051 05       		.byte	0x5
+ 185 0052 00000000 		.4byte	.LASF6
+ 186 0056 02       		.uleb128 0x2
+ 187 0057 08       		.byte	0x8
+ 188 0058 07       		.byte	0x7
+ 189 0059 D0000000 		.4byte	.LASF7
+ 190 005d 03       		.uleb128 0x3
+ 191 005e 04       		.byte	0x4
+ 192 005f 05       		.byte	0x5
+ 193 0060 696E7400 		.ascii	"int\000"
+ 194 0064 02       		.uleb128 0x2
+ 195 0065 04       		.byte	0x4
+ 196 0066 07       		.byte	0x7
+ 197 0067 2F000000 		.4byte	.LASF8
+ 198 006b 04       		.uleb128 0x4
+ 199 006c 98000000 		.4byte	.LASF9
+ 200 0070 02       		.byte	0x2
+ 201 0071 3801     		.2byte	0x138
+ 202 0073 2C000000 		.4byte	0x2c
+ 203 0077 04       		.uleb128 0x4
+ 204 0078 0E000000 		.4byte	.LASF10
+ 205 007c 02       		.byte	0x2
+ 206 007d 3A01     		.2byte	0x13a
+ 207 007f 48000000 		.4byte	0x48
+ 208 0083 02       		.uleb128 0x2
+ 209 0084 04       		.byte	0x4
+ 210 0085 04       		.byte	0x4
+ 211 0086 E7000000 		.4byte	.LASF11
+ 212 008a 02       		.uleb128 0x2
+ 213 008b 08       		.byte	0x8
+ 214 008c 04       		.byte	0x4
+ 215 008d 1B020000 		.4byte	.LASF12
+ 216 0091 02       		.uleb128 0x2
+ 217 0092 01       		.byte	0x1
+ 218 0093 08       		.byte	0x8
+ 219 0094 C3010000 		.4byte	.LASF13
+ 220 0098 02       		.uleb128 0x2
+ 221 0099 04       		.byte	0x4
+ 222 009a 07       		.byte	0x7
+ 223 009b A5020000 		.4byte	.LASF14
+ 224 009f 05       		.uleb128 0x5
+ 225 00a0 08       		.byte	0x8
+ 226 00a1 03       		.byte	0x3
+ 227 00a2 40       		.byte	0x40
+ 228 00a3 C0000000 		.4byte	0xc0
+ 229 00a7 06       		.uleb128 0x6
+ 230 00a8 08020000 		.4byte	.LASF15
+ 231 00ac 03       		.byte	0x3
+ 232 00ad 42       		.byte	0x42
+ 233 00ae 6B000000 		.4byte	0x6b
+ 234 00b2 00       		.byte	0
+ 235 00b3 06       		.uleb128 0x6
+ 236 00b4 7C020000 		.4byte	.LASF16
+ 237 00b8 03       		.byte	0x3
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc8WGu0G.s 			page 8
+
+
+ 238 00b9 43       		.byte	0x43
+ 239 00ba 77000000 		.4byte	0x77
+ 240 00be 04       		.byte	0x4
+ 241 00bf 00       		.byte	0
+ 242 00c0 07       		.uleb128 0x7
+ 243 00c1 AE020000 		.4byte	.LASF17
+ 244 00c5 03       		.byte	0x3
+ 245 00c6 49       		.byte	0x49
+ 246 00c7 9F000000 		.4byte	0x9f
+ 247 00cb 08       		.uleb128 0x8
+ 248 00cc 87020000 		.4byte	.LASF18
+ 249 00d0 01       		.byte	0x1
+ 250 00d1 2A       		.byte	0x2a
+ 251 00d2 00000000 		.4byte	.LFB2
+ 252 00d6 10000000 		.4byte	.LFE2-.LFB2
+ 253 00da 01       		.uleb128 0x1
+ 254 00db 9C       		.byte	0x9c
+ 255 00dc EA000000 		.4byte	0xea
+ 256 00e0 09       		.uleb128 0x9
+ 257 00e1 06000000 		.4byte	.LVL0
+ 258 00e5 61010000 		.4byte	0x161
+ 259 00e9 00       		.byte	0
+ 260 00ea 08       		.uleb128 0x8
+ 261 00eb 06010000 		.4byte	.LASF19
+ 262 00ef 01       		.byte	0x1
+ 263 00f0 4A       		.byte	0x4a
+ 264 00f1 00000000 		.4byte	.LFB3
+ 265 00f5 10000000 		.4byte	.LFE3-.LFB3
+ 266 00f9 01       		.uleb128 0x1
+ 267 00fa 9C       		.byte	0x9c
+ 268 00fb 09010000 		.4byte	0x109
+ 269 00ff 09       		.uleb128 0x9
+ 270 0100 0A000000 		.4byte	.LVL1
+ 271 0104 6C010000 		.4byte	0x16c
+ 272 0108 00       		.byte	0
+ 273 0109 08       		.uleb128 0x8
+ 274 010a ED000000 		.4byte	.LASF20
+ 275 010e 01       		.byte	0x1
+ 276 010f 69       		.byte	0x69
+ 277 0110 00000000 		.4byte	.LFB4
+ 278 0114 18000000 		.4byte	.LFE4-.LFB4
+ 279 0118 01       		.uleb128 0x1
+ 280 0119 9C       		.byte	0x9c
+ 281 011a 31010000 		.4byte	0x131
+ 282 011e 09       		.uleb128 0x9
+ 283 011f 0C000000 		.4byte	.LVL2
+ 284 0123 7D010000 		.4byte	0x17d
+ 285 0127 09       		.uleb128 0x9
+ 286 0128 10000000 		.4byte	.LVL3
+ 287 012c CB000000 		.4byte	0xcb
+ 288 0130 00       		.byte	0
+ 289 0131 08       		.uleb128 0x8
+ 290 0132 15000000 		.4byte	.LASF21
+ 291 0136 01       		.byte	0x1
+ 292 0137 96       		.byte	0x96
+ 293 0138 00000000 		.4byte	.LFB5
+ 294 013c 08000000 		.4byte	.LFE5-.LFB5
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc8WGu0G.s 			page 9
+
+
+ 295 0140 01       		.uleb128 0x1
+ 296 0141 9C       		.byte	0x9c
+ 297 0142 50010000 		.4byte	0x150
+ 298 0146 09       		.uleb128 0x9
+ 299 0147 06000000 		.4byte	.LVL4
+ 300 014b EA000000 		.4byte	0xea
+ 301 014f 00       		.byte	0
+ 302 0150 0A       		.uleb128 0xa
+ 303 0151 3C000000 		.4byte	.LASF25
+ 304 0155 01       		.byte	0x1
+ 305 0156 15       		.byte	0x15
+ 306 0157 C0000000 		.4byte	0xc0
+ 307 015b 05       		.uleb128 0x5
+ 308 015c 03       		.byte	0x3
+ 309 015d 00000000 		.4byte	Left_Phase_Counter_backup
+ 310 0161 0B       		.uleb128 0xb
+ 311 0162 E9010000 		.4byte	.LASF26
+ 312 0166 03       		.byte	0x3
+ 313 0167 5D       		.byte	0x5d
+ 314 0168 77000000 		.4byte	0x77
+ 315 016c 0C       		.uleb128 0xc
+ 316 016d B0000000 		.4byte	.LASF27
+ 317 0171 03       		.byte	0x3
+ 318 0172 5A       		.byte	0x5a
+ 319 0173 7D010000 		.4byte	0x17d
+ 320 0177 0D       		.uleb128 0xd
+ 321 0178 77000000 		.4byte	0x77
+ 322 017c 00       		.byte	0
+ 323 017d 0E       		.uleb128 0xe
+ 324 017e C8010000 		.4byte	.LASF28
+ 325 0182 03       		.byte	0x3
+ 326 0183 50       		.byte	0x50
+ 327 0184 00       		.byte	0
+ 328              		.section	.debug_abbrev,"",%progbits
+ 329              	.Ldebug_abbrev0:
+ 330 0000 01       		.uleb128 0x1
+ 331 0001 11       		.uleb128 0x11
+ 332 0002 01       		.byte	0x1
+ 333 0003 25       		.uleb128 0x25
+ 334 0004 0E       		.uleb128 0xe
+ 335 0005 13       		.uleb128 0x13
+ 336 0006 0B       		.uleb128 0xb
+ 337 0007 03       		.uleb128 0x3
+ 338 0008 0E       		.uleb128 0xe
+ 339 0009 1B       		.uleb128 0x1b
+ 340 000a 0E       		.uleb128 0xe
+ 341 000b 55       		.uleb128 0x55
+ 342 000c 17       		.uleb128 0x17
+ 343 000d 11       		.uleb128 0x11
+ 344 000e 01       		.uleb128 0x1
+ 345 000f 10       		.uleb128 0x10
+ 346 0010 17       		.uleb128 0x17
+ 347 0011 00       		.byte	0
+ 348 0012 00       		.byte	0
+ 349 0013 02       		.uleb128 0x2
+ 350 0014 24       		.uleb128 0x24
+ 351 0015 00       		.byte	0
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc8WGu0G.s 			page 10
+
+
+ 352 0016 0B       		.uleb128 0xb
+ 353 0017 0B       		.uleb128 0xb
+ 354 0018 3E       		.uleb128 0x3e
+ 355 0019 0B       		.uleb128 0xb
+ 356 001a 03       		.uleb128 0x3
+ 357 001b 0E       		.uleb128 0xe
+ 358 001c 00       		.byte	0
+ 359 001d 00       		.byte	0
+ 360 001e 03       		.uleb128 0x3
+ 361 001f 24       		.uleb128 0x24
+ 362 0020 00       		.byte	0
+ 363 0021 0B       		.uleb128 0xb
+ 364 0022 0B       		.uleb128 0xb
+ 365 0023 3E       		.uleb128 0x3e
+ 366 0024 0B       		.uleb128 0xb
+ 367 0025 03       		.uleb128 0x3
+ 368 0026 08       		.uleb128 0x8
+ 369 0027 00       		.byte	0
+ 370 0028 00       		.byte	0
+ 371 0029 04       		.uleb128 0x4
+ 372 002a 16       		.uleb128 0x16
+ 373 002b 00       		.byte	0
+ 374 002c 03       		.uleb128 0x3
+ 375 002d 0E       		.uleb128 0xe
+ 376 002e 3A       		.uleb128 0x3a
+ 377 002f 0B       		.uleb128 0xb
+ 378 0030 3B       		.uleb128 0x3b
+ 379 0031 05       		.uleb128 0x5
+ 380 0032 49       		.uleb128 0x49
+ 381 0033 13       		.uleb128 0x13
+ 382 0034 00       		.byte	0
+ 383 0035 00       		.byte	0
+ 384 0036 05       		.uleb128 0x5
+ 385 0037 13       		.uleb128 0x13
+ 386 0038 01       		.byte	0x1
+ 387 0039 0B       		.uleb128 0xb
+ 388 003a 0B       		.uleb128 0xb
+ 389 003b 3A       		.uleb128 0x3a
+ 390 003c 0B       		.uleb128 0xb
+ 391 003d 3B       		.uleb128 0x3b
+ 392 003e 0B       		.uleb128 0xb
+ 393 003f 01       		.uleb128 0x1
+ 394 0040 13       		.uleb128 0x13
+ 395 0041 00       		.byte	0
+ 396 0042 00       		.byte	0
+ 397 0043 06       		.uleb128 0x6
+ 398 0044 0D       		.uleb128 0xd
+ 399 0045 00       		.byte	0
+ 400 0046 03       		.uleb128 0x3
+ 401 0047 0E       		.uleb128 0xe
+ 402 0048 3A       		.uleb128 0x3a
+ 403 0049 0B       		.uleb128 0xb
+ 404 004a 3B       		.uleb128 0x3b
+ 405 004b 0B       		.uleb128 0xb
+ 406 004c 49       		.uleb128 0x49
+ 407 004d 13       		.uleb128 0x13
+ 408 004e 38       		.uleb128 0x38
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc8WGu0G.s 			page 11
+
+
+ 409 004f 0B       		.uleb128 0xb
+ 410 0050 00       		.byte	0
+ 411 0051 00       		.byte	0
+ 412 0052 07       		.uleb128 0x7
+ 413 0053 16       		.uleb128 0x16
+ 414 0054 00       		.byte	0
+ 415 0055 03       		.uleb128 0x3
+ 416 0056 0E       		.uleb128 0xe
+ 417 0057 3A       		.uleb128 0x3a
+ 418 0058 0B       		.uleb128 0xb
+ 419 0059 3B       		.uleb128 0x3b
+ 420 005a 0B       		.uleb128 0xb
+ 421 005b 49       		.uleb128 0x49
+ 422 005c 13       		.uleb128 0x13
+ 423 005d 00       		.byte	0
+ 424 005e 00       		.byte	0
+ 425 005f 08       		.uleb128 0x8
+ 426 0060 2E       		.uleb128 0x2e
+ 427 0061 01       		.byte	0x1
+ 428 0062 3F       		.uleb128 0x3f
+ 429 0063 19       		.uleb128 0x19
+ 430 0064 03       		.uleb128 0x3
+ 431 0065 0E       		.uleb128 0xe
+ 432 0066 3A       		.uleb128 0x3a
+ 433 0067 0B       		.uleb128 0xb
+ 434 0068 3B       		.uleb128 0x3b
+ 435 0069 0B       		.uleb128 0xb
+ 436 006a 27       		.uleb128 0x27
+ 437 006b 19       		.uleb128 0x19
+ 438 006c 11       		.uleb128 0x11
+ 439 006d 01       		.uleb128 0x1
+ 440 006e 12       		.uleb128 0x12
+ 441 006f 06       		.uleb128 0x6
+ 442 0070 40       		.uleb128 0x40
+ 443 0071 18       		.uleb128 0x18
+ 444 0072 9742     		.uleb128 0x2117
+ 445 0074 19       		.uleb128 0x19
+ 446 0075 01       		.uleb128 0x1
+ 447 0076 13       		.uleb128 0x13
+ 448 0077 00       		.byte	0
+ 449 0078 00       		.byte	0
+ 450 0079 09       		.uleb128 0x9
+ 451 007a 898201   		.uleb128 0x4109
+ 452 007d 00       		.byte	0
+ 453 007e 11       		.uleb128 0x11
+ 454 007f 01       		.uleb128 0x1
+ 455 0080 31       		.uleb128 0x31
+ 456 0081 13       		.uleb128 0x13
+ 457 0082 00       		.byte	0
+ 458 0083 00       		.byte	0
+ 459 0084 0A       		.uleb128 0xa
+ 460 0085 34       		.uleb128 0x34
+ 461 0086 00       		.byte	0
+ 462 0087 03       		.uleb128 0x3
+ 463 0088 0E       		.uleb128 0xe
+ 464 0089 3A       		.uleb128 0x3a
+ 465 008a 0B       		.uleb128 0xb
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc8WGu0G.s 			page 12
+
+
+ 466 008b 3B       		.uleb128 0x3b
+ 467 008c 0B       		.uleb128 0xb
+ 468 008d 49       		.uleb128 0x49
+ 469 008e 13       		.uleb128 0x13
+ 470 008f 02       		.uleb128 0x2
+ 471 0090 18       		.uleb128 0x18
+ 472 0091 00       		.byte	0
+ 473 0092 00       		.byte	0
+ 474 0093 0B       		.uleb128 0xb
+ 475 0094 2E       		.uleb128 0x2e
+ 476 0095 00       		.byte	0
+ 477 0096 3F       		.uleb128 0x3f
+ 478 0097 19       		.uleb128 0x19
+ 479 0098 03       		.uleb128 0x3
+ 480 0099 0E       		.uleb128 0xe
+ 481 009a 3A       		.uleb128 0x3a
+ 482 009b 0B       		.uleb128 0xb
+ 483 009c 3B       		.uleb128 0x3b
+ 484 009d 0B       		.uleb128 0xb
+ 485 009e 27       		.uleb128 0x27
+ 486 009f 19       		.uleb128 0x19
+ 487 00a0 49       		.uleb128 0x49
+ 488 00a1 13       		.uleb128 0x13
+ 489 00a2 3C       		.uleb128 0x3c
+ 490 00a3 19       		.uleb128 0x19
+ 491 00a4 00       		.byte	0
+ 492 00a5 00       		.byte	0
+ 493 00a6 0C       		.uleb128 0xc
+ 494 00a7 2E       		.uleb128 0x2e
+ 495 00a8 01       		.byte	0x1
+ 496 00a9 3F       		.uleb128 0x3f
+ 497 00aa 19       		.uleb128 0x19
+ 498 00ab 03       		.uleb128 0x3
+ 499 00ac 0E       		.uleb128 0xe
+ 500 00ad 3A       		.uleb128 0x3a
+ 501 00ae 0B       		.uleb128 0xb
+ 502 00af 3B       		.uleb128 0x3b
+ 503 00b0 0B       		.uleb128 0xb
+ 504 00b1 27       		.uleb128 0x27
+ 505 00b2 19       		.uleb128 0x19
+ 506 00b3 3C       		.uleb128 0x3c
+ 507 00b4 19       		.uleb128 0x19
+ 508 00b5 01       		.uleb128 0x1
+ 509 00b6 13       		.uleb128 0x13
+ 510 00b7 00       		.byte	0
+ 511 00b8 00       		.byte	0
+ 512 00b9 0D       		.uleb128 0xd
+ 513 00ba 05       		.uleb128 0x5
+ 514 00bb 00       		.byte	0
+ 515 00bc 49       		.uleb128 0x49
+ 516 00bd 13       		.uleb128 0x13
+ 517 00be 00       		.byte	0
+ 518 00bf 00       		.byte	0
+ 519 00c0 0E       		.uleb128 0xe
+ 520 00c1 2E       		.uleb128 0x2e
+ 521 00c2 00       		.byte	0
+ 522 00c3 3F       		.uleb128 0x3f
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc8WGu0G.s 			page 13
+
+
+ 523 00c4 19       		.uleb128 0x19
+ 524 00c5 03       		.uleb128 0x3
+ 525 00c6 0E       		.uleb128 0xe
+ 526 00c7 3A       		.uleb128 0x3a
+ 527 00c8 0B       		.uleb128 0xb
+ 528 00c9 3B       		.uleb128 0x3b
+ 529 00ca 0B       		.uleb128 0xb
+ 530 00cb 27       		.uleb128 0x27
+ 531 00cc 19       		.uleb128 0x19
+ 532 00cd 3C       		.uleb128 0x3c
+ 533 00ce 19       		.uleb128 0x19
+ 534 00cf 00       		.byte	0
+ 535 00d0 00       		.byte	0
+ 536 00d1 00       		.byte	0
+ 537              		.section	.debug_aranges,"",%progbits
+ 538 0000 34000000 		.4byte	0x34
+ 539 0004 0200     		.2byte	0x2
+ 540 0006 00000000 		.4byte	.Ldebug_info0
+ 541 000a 04       		.byte	0x4
+ 542 000b 00       		.byte	0
+ 543 000c 0000     		.2byte	0
+ 544 000e 0000     		.2byte	0
+ 545 0010 00000000 		.4byte	.LFB2
+ 546 0014 10000000 		.4byte	.LFE2-.LFB2
+ 547 0018 00000000 		.4byte	.LFB3
+ 548 001c 10000000 		.4byte	.LFE3-.LFB3
+ 549 0020 00000000 		.4byte	.LFB4
+ 550 0024 18000000 		.4byte	.LFE4-.LFB4
+ 551 0028 00000000 		.4byte	.LFB5
+ 552 002c 08000000 		.4byte	.LFE5-.LFB5
+ 553 0030 00000000 		.4byte	0
+ 554 0034 00000000 		.4byte	0
+ 555              		.section	.debug_ranges,"",%progbits
+ 556              	.Ldebug_ranges0:
+ 557 0000 00000000 		.4byte	.LFB2
+ 558 0004 10000000 		.4byte	.LFE2
+ 559 0008 00000000 		.4byte	.LFB3
+ 560 000c 10000000 		.4byte	.LFE3
+ 561 0010 00000000 		.4byte	.LFB4
+ 562 0014 18000000 		.4byte	.LFE4
+ 563 0018 00000000 		.4byte	.LFB5
+ 564 001c 08000000 		.4byte	.LFE5
+ 565 0020 00000000 		.4byte	0
+ 566 0024 00000000 		.4byte	0
+ 567              		.section	.debug_line,"",%progbits
+ 568              	.Ldebug_line0:
+ 569 0000 BF000000 		.section	.debug_str,"MS",%progbits,1
+ 569      02006C00 
+ 569      00000201 
+ 569      FB0E0D00 
+ 569      01010101 
+ 570              	.LASF6:
+ 571 0000 6C6F6E67 		.ascii	"long long int\000"
+ 571      206C6F6E 
+ 571      6720696E 
+ 571      7400
+ 572              	.LASF10:
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc8WGu0G.s 			page 14
+
+
+ 573 000e 75696E74 		.ascii	"uint32\000"
+ 573      333200
+ 574              	.LASF21:
+ 575 0015 4C656674 		.ascii	"Left_Phase_Counter_Wakeup\000"
+ 575      5F506861 
+ 575      73655F43 
+ 575      6F756E74 
+ 575      65725F57 
+ 576              	.LASF8:
+ 577 002f 756E7369 		.ascii	"unsigned int\000"
+ 577      676E6564 
+ 577      20696E74 
+ 577      00
+ 578              	.LASF25:
+ 579 003c 4C656674 		.ascii	"Left_Phase_Counter_backup\000"
+ 579      5F506861 
+ 579      73655F43 
+ 579      6F756E74 
+ 579      65725F62 
+ 580              	.LASF24:
+ 581 0056 443A5C44 		.ascii	"D:\\Documents\\PSoC Creator\\IdeaArlobot\\SingleBoa"
+ 581      6F63756D 
+ 581      656E7473 
+ 581      5C50536F 
+ 581      43204372 
+ 582 0085 72644465 		.ascii	"rdDesign-046.cydsn\000"
+ 582      7369676E 
+ 582      2D303436 
+ 582      2E637964 
+ 582      736E00
+ 583              	.LASF9:
+ 584 0098 75696E74 		.ascii	"uint8\000"
+ 584      3800
+ 585              	.LASF5:
+ 586 009e 6C6F6E67 		.ascii	"long unsigned int\000"
+ 586      20756E73 
+ 586      69676E65 
+ 586      6420696E 
+ 586      7400
+ 587              	.LASF27:
+ 588 00b0 4C656674 		.ascii	"Left_Phase_Counter_WriteCounter\000"
+ 588      5F506861 
+ 588      73655F43 
+ 588      6F756E74 
+ 588      65725F57 
+ 589              	.LASF7:
+ 590 00d0 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 590      206C6F6E 
+ 590      6720756E 
+ 590      7369676E 
+ 590      65642069 
+ 591              	.LASF11:
+ 592 00e7 666C6F61 		.ascii	"float\000"
+ 592      7400
+ 593              	.LASF20:
+ 594 00ed 4C656674 		.ascii	"Left_Phase_Counter_Sleep\000"
+ 594      5F506861 
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc8WGu0G.s 			page 15
+
+
+ 594      73655F43 
+ 594      6F756E74 
+ 594      65725F53 
+ 595              	.LASF19:
+ 596 0106 4C656674 		.ascii	"Left_Phase_Counter_RestoreConfig\000"
+ 596      5F506861 
+ 596      73655F43 
+ 596      6F756E74 
+ 596      65725F52 
+ 597              	.LASF22:
+ 598 0127 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
+ 598      4320342E 
+ 598      392E3320 
+ 598      32303135 
+ 598      30333033 
+ 599 015a 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
+ 599      20726576 
+ 599      6973696F 
+ 599      6E203232 
+ 599      31323230 
+ 600 018d 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 600      66756E63 
+ 600      74696F6E 
+ 600      2D736563 
+ 600      74696F6E 
+ 601              	.LASF1:
+ 602 01b5 756E7369 		.ascii	"unsigned char\000"
+ 602      676E6564 
+ 602      20636861 
+ 602      7200
+ 603              	.LASF13:
+ 604 01c3 63686172 		.ascii	"char\000"
+ 604      00
+ 605              	.LASF28:
+ 606 01c8 4C656674 		.ascii	"Left_Phase_Counter_Stop\000"
+ 606      5F506861 
+ 606      73655F43 
+ 606      6F756E74 
+ 606      65725F53 
+ 607              	.LASF4:
+ 608 01e0 6C6F6E67 		.ascii	"long int\000"
+ 608      20696E74 
+ 608      00
+ 609              	.LASF26:
+ 610 01e9 4C656674 		.ascii	"Left_Phase_Counter_ReadCounter\000"
+ 610      5F506861 
+ 610      73655F43 
+ 610      6F756E74 
+ 610      65725F52 
+ 611              	.LASF15:
+ 612 0208 436F756E 		.ascii	"CounterEnableState\000"
+ 612      74657245 
+ 612      6E61626C 
+ 612      65537461 
+ 612      746500
+ 613              	.LASF12:
+ 614 021b 646F7562 		.ascii	"double\000"
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc8WGu0G.s 			page 16
+
+
+ 614      6C6500
+ 615              	.LASF3:
+ 616 0222 73686F72 		.ascii	"short unsigned int\000"
+ 616      7420756E 
+ 616      7369676E 
+ 616      65642069 
+ 616      6E7400
+ 617              	.LASF0:
+ 618 0235 7369676E 		.ascii	"signed char\000"
+ 618      65642063 
+ 618      68617200 
+ 619              	.LASF23:
+ 620 0241 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\Left_Phase_Counter_PM.c"
+ 620      6E657261 
+ 620      7465645F 
+ 620      536F7572 
+ 620      63655C50 
+ 621 0271 00       		.ascii	"\000"
+ 622              	.LASF2:
+ 623 0272 73686F72 		.ascii	"short int\000"
+ 623      7420696E 
+ 623      7400
+ 624              	.LASF16:
+ 625 027c 436F756E 		.ascii	"CounterUdb\000"
+ 625      74657255 
+ 625      646200
+ 626              	.LASF18:
+ 627 0287 4C656674 		.ascii	"Left_Phase_Counter_SaveConfig\000"
+ 627      5F506861 
+ 627      73655F43 
+ 627      6F756E74 
+ 627      65725F53 
+ 628              	.LASF14:
+ 629 02a5 73697A65 		.ascii	"sizetype\000"
+ 629      74797065 
+ 629      00
+ 630              	.LASF17:
+ 631 02ae 4C656674 		.ascii	"Left_Phase_Counter_backupStruct\000"
+ 631      5F506861 
+ 631      73655F43 
+ 631      6F756E74 
+ 631      65725F62 
+ 632              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150303 (release) [ARM/embedded-4_9-br

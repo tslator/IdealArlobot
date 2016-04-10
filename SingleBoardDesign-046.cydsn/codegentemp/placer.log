@@ -1,0 +1,306 @@
+#***************************************************************************
+
+#sjplacer
+
+#Version:            1.1
+
+#Build Date:         Oct  1 2015 13:46:59
+
+#File Generated:     Apr 9 2016 20:34:21
+
+#Purpose:            
+
+#Copyright (C) 2010-2011 by Softjin Technologies Pvt Ltd. All rights reserved.
+
+#***************************************************************************
+
+Executing : C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\bin/sjplacer.exe --proj-name SingleBoardDesign-046 --netlist-vh2 SingleBoardDesign-046_p.vh2 --arch-file C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\dev/arch/p4_udb2x4.ark --rrg-file C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\dev/psoc4/2/route_arch-rrg.cydata --irq-file C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\dev/psoc4/2/irqconn.cydata --drq-file C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\dev/psoc4/2/triggerconn.cydata --dsi-conn-file C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\dev/psoc4/2/dsiconn.cydata --pins-file pins_124-VFBGA.xml --lib-file SingleBoardDesign-046_p.lib --sdc-file SingleBoardDesign-046.sdc --io-pcf SingleBoardDesign-046.pci --outdir .
+
+		Softjin Techologies Placer, Version 1.1
+
+Build Date : Oct  1 2015	13:44:59
+
+D2004: Option and Settings Summary
+=============================================================
+Netlist vh2 file          - SingleBoardDesign-046_p.vh2
+Architecture file         - C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\dev/arch/p4_udb2x4.ark
+Package                   - 
+Defparam file             - 
+SDC file                  - SingleBoardDesign-046.sdc
+Output directory          - .
+Timing library            - SingleBoardDesign-046_p.lib
+IO Placement file         - SingleBoardDesign-046.pci
+
+D2050: Starting reading inputs for placer
+=============================================================
+D2065: Reading netlist file : "SingleBoardDesign-046_p.vh2"
+D2065: Reading arch file : "C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\dev/arch/p4_udb2x4.ark"
+D2051: Reading of inputs for placer completed successfully
+
+D2053: Starting placement of the design
+=============================================================
+
+Phase 2
+Phase 3
+
+Design Statistics after Packing
+    Number of Combinational MCs 	:	14
+    Number of Sequential MCs    	:	30
+    Number of DPs               	:	8
+    Number of Controls          	:	2
+    Number of Status            	:	2
+    Number of SyncCells         	:	0
+    Number of count7cells       	:	0
+
+Device Utilization Summary after Packing
+    Macrocells                  :	44/64
+    UDBS                        :	8/8
+    IOs                         :	57/99
+
+
+D2088: Phase 3, elapsed time : 0.0 (sec)
+
+Phase 4
+D2088: Phase 4, elapsed time : 0.0 (sec)
+
+Phase 6
+
+######################################################################
+Placement Timing Summary
+
+The timing summary is based on estimated routing delays after
+placement. For final timing report, please carry out the timing
+analysis after routing.
+======================================================================
+
+######################################################################
+                     Clock Summary 
+======================================================================
+Number of clocks: 17
+Clock: Clock_1              | Frequency:  51.7 MHz | Target:  12.0 MHz
+Clock: Clock_2              | Frequency:  29.1 MHz | Target:  12.0 MHz
+Clock: Clock_3              | Frequency:  29.1 MHz | Target:  12.0 MHz
+Clock: CyHFCLK              | Frequency:  55.2 MHz | Target:  48.0 MHz
+Clock: CyILO                | Frequency: N/A       | Target:   0.0 MHz
+Clock: CyIMO                | Frequency: N/A       | Target:  48.0 MHz
+Clock: CyLFCLK              | Frequency: N/A       | Target:   0.0 MHz
+Clock: CyRouted1            | Frequency: N/A       | Target:  48.0 MHz
+Clock: CySYSCLK             | Frequency: N/A       | Target:  48.0 MHz
+Clock: HCSR04_Clock         | Frequency: N/A       | Target:   1.0 MHz
+Clock: HCSR04_Clock(FFB)    | Frequency: N/A       | Target:   1.0 MHz
+Clock: Infrared_ADC_intClock | Frequency: N/A       | Target:  16.0 MHz
+Clock: Infrared_ADC_intClock(FFB) | Frequency: N/A       | Target:  16.0 MHz
+Clock: PWM_1MHz             | Frequency: N/A       | Target:   1.0 MHz
+Clock: PWM_1MHz(FFB)        | Frequency: N/A       | Target:   1.0 MHz
+Clock: UARTCOMMS_SCBCLK     | Frequency: N/A       | Target:   1.4 MHz
+Clock: UARTCOMMS_SCBCLK(FFB) | Frequency: N/A       | Target:   1.4 MHz
+
+======================================================================
+                     End of Clock Summary
+######################################################################
+
+D2088: Phase 6, elapsed time : 0.0 (sec)
+
+Phase 7
+######################################################################
+                     Clock Summary 
+======================================================================
+Number of clocks: 17
+Clock: Clock_1              | Frequency:  59.3 MHz | Target:  12.0 MHz
+Clock: Clock_2              | Frequency:  29.1 MHz | Target:  12.0 MHz
+Clock: Clock_3              | Frequency:  27.7 MHz | Target:  12.0 MHz
+Clock: CyHFCLK              | Frequency:  59.7 MHz | Target:  48.0 MHz
+Clock: CyILO                | Frequency: N/A       | Target:   0.0 MHz
+Clock: CyIMO                | Frequency: N/A       | Target:  48.0 MHz
+Clock: CyLFCLK              | Frequency: N/A       | Target:   0.0 MHz
+Clock: CyRouted1            | Frequency: N/A       | Target:  48.0 MHz
+Clock: CySYSCLK             | Frequency: N/A       | Target:  48.0 MHz
+Clock: HCSR04_Clock         | Frequency: N/A       | Target:   1.0 MHz
+Clock: HCSR04_Clock(FFB)    | Frequency: N/A       | Target:   1.0 MHz
+Clock: Infrared_ADC_intClock | Frequency: N/A       | Target:  16.0 MHz
+Clock: Infrared_ADC_intClock(FFB) | Frequency: N/A       | Target:  16.0 MHz
+Clock: PWM_1MHz             | Frequency: N/A       | Target:   1.0 MHz
+Clock: PWM_1MHz(FFB)        | Frequency: N/A       | Target:   1.0 MHz
+Clock: UARTCOMMS_SCBCLK     | Frequency: N/A       | Target:   1.4 MHz
+Clock: UARTCOMMS_SCBCLK(FFB) | Frequency: N/A       | Target:   1.4 MHz
+
+======================================================================
+                     End of Clock Summary
+######################################################################
+D2088: Phase 7, elapsed time : 0.2 (sec)
+
+Final Design Statistics
+    Number of Combinational MCs 	:	14
+    Number of Sequential MCs    	:	30
+    Number of DPs               	:	8
+    Number of Controls          	:	2
+    Number of Status            	:	2
+    Number of SyncCells         	:	0
+    Number of count7cells       	:	0
+    Number of IOs       	:	57
+
+Device Utilization Summary
+    Macrocells                  :	44/64
+    IOs                         :	57/99
+
+
+
+######################################################################
+Placement Timing Summary
+
+The timing summary is based on estimated routing delays after
+placement. For final timing report, please carry out the timing
+analysis after routing.
+======================================================================
+
+
+######################################################################
+                     Clock Summary 
+======================================================================
+Number of clocks: 17
+Clock: Clock_1              | Frequency:   6.6 MHz | Target:  13.2 MHz
+Clock: Clock_2              | Frequency:  29.1 MHz | Target:  13.2 MHz
+Clock: Clock_3              | Frequency:  27.7 MHz | Target:  13.2 MHz
+Clock: CyHFCLK              | Frequency:   6.6 MHz | Target:  52.6 MHz
+Clock: CyILO                | Frequency: N/A       | Target:   0.0 MHz
+Clock: CyIMO                | Frequency: N/A       | Target:  48.0 MHz
+Clock: CyLFCLK              | Frequency: N/A       | Target:   0.0 MHz
+Clock: CyRouted1            | Frequency: N/A       | Target:  48.0 MHz
+Clock: CySYSCLK             | Frequency: N/A       | Target:  48.0 MHz
+Clock: HCSR04_Clock         | Frequency: N/A       | Target:   1.0 MHz
+Clock: HCSR04_Clock(FFB)    | Frequency: N/A       | Target:   1.0 MHz
+Clock: Infrared_ADC_intClock | Frequency: N/A       | Target:  16.0 MHz
+Clock: Infrared_ADC_intClock(FFB) | Frequency: N/A       | Target:  16.0 MHz
+Clock: PWM_1MHz             | Frequency: N/A       | Target:   1.0 MHz
+Clock: PWM_1MHz(FFB)        | Frequency: N/A       | Target:   1.0 MHz
+Clock: UARTCOMMS_SCBCLK     | Frequency: N/A       | Target:   1.4 MHz
+Clock: UARTCOMMS_SCBCLK(FFB) | Frequency: N/A       | Target:   1.4 MHz
+
+======================================================================
+                     End of Clock Summary
+######################################################################
+
+Phase 6
+
+######################################################################
+Placement Timing Summary
+
+The timing summary is based on estimated routing delays after
+placement. For final timing report, please carry out the timing
+analysis after routing.
+======================================================================
+
+######################################################################
+                     Clock Summary 
+======================================================================
+Number of clocks: 17
+Clock: Clock_1              | Frequency:   6.1 MHz | Target:  13.2 MHz
+Clock: Clock_2              | Frequency:  29.1 MHz | Target:  13.2 MHz
+Clock: Clock_3              | Frequency:  29.1 MHz | Target:  13.2 MHz
+Clock: CyHFCLK              | Frequency:   6.1 MHz | Target:  52.6 MHz
+Clock: CyILO                | Frequency: N/A       | Target:   0.0 MHz
+Clock: CyIMO                | Frequency: N/A       | Target:  48.0 MHz
+Clock: CyLFCLK              | Frequency: N/A       | Target:   0.0 MHz
+Clock: CyRouted1            | Frequency: N/A       | Target:  48.0 MHz
+Clock: CySYSCLK             | Frequency: N/A       | Target:  48.0 MHz
+Clock: HCSR04_Clock         | Frequency: N/A       | Target:   1.0 MHz
+Clock: HCSR04_Clock(FFB)    | Frequency: N/A       | Target:   1.0 MHz
+Clock: Infrared_ADC_intClock | Frequency: N/A       | Target:  16.0 MHz
+Clock: Infrared_ADC_intClock(FFB) | Frequency: N/A       | Target:  16.0 MHz
+Clock: PWM_1MHz             | Frequency: N/A       | Target:   1.0 MHz
+Clock: PWM_1MHz(FFB)        | Frequency: N/A       | Target:   1.0 MHz
+Clock: UARTCOMMS_SCBCLK     | Frequency: N/A       | Target:   1.4 MHz
+Clock: UARTCOMMS_SCBCLK(FFB) | Frequency: N/A       | Target:   1.4 MHz
+
+======================================================================
+                     End of Clock Summary
+######################################################################
+
+D2088: Phase 6, elapsed time : 0.0 (sec)
+
+Phase 7
+######################################################################
+                     Clock Summary 
+======================================================================
+Number of clocks: 17
+Clock: Clock_1              | Frequency:   6.6 MHz | Target:  13.2 MHz
+Clock: Clock_2              | Frequency:  29.1 MHz | Target:  13.2 MHz
+Clock: Clock_3              | Frequency:  27.7 MHz | Target:  13.2 MHz
+Clock: CyHFCLK              | Frequency:   6.6 MHz | Target:  52.6 MHz
+Clock: CyILO                | Frequency: N/A       | Target:   0.0 MHz
+Clock: CyIMO                | Frequency: N/A       | Target:  48.0 MHz
+Clock: CyLFCLK              | Frequency: N/A       | Target:   0.0 MHz
+Clock: CyRouted1            | Frequency: N/A       | Target:  48.0 MHz
+Clock: CySYSCLK             | Frequency: N/A       | Target:  48.0 MHz
+Clock: HCSR04_Clock         | Frequency: N/A       | Target:   1.0 MHz
+Clock: HCSR04_Clock(FFB)    | Frequency: N/A       | Target:   1.0 MHz
+Clock: Infrared_ADC_intClock | Frequency: N/A       | Target:  16.0 MHz
+Clock: Infrared_ADC_intClock(FFB) | Frequency: N/A       | Target:  16.0 MHz
+Clock: PWM_1MHz             | Frequency: N/A       | Target:   1.0 MHz
+Clock: PWM_1MHz(FFB)        | Frequency: N/A       | Target:   1.0 MHz
+Clock: UARTCOMMS_SCBCLK     | Frequency: N/A       | Target:   1.4 MHz
+Clock: UARTCOMMS_SCBCLK(FFB) | Frequency: N/A       | Target:   1.4 MHz
+
+======================================================================
+                     End of Clock Summary
+######################################################################
+D2088: Phase 7, elapsed time : 0.7 (sec)
+
+Final Design Statistics
+    Number of Combinational MCs 	:	14
+    Number of Sequential MCs    	:	30
+    Number of DPs               	:	8
+    Number of Controls          	:	2
+    Number of Status            	:	2
+    Number of SyncCells         	:	0
+    Number of count7cells       	:	0
+    Number of IOs       	:	57
+
+Device Utilization Summary
+    Macrocells                  :	44/64
+    IOs                         :	57/99
+
+
+
+######################################################################
+Placement Timing Summary
+
+The timing summary is based on estimated routing delays after
+placement. For final timing report, please carry out the timing
+analysis after routing.
+======================================================================
+
+
+######################################################################
+                     Clock Summary 
+======================================================================
+Number of clocks: 17
+Clock: Clock_1              | Frequency:   6.6 MHz | Target:  13.2 MHz
+Clock: Clock_2              | Frequency:  27.7 MHz | Target:  13.2 MHz
+Clock: Clock_3              | Frequency:  29.0 MHz | Target:  13.2 MHz
+Clock: CyHFCLK              | Frequency:   6.6 MHz | Target:  52.6 MHz
+Clock: CyILO                | Frequency: N/A       | Target:   0.0 MHz
+Clock: CyIMO                | Frequency: N/A       | Target:  48.0 MHz
+Clock: CyLFCLK              | Frequency: N/A       | Target:   0.0 MHz
+Clock: CyRouted1            | Frequency: N/A       | Target:  48.0 MHz
+Clock: CySYSCLK             | Frequency: N/A       | Target:  48.0 MHz
+Clock: HCSR04_Clock         | Frequency: N/A       | Target:   1.0 MHz
+Clock: HCSR04_Clock(FFB)    | Frequency: N/A       | Target:   1.0 MHz
+Clock: Infrared_ADC_intClock | Frequency: N/A       | Target:  16.0 MHz
+Clock: Infrared_ADC_intClock(FFB) | Frequency: N/A       | Target:  16.0 MHz
+Clock: PWM_1MHz             | Frequency: N/A       | Target:   1.0 MHz
+Clock: PWM_1MHz(FFB)        | Frequency: N/A       | Target:   1.0 MHz
+Clock: UARTCOMMS_SCBCLK     | Frequency: N/A       | Target:   1.4 MHz
+Clock: UARTCOMMS_SCBCLK(FFB) | Frequency: N/A       | Target:   1.4 MHz
+
+======================================================================
+                     End of Clock Summary
+######################################################################
+
+Phase 8
+D2088: Phase 8, elapsed time : 0.0 (sec)
+
+D2054: Placement of the design completed successfully
+
+I2076: Total run-time: 1.5 sec.
+
