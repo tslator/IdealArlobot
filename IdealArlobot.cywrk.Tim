@@ -6,7 +6,7 @@
 <CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
 <userData>
 <dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
-<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Datasheet">
 <TreeKeys>
 <v>Source</v>
 <v>Components</v>
@@ -26,12 +26,6 @@
 <v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\Clock_1</v>
 <v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\Clock_1\Clock_1.c</v>
 <v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\Clock_1\Clock_1.h</v>
-<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\Clock_2</v>
-<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\Clock_2\Clock_2.c</v>
-<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\Clock_2\Clock_2.h</v>
-<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\Clock_3</v>
-<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\Clock_3\Clock_3.c</v>
-<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\Clock_3\Clock_3.h</v>
 <v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\Control_Reg_1</v>
 <v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\Control_Reg_1\Control_Reg_1.c</v>
 <v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\Control_Reg_1\Control_Reg_1.h</v>
@@ -63,6 +57,35 @@
 <v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\cy_lfclk</v>
 <v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\cy_lfclk\CyLFClk.c</v>
 <v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\cy_lfclk\CyLFClk.h</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\EZI2C_1</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\EZI2C_1\EZI2C_1.c</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\EZI2C_1\EZI2C_1.h</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\EZI2C_1\EZI2C_1_BOOT.c</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\EZI2C_1\EZI2C_1_BOOT.h</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\EZI2C_1\EZI2C_1_EZI2C.c</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\EZI2C_1\EZI2C_1_EZI2C.h</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\EZI2C_1\EZI2C_1_EZI2C_BOOT.c</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\EZI2C_1\EZI2C_1_EZI2C_INT.c</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\EZI2C_1\EZI2C_1_EZI2C_PVT.h</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\EZI2C_1\EZI2C_1_PINS.h</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\EZI2C_1\EZI2C_1_PM.c</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\EZI2C_1\EZI2C_1_PVT.h</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\EZI2C_1_SCB_IRQ</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\EZI2C_1_SCB_IRQ\EZI2C_1_SCB_IRQ.c</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\EZI2C_1_SCB_IRQ\EZI2C_1_SCB_IRQ.h</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\EZI2C_1_SCBCLK</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\EZI2C_1_SCBCLK\EZI2C_1_SCBCLK.c</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\EZI2C_1_SCBCLK\EZI2C_1_SCBCLK.h</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\EZI2C_1_scl</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\EZI2C_1_scl\EZI2C_1_scl.c</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\EZI2C_1_scl\EZI2C_1_scl.h</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\EZI2C_1_scl\EZI2C_1_scl_aliases.h</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\EZI2C_1_scl\EZI2C_1_scl_PM.c</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\EZI2C_1_sda</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\EZI2C_1_sda\EZI2C_1_sda.c</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\EZI2C_1_sda\EZI2C_1_sda.h</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\EZI2C_1_sda\EZI2C_1_sda_aliases.h</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\EZI2C_1_sda\EZI2C_1_sda_PM.c</v>
 <v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\HCSR04_Clock</v>
 <v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\HCSR04_Clock\HCSR04_Clock.c</v>
 <v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\HCSR04_Clock\HCSR04_Clock.h</v>
@@ -362,6 +385,9 @@
 <v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\PWM_1MHz</v>
 <v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\PWM_1MHz\PWM_1MHz.c</v>
 <v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\PWM_1MHz\PWM_1MHz.h</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\Quadrature_Decode_Clock</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\Quadrature_Decode_Clock\Quadrature_Decode_Clock.c</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\Quadrature_Decode_Clock\Quadrature_Decode_Clock.h</v>
 <v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\Right_Encoder_A</v>
 <v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\Right_Encoder_A\Right_Encoder_A.c</v>
 <v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\Right_Encoder_A\Right_Encoder_A.h</v>
@@ -393,31 +419,6 @@
 <v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\Right_PhaseCounter_Intr</v>
 <v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\Right_PhaseCounter_Intr\Right_PhaseCounter_Intr.c</v>
 <v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\Right_PhaseCounter_Intr\Right_PhaseCounter_Intr.h</v>
-<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\UARTCOMMS</v>
-<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\UARTCOMMS\UARTCOMMS.c</v>
-<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\UARTCOMMS\UARTCOMMS.h</v>
-<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\UARTCOMMS\UARTCOMMS_BOOT.c</v>
-<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\UARTCOMMS\UARTCOMMS_BOOT.h</v>
-<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\UARTCOMMS\UARTCOMMS_PINS.h</v>
-<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\UARTCOMMS\UARTCOMMS_PM.c</v>
-<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\UARTCOMMS\UARTCOMMS_PVT.h</v>
-<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\UARTCOMMS\UARTCOMMS_SPI_UART.c</v>
-<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\UARTCOMMS\UARTCOMMS_SPI_UART.h</v>
-<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\UARTCOMMS\UARTCOMMS_SPI_UART_INT.c</v>
-<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\UARTCOMMS\UARTCOMMS_SPI_UART_PVT.h</v>
-<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\UARTCOMMS\UARTCOMMS_UART.c</v>
-<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\UARTCOMMS\UARTCOMMS_UART_BOOT.c</v>
-<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\UARTCOMMS_SCB_IRQ</v>
-<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\UARTCOMMS_SCB_IRQ\UARTCOMMS_SCB_IRQ.c</v>
-<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\UARTCOMMS_SCB_IRQ\UARTCOMMS_SCB_IRQ.h</v>
-<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\UARTCOMMS_SCBCLK</v>
-<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\UARTCOMMS_SCBCLK\UARTCOMMS_SCBCLK.c</v>
-<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\UARTCOMMS_SCBCLK\UARTCOMMS_SCBCLK.h</v>
-<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\UARTCOMMS_tx</v>
-<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\UARTCOMMS_tx\UARTCOMMS_tx.c</v>
-<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\UARTCOMMS_tx\UARTCOMMS_tx.h</v>
-<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\UARTCOMMS_tx\UARTCOMMS_tx_aliases.h</v>
-<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\UARTCOMMS_tx\UARTCOMMS_tx_PM.c</v>
 <v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\cycodeshareexport.ld</v>
 <v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\cycodeshareimport.ld</v>
 <v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\cycodeshareimport.scat</v>
@@ -447,12 +448,6 @@
 <v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\Clock_1</v>
 <v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\Clock_1\Clock_1.c</v>
 <v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\Clock_1\Clock_1.h</v>
-<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\Clock_2</v>
-<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\Clock_2\Clock_2.c</v>
-<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\Clock_2\Clock_2.h</v>
-<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\Clock_3</v>
-<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\Clock_3\Clock_3.c</v>
-<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\Clock_3\Clock_3.h</v>
 <v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\Control_Reg_1</v>
 <v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\Control_Reg_1\Control_Reg_1.c</v>
 <v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\Control_Reg_1\Control_Reg_1.h</v>
@@ -484,7 +479,13 @@
 <v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\cy_lfclk</v>
 <v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\cy_lfclk\CyLFClk.c</v>
 <v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\cy_lfclk\CyLFClk.h</v>
-<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\HCSR04_Clock</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\EZI2C_1</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\EZI2C_1\EZI2C_1.c</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\EZI2C_1\EZI2C_1.h</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\EZI2C_1\EZI2C_1_BOOT.c</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\EZI2C_1\EZI2C_1_BOOT.h</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\EZI2C_1\EZI2C_1_EZI2C.c</v>
+<v>IdealArlobot\SingleBoardDesign-046\Generated_Source\PSoC4\EZI2C_1\EZI2C_1_EZI2C.h</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="IdealArlobot">
@@ -510,8 +511,6 @@
 <v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug</v>
 <v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files</v>
 <v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\Clock_1.lst</v>
-<v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\Clock_2.lst</v>
-<v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\Clock_3.lst</v>
 <v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\Cm0Start.lst</v>
 <v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\Control_Reg_1.lst</v>
 <v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\Control_Reg_1_PM.lst</v>
@@ -524,6 +523,18 @@
 <v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
 <v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
 <v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
+<v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_1.lst</v>
+<v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_1_BOOT.lst</v>
+<v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_1_EZI2C.lst</v>
+<v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_1_EZI2C_BOOT.lst</v>
+<v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_1_EZI2C_INT.lst</v>
+<v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_1_PM.lst</v>
+<v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_1_SCB_IRQ.lst</v>
+<v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_1_SCBCLK.lst</v>
+<v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_1_scl.lst</v>
+<v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_1_scl_PM.lst</v>
+<v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_1_sda.lst</v>
+<v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_1_sda_PM.lst</v>
 <v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\HCSR04_Clock.lst</v>
 <v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\HCSR04_Control.lst</v>
 <v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\HCSR04_Control_PM.lst</v>
@@ -646,6 +657,7 @@
 <v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\Left_PhaseCounter_Intr.lst</v>
 <v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\main.lst</v>
 <v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\PWM_1MHz.lst</v>
+<v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\Quadrature_Decode_Clock.lst</v>
 <v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\Right_Encoder_A.lst</v>
 <v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\Right_Encoder_A_PM.lst</v>
 <v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\Right_Encoder_B.lst</v>
@@ -659,17 +671,6 @@
 <v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\Right_Phase_Counter.lst</v>
 <v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\Right_Phase_Counter_PM.lst</v>
 <v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\Right_PhaseCounter_Intr.lst</v>
-<v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\UARTCOMMS.lst</v>
-<v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\UARTCOMMS_BOOT.lst</v>
-<v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\UARTCOMMS_PM.lst</v>
-<v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\UARTCOMMS_SCB_IRQ.lst</v>
-<v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\UARTCOMMS_SCBCLK.lst</v>
-<v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\UARTCOMMS_SPI_UART.lst</v>
-<v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\UARTCOMMS_SPI_UART_INT.lst</v>
-<v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\UARTCOMMS_tx.lst</v>
-<v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\UARTCOMMS_tx_PM.lst</v>
-<v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\UARTCOMMS_UART.lst</v>
-<v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\Listing Files\UARTCOMMS_UART_BOOT.lst</v>
 <v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\SingleBoardDesign-046.elf</v>
 <v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\SingleBoardDesign-046.hex</v>
 <v>IdealArlobot\SingleBoardDesign-046\CortexM0\ARM_GCC_493\Debug\SingleBoardDesign-046.map</v>

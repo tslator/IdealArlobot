@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 1
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccaKs2PI.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 1
   30:.\Generated_Source\PSoC4/HCSR04_Trigger_3.c ****         #define HCSR04_Trigger_3_SetP4PinDriveMode(shift, mode)  \
   31:.\Generated_Source\PSoC4/HCSR04_Trigger_3.c ****         do { \
   32:.\Generated_Source\PSoC4/HCSR04_Trigger_3.c ****             HCSR04_Trigger_3_USBIO_CTRL_REG = (HCSR04_Trigger_3_USBIO_CTRL_REG & \
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 2
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccaKs2PI.s 			page 2
 
 
   33:.\Generated_Source\PSoC4/HCSR04_Trigger_3.c ****                                     (uint32)(~(uint32)(HCSR04_Trigger_3_DRIVE_MODE_IND_MASK << \
@@ -111,22 +111,22 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 1
   31 0002 1168     		ldr	r1, [r2]
   32 0004 034B     		ldr	r3, .L2+4
   33 0006 0B40     		and	r3, r1
-  34 0008 0003     		lsl	r0, r0, #12
+  34 0008 C003     		lsl	r0, r0, #15
   35              	.LVL1:
   36 000a 1843     		orr	r0, r3
   37 000c 1060     		str	r0, [r2]
   75:.\Generated_Source\PSoC4/HCSR04_Trigger_3.c ****     }
   38              		.loc 1 75 0
   39              		@ sp needed
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 3
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccaKs2PI.s 			page 3
 
 
   40 000e 7047     		bx	lr
   41              	.L3:
   42              		.align	2
   43              	.L2:
-  44 0010 080A0440 		.word	1074006536
-  45 0014 FF8FFFFF 		.word	-28673
+  44 0010 08050440 		.word	1074005256
+  45 0014 FF7FFCFF 		.word	-229377
   46              		.cfi_endproc
   47              	.LFE0:
   48              		.size	HCSR04_Trigger_3_SetDriveMode, .-HCSR04_Trigger_3_SetDriveMode
@@ -178,21 +178,21 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 1
   57              		.loc 1 112 0
   58              		.cfi_startproc
   59              	.LVL2:
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 4
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccaKs2PI.s 			page 4
 
 
  113:.\Generated_Source\PSoC4/HCSR04_Trigger_3.c ****     uint8 drVal = (uint8)(HCSR04_Trigger_3_DR & (uint8)(~HCSR04_Trigger_3_MASK));
   60              		.loc 1 113 0
   61 0000 0449     		ldr	r1, .L5
   62 0002 0A68     		ldr	r2, [r1]
-  63 0004 EF23     		mov	r3, #239
+  63 0004 DF23     		mov	r3, #223
   64 0006 1A40     		and	r2, r3
   65              	.LVL3:
  114:.\Generated_Source\PSoC4/HCSR04_Trigger_3.c ****     drVal = (drVal | ((uint8)(value << HCSR04_Trigger_3_SHIFT) & HCSR04_Trigger_3_MASK));
   66              		.loc 1 114 0
-  67 0008 0001     		lsl	r0, r0, #4
+  67 0008 4001     		lsl	r0, r0, #5
   68              	.LVL4:
-  69 000a DF3B     		sub	r3, r3, #223
+  69 000a BF3B     		sub	r3, r3, #191
   70 000c 1840     		and	r0, r3
   71 000e 1043     		orr	r0, r2
   72              	.LVL5:
@@ -206,7 +206,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 1
   78              	.L6:
   79              		.align	2
   80              	.L5:
-  81 0014 000A0440 		.word	1074006528
+  81 0014 00050440 		.word	1074005248
   82              		.cfi_endproc
   83              	.LFE1:
   84              		.size	HCSR04_Trigger_3_Write, .-HCSR04_Trigger_3_Write
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 1
  134:.\Generated_Source\PSoC4/HCSR04_Trigger_3.c **** *  \snippet HCSR04_Trigger_3_SUT.c usage_HCSR04_Trigger_3_Read  
  135:.\Generated_Source\PSoC4/HCSR04_Trigger_3.c **** *******************************************************************************/
  136:.\Generated_Source\PSoC4/HCSR04_Trigger_3.c **** uint8 HCSR04_Trigger_3_Read(void)
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 5
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccaKs2PI.s 			page 5
 
 
  137:.\Generated_Source\PSoC4/HCSR04_Trigger_3.c **** {
@@ -248,7 +248,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 1
   95              		.loc 1 138 0
   96 0000 024B     		ldr	r3, .L8
   97 0002 1868     		ldr	r0, [r3]
-  98 0004 C006     		lsl	r0, r0, #27
+  98 0004 8006     		lsl	r0, r0, #26
   99 0006 C00F     		lsr	r0, r0, #31
  139:.\Generated_Source\PSoC4/HCSR04_Trigger_3.c **** }
  100              		.loc 1 139 0
@@ -257,7 +257,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 1
  103              	.L9:
  104 000a C046     		.align	2
  105              	.L8:
- 106 000c 040A0440 		.word	1074006532
+ 106 000c 04050440 		.word	1074005252
  107              		.cfi_endproc
  108              	.LFE2:
  109              		.size	HCSR04_Trigger_3_Read, .-HCSR04_Trigger_3_Read
@@ -298,13 +298,13 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 1
  118              		.loc 1 165 0
  119              		.cfi_startproc
  166:.\Generated_Source\PSoC4/HCSR04_Trigger_3.c ****     return (uint8)((HCSR04_Trigger_3_DR & HCSR04_Trigger_3_MASK) >> HCSR04_Trigger_3_SHIFT);
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 6
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccaKs2PI.s 			page 6
 
 
  120              		.loc 1 166 0
  121 0000 024B     		ldr	r3, .L11
  122 0002 1868     		ldr	r0, [r3]
- 123 0004 C006     		lsl	r0, r0, #27
+ 123 0004 8006     		lsl	r0, r0, #26
  124 0006 C00F     		lsr	r0, r0, #31
  167:.\Generated_Source\PSoC4/HCSR04_Trigger_3.c **** }
  125              		.loc 1 167 0
@@ -313,7 +313,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 1
  128              	.L12:
  129 000a C046     		.align	2
  130              	.L11:
- 131 000c 000A0440 		.word	1074006528
+ 131 000c 00050440 		.word	1074005248
  132              		.cfi_endproc
  133              	.LFE3:
  134              		.size	HCSR04_Trigger_3_ReadDataReg, .-HCSR04_Trigger_3_ReadDataReg
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 1
  198:.\Generated_Source\PSoC4/HCSR04_Trigger_3.c **** * \sideeffect
  199:.\Generated_Source\PSoC4/HCSR04_Trigger_3.c **** *  It is recommended that the interrupt be disabled before calling this 
  200:.\Generated_Source\PSoC4/HCSR04_Trigger_3.c **** *  function to avoid unintended interrupt requests. Note that the interrupt
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 7
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccaKs2PI.s 			page 7
 
 
  201:.\Generated_Source\PSoC4/HCSR04_Trigger_3.c **** *  type is port wide, and therefore will trigger for any enabled pin on the 
@@ -393,7 +393,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 1
  159              	.L15:
  160 000e C046     		.align	2
  161              	.L14:
- 162 0010 0C0A0440 		.word	1074006540
+ 162 0010 0C050440 		.word	1074005260
  163              		.cfi_endproc
  164              	.LFE4:
  165              		.size	HCSR04_Trigger_3_SetInterruptMode, .-HCSR04_Trigger_3_SetInterruptMode
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 1
  224:.\Generated_Source\PSoC4/HCSR04_Trigger_3.c **** * \return 
  225:.\Generated_Source\PSoC4/HCSR04_Trigger_3.c **** *  The right-shifted current value of the interrupt status register. Each pin 
  226:.\Generated_Source\PSoC4/HCSR04_Trigger_3.c **** *  has one bit set if it generated an interrupt event. For example, bit 0 is 
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 8
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccaKs2PI.s 			page 8
 
 
  227:.\Generated_Source\PSoC4/HCSR04_Trigger_3.c **** *  for pin 0 and bit 1 is for pin 1 of the Pins component.
@@ -438,7 +438,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 1
  176              		.loc 1 238 0
  177 0000 034A     		ldr	r2, .L17
  178 0002 1068     		ldr	r0, [r2]
- 179 0004 1023     		mov	r3, #16
+ 179 0004 2023     		mov	r3, #32
  180 0006 1840     		and	r0, r3
  181              	.LVL9:
  239:.\Generated_Source\PSoC4/HCSR04_Trigger_3.c **** 	HCSR04_Trigger_3_INTSTAT = maskedStatus;
@@ -446,7 +446,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 1
  183 0008 1060     		str	r0, [r2]
  240:.\Generated_Source\PSoC4/HCSR04_Trigger_3.c ****     return maskedStatus >> HCSR04_Trigger_3_SHIFT;
  184              		.loc 1 240 0
- 185 000a 0009     		lsr	r0, r0, #4
+ 185 000a 4009     		lsr	r0, r0, #5
  186              	.LVL10:
  187 000c C0B2     		uxtb	r0, r0
  241:.\Generated_Source\PSoC4/HCSR04_Trigger_3.c **** }
@@ -456,7 +456,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 1
  191              	.L18:
  192              		.align	2
  193              	.L17:
- 194 0010 100A0440 		.word	1074006544
+ 194 0010 10050440 		.word	1074005264
  195              		.cfi_endproc
  196              	.LFE5:
  197              		.size	HCSR04_Trigger_3_ClearInterrupt, .-HCSR04_Trigger_3_ClearInterrupt
@@ -470,20 +470,20 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 1
  205 0006 00000000 		.4byte	.Ldebug_abbrev0
  206 000a 04       		.byte	0x4
  207 000b 01       		.uleb128 0x1
- 208 000c 9D010000 		.4byte	.LASF28
+ 208 000c 5B010000 		.4byte	.LASF28
  209 0010 01       		.byte	0x1
- 210 0011 44020000 		.4byte	.LASF29
- 211 0015 3B010000 		.4byte	.LASF30
+ 210 0011 45020000 		.4byte	.LASF29
+ 211 0015 F3010000 		.4byte	.LASF30
  212 0019 00000000 		.4byte	.Ldebug_ranges0+0
  213 001d 00000000 		.4byte	0
  214 0021 00000000 		.4byte	.Ldebug_line0
  215 0025 02       		.uleb128 0x2
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 9
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccaKs2PI.s 			page 9
 
 
  216 0026 01       		.byte	0x1
  217 0027 06       		.byte	0x6
- 218 0028 79020000 		.4byte	.LASF0
+ 218 0028 7A020000 		.4byte	.LASF0
  219 002c 02       		.uleb128 0x2
  220 002d 01       		.byte	0x1
  221 002e 08       		.byte	0x8
@@ -491,7 +491,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 1
  223 0033 02       		.uleb128 0x2
  224 0034 02       		.byte	0x2
  225 0035 05       		.byte	0x5
- 226 0036 2B020000 		.4byte	.LASF2
+ 226 0036 E9010000 		.4byte	.LASF2
  227 003a 02       		.uleb128 0x2
  228 003b 02       		.byte	0x2
  229 003c 07       		.byte	0x7
@@ -499,7 +499,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 1
  231 0041 02       		.uleb128 0x2
  232 0042 04       		.byte	0x4
  233 0043 05       		.byte	0x5
- 234 0044 70020000 		.4byte	.LASF4
+ 234 0044 71020000 		.4byte	.LASF4
  235 0048 02       		.uleb128 0x2
  236 0049 04       		.byte	0x4
  237 004a 07       		.byte	0x7
@@ -507,7 +507,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 1
  239 004f 02       		.uleb128 0x2
  240 0050 08       		.byte	0x8
  241 0051 05       		.byte	0x5
- 242 0052 7D010000 		.4byte	.LASF6
+ 242 0052 3B010000 		.4byte	.LASF6
  243 0056 02       		.uleb128 0x2
  244 0057 08       		.byte	0x8
  245 0058 07       		.byte	0x7
@@ -521,7 +521,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 1
  253 0066 07       		.byte	0x7
  254 0067 12010000 		.4byte	.LASF8
  255 006b 04       		.uleb128 0x4
- 256 006c 35020000 		.4byte	.LASF9
+ 256 006c 36020000 		.4byte	.LASF9
  257 0070 02       		.byte	0x2
  258 0071 3801     		.2byte	0x138
  259 0073 2C000000 		.4byte	0x2c
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 1
  270 008f 02       		.uleb128 0x2
  271 0090 04       		.byte	0x4
  272 0091 04       		.byte	0x4
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 10
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccaKs2PI.s 			page 10
 
 
  273 0092 49000000 		.4byte	.LASF12
@@ -549,7 +549,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 1
  278 009d 02       		.uleb128 0x2
  279 009e 01       		.byte	0x1
  280 009f 08       		.byte	0x8
- 281 00a0 98010000 		.4byte	.LASF14
+ 281 00a0 56010000 		.4byte	.LASF14
  282 00a4 04       		.uleb128 0x4
  283 00a5 1D000000 		.4byte	.LASF15
  284 00a9 02       		.byte	0x2
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 1
  327 010e 09       		.uleb128 0x9
  328 010f C4000000 		.4byte	.LASF20
  329 0113 01       		.byte	0x1
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 11
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccaKs2PI.s 			page 11
 
 
  330 0114 88       		.byte	0x88
@@ -626,7 +626,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 1
  352 0148 9C       		.byte	0x9c
  353 0149 77010000 		.4byte	0x177
  354 014d 0A       		.uleb128 0xa
- 355 014e 3B020000 		.4byte	.LASF23
+ 355 014e 3C020000 		.4byte	.LASF23
  356 0152 01       		.byte	0x1
  357 0153 CF       		.byte	0xcf
  358 0154 77000000 		.4byte	0x77
@@ -656,9 +656,9 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 1
  382 018a 01       		.uleb128 0x1
  383 018b 9C       		.byte	0x9c
  384 018c 08       		.uleb128 0x8
- 385 018d 8B010000 		.4byte	.LASF27
+ 385 018d 49010000 		.4byte	.LASF27
  386 0191 01       		.byte	0x1
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 12
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccaKs2PI.s 			page 12
 
 
  387 0192 EE       		.byte	0xee
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 1
  441 002f 0B       		.uleb128 0xb
  442 0030 3B       		.uleb128 0x3b
  443 0031 05       		.uleb128 0x5
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 13
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccaKs2PI.s 			page 13
 
 
  444 0032 49       		.uleb128 0x49
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 1
  498 0069 03       		.uleb128 0x3
  499 006a 0E       		.uleb128 0xe
  500 006b 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 14
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccaKs2PI.s 			page 14
 
 
  501 006c 0B       		.uleb128 0xb
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 1
  555 00a3 3A       		.uleb128 0x3a
  556 00a4 0B       		.uleb128 0xb
  557 00a5 3B       		.uleb128 0x3b
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 15
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccaKs2PI.s 			page 15
 
 
  558 00a6 0B       		.uleb128 0xb
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 1
  612 002c 0A000000 		.4byte	.LVL4
  613 0030 18000000 		.4byte	.LFE1
  614 0034 0400     		.2byte	0x4
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 16
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccaKs2PI.s 			page 16
 
 
  615 0036 F3       		.byte	0xf3
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 1
  669 0014 18000000 		.4byte	.LFE0-.LFB0
  670 0018 00000000 		.4byte	.LFB1
  671 001c 18000000 		.4byte	.LFE1-.LFB1
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 17
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccaKs2PI.s 			page 17
 
 
  672 0020 00000000 		.4byte	.LFB2
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 1
  711              	.LASF17:
  712 004f 48435352 		.ascii	"HCSR04_Trigger_3_Write\000"
  712      30345F54 
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 18
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccaKs2PI.s 			page 18
 
 
  712      72696767 
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 1
  736 0112 756E7369 		.ascii	"unsigned int\000"
  736      676E6564 
  736      20696E74 
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 19
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccaKs2PI.s 			page 19
 
 
  736      00
@@ -1091,72 +1091,72 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 1
  739              	.LASF18:
  740 0136 6D6F6465 		.ascii	"mode\000"
  740      00
- 741              	.LASF30:
- 742 013b 443A5C44 		.ascii	"D:\\Documents\\PSoC Creator\\IdeaArlobot\\SingleBoa"
- 742      6F63756D 
- 742      656E7473 
- 742      5C50536F 
- 742      43204372 
- 743 016a 72644465 		.ascii	"rdDesign-046.cydsn\000"
- 743      7369676E 
- 743      2D303436 
- 743      2E637964 
- 743      736E00
- 744              	.LASF6:
- 745 017d 6C6F6E67 		.ascii	"long long int\000"
- 745      206C6F6E 
- 745      6720696E 
- 745      7400
- 746              	.LASF27:
- 747 018b 6D61736B 		.ascii	"maskedStatus\000"
- 747      65645374 
- 747      61747573 
- 747      00
- 748              	.LASF14:
- 749 0198 63686172 		.ascii	"char\000"
- 749      00
- 750              	.LASF28:
- 751 019d 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
- 751      4320342E 
- 751      392E3320 
- 751      32303135 
- 751      30333033 
- 752 01d0 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
- 752      20726576 
- 752      6973696F 
- 752      6E203232 
- 752      31323230 
- 753 0203 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
- 753      66756E63 
- 753      74696F6E 
- 753      2D736563 
- 753      74696F6E 
- 754              	.LASF2:
- 755 022b 73686F72 		.ascii	"short int\000"
- 755      7420696E 
- 755      7400
+ 741              	.LASF6:
+ 742 013b 6C6F6E67 		.ascii	"long long int\000"
+ 742      206C6F6E 
+ 742      6720696E 
+ 742      7400
+ 743              	.LASF27:
+ 744 0149 6D61736B 		.ascii	"maskedStatus\000"
+ 744      65645374 
+ 744      61747573 
+ 744      00
+ 745              	.LASF14:
+ 746 0156 63686172 		.ascii	"char\000"
+ 746      00
+ 747              	.LASF28:
+ 748 015b 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
+ 748      4320342E 
+ 748      392E3320 
+ 748      32303135 
+ 748      30333033 
+ 749 018e 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
+ 749      20726576 
+ 749      6973696F 
+ 749      6E203232 
+ 749      31323230 
+ 750 01c1 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 750      66756E63 
+ 750      74696F6E 
+ 750      2D736563 
+ 750      74696F6E 
+ 751              	.LASF2:
+ 752 01e9 73686F72 		.ascii	"short int\000"
+ 752      7420696E 
+ 752      7400
+ 753              	.LASF30:
+ 754 01f3 443A5C44 		.ascii	"D:\\Documents\\PSoC Creator\\IdealArlobot\\SingleBo"
+ 754      6F63756D 
+ 754      656E7473 
+ 754      5C50536F 
+ 754      43204372 
+ 755 0222 61726444 		.ascii	"ardDesign-046.cydsn\000"
+ 755      65736967 
+ 755      6E2D3034 
+ 755      362E6379 
+ 755      64736E00 
  756              	.LASF9:
- 757 0235 75696E74 		.ascii	"uint8\000"
+ 757 0236 75696E74 		.ascii	"uint8\000"
  757      3800
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchY2ZJk.s 			page 20
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccaKs2PI.s 			page 20
 
 
  758              	.LASF23:
- 759 023b 706F7369 		.ascii	"position\000"
+ 759 023c 706F7369 		.ascii	"position\000"
  759      74696F6E 
  759      00
  760              	.LASF29:
- 761 0244 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\HCSR04_Trigger_3.c\000"
+ 761 0245 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\HCSR04_Trigger_3.c\000"
  761      6E657261 
  761      7465645F 
  761      536F7572 
  761      63655C50 
  762              	.LASF4:
- 763 0270 6C6F6E67 		.ascii	"long int\000"
+ 763 0271 6C6F6E67 		.ascii	"long int\000"
  763      20696E74 
  763      00
  764              	.LASF0:
- 765 0279 7369676E 		.ascii	"signed char\000"
+ 765 027a 7369676E 		.ascii	"signed char\000"
  765      65642063 
  765      68617200 
  766              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150303 (release) [ARM/embedded-4_9-br

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccP2yGz9.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
   30:.\Generated_Source\PSoC4/Left_Phase_Counter.c **** * Parameters:  
   31:.\Generated_Source\PSoC4/Left_Phase_Counter.c **** *  void  
   32:.\Generated_Source\PSoC4/Left_Phase_Counter.c **** *
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 2
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccP2yGz9.s 			page 2
 
 
   33:.\Generated_Source\PSoC4/Left_Phase_Counter.c **** * Return: 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
   87:.\Generated_Source\PSoC4/Left_Phase_Counter.c ****             #else
   88:.\Generated_Source\PSoC4/Left_Phase_Counter.c ****                 Left_Phase_Counter_CONTROL = ctrl;
   89:.\Generated_Source\PSoC4/Left_Phase_Counter.c ****             #endif /* 0 != Left_Phase_Counter_CAPTURE_MODE */ 
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 3
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccP2yGz9.s 			page 3
 
 
   90:.\Generated_Source\PSoC4/Left_Phase_Counter.c ****             
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  144:.\Generated_Source\PSoC4/Left_Phase_Counter.c **** {
   26              		.loc 1 144 0
   27              		.cfi_startproc
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 4
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccP2yGz9.s 			page 4
 
 
  145:.\Generated_Source\PSoC4/Left_Phase_Counter.c ****     /* Globally Enable the Fixed Function Block chosen */
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  185:.\Generated_Source\PSoC4/Left_Phase_Counter.c ****     }
  186:.\Generated_Source\PSoC4/Left_Phase_Counter.c ****     
  187:.\Generated_Source\PSoC4/Left_Phase_Counter.c ****     /* Enable the Counter */
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 5
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccP2yGz9.s 			page 5
 
 
  188:.\Generated_Source\PSoC4/Left_Phase_Counter.c ****     Left_Phase_Counter_Enable();        
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  226:.\Generated_Source\PSoC4/Left_Phase_Counter.c **** * Summary:
  227:.\Generated_Source\PSoC4/Left_Phase_Counter.c **** * Configures which interrupt sources are enabled to generate the final interrupt
  228:.\Generated_Source\PSoC4/Left_Phase_Counter.c **** *
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 6
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccP2yGz9.s 			page 6
 
 
  229:.\Generated_Source\PSoC4/Left_Phase_Counter.c **** * Parameters:  
@@ -325,7 +325,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
   67              	.L5:
   68 0006 C046     		.align	2
   69              	.L4:
-  70 0008 84000F40 		.word	1074724996
+  70 0008 87000F40 		.word	1074724999
   71              		.cfi_endproc
   72              	.LFE6:
   73              		.size	Left_Phase_Counter_SetInterruptMode, .-Left_Phase_Counter_SetInterruptMode
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  259:.\Generated_Source\PSoC4/Left_Phase_Counter.c **** *
  260:.\Generated_Source\PSoC4/Left_Phase_Counter.c **** *******************************************************************************/
  261:.\Generated_Source\PSoC4/Left_Phase_Counter.c **** uint8   Left_Phase_Counter_ReadStatusRegister(void) 
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 7
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccP2yGz9.s 			page 7
 
 
  262:.\Generated_Source\PSoC4/Left_Phase_Counter.c **** {
@@ -376,7 +376,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
   91              	.L8:
   92              		.align	2
   93              	.L7:
-  94 0008 64000F40 		.word	1074724964
+  94 0008 67000F40 		.word	1074724967
   95              		.cfi_endproc
   96              	.LFE7:
   97              		.size	Left_Phase_Counter_ReadStatusRegister, .-Left_Phase_Counter_ReadStatusRegister
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  292:.\Generated_Source\PSoC4/Left_Phase_Counter.c **** * Summary:
  293:.\Generated_Source\PSoC4/Left_Phase_Counter.c **** *   Sets the bit-field of the control register.  This function should use
  294:.\Generated_Source\PSoC4/Left_Phase_Counter.c **** *       defined types for the bit-field information as the bits in this
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 8
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccP2yGz9.s 			page 8
 
 
  295:.\Generated_Source\PSoC4/Left_Phase_Counter.c **** *       register may be permuteable.
@@ -478,10 +478,10 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  115              	.L11:
  116 0006 C046     		.align	2
  117              	.L10:
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 9
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccP2yGz9.s 			page 9
 
 
- 118 0008 00200F40 		.word	1074733056
+ 118 0008 10200F40 		.word	1074733072
  119              		.cfi_endproc
  120              	.LFE8:
  121              		.size	Left_Phase_Counter_WriteCounter, .-Left_Phase_Counter_WriteCounter
@@ -538,15 +538,15 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  374:.\Generated_Source\PSoC4/Left_Phase_Counter.c **** }
  138              		.loc 1 374 0
  139              		@ sp needed
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 10
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccP2yGz9.s 			page 10
 
 
  140 0008 7047     		bx	lr
  141              	.L14:
  142 000a C046     		.align	2
  143              	.L13:
- 144 000c 00000F40 		.word	1074724864
- 145 0010 00210F40 		.word	1074733312
+ 144 000c 04000F40 		.word	1074724868
+ 145 0010 10210F40 		.word	1074733328
  146              		.cfi_endproc
  147              	.LFE9:
  148              		.size	Left_Phase_Counter_ReadCounter, .-Left_Phase_Counter_ReadCounter
@@ -592,13 +592,13 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  165              	.L17:
  166 0006 C046     		.align	2
  167              	.L16:
- 168 0008 00210F40 		.word	1074733312
+ 168 0008 10210F40 		.word	1074733328
  169              		.cfi_endproc
  170              	.LFE10:
  171              		.size	Left_Phase_Counter_ReadCapture, .-Left_Phase_Counter_ReadCapture
  172              		.section	.text.Left_Phase_Counter_WritePeriod,"ax",%progbits
  173              		.align	2
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 11
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccP2yGz9.s 			page 11
 
 
  174              		.global	Left_Phase_Counter_WritePeriod
@@ -644,7 +644,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  189              	.L20:
  190 0006 C046     		.align	2
  191              	.L19:
- 192 0008 80200F40 		.word	1074733184
+ 192 0008 90200F40 		.word	1074733200
  193              		.cfi_endproc
  194              	.LFE11:
  195              		.size	Left_Phase_Counter_WritePeriod, .-Left_Phase_Counter_WritePeriod
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  203              	.LFB12:
  423:.\Generated_Source\PSoC4/Left_Phase_Counter.c **** 
  424:.\Generated_Source\PSoC4/Left_Phase_Counter.c **** 
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 12
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccP2yGz9.s 			page 12
 
 
  425:.\Generated_Source\PSoC4/Left_Phase_Counter.c **** /*******************************************************************************
@@ -693,7 +693,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  212              	.L23:
  213 0006 C046     		.align	2
  214              	.L22:
- 215 0008 80200F40 		.word	1074733184
+ 215 0008 90200F40 		.word	1074733200
  216              		.cfi_endproc
  217              	.LFE12:
  218              		.size	Left_Phase_Counter_ReadPeriod, .-Left_Phase_Counter_ReadPeriod
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  456:.\Generated_Source\PSoC4/Left_Phase_Counter.c **** * configured compare mode setting. 
  457:.\Generated_Source\PSoC4/Left_Phase_Counter.c **** *
  458:.\Generated_Source\PSoC4/Left_Phase_Counter.c **** * Parameters:  
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 13
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccP2yGz9.s 			page 13
 
 
  459:.\Generated_Source\PSoC4/Left_Phase_Counter.c **** *  Compare:  New compare value. 
@@ -748,7 +748,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  236              	.L26:
  237 0006 C046     		.align	2
  238              	.L25:
- 239 0008 C0200F40 		.word	1074733248
+ 239 0008 D0200F40 		.word	1074733264
  240              		.cfi_endproc
  241              	.LFE13:
  242              		.size	Left_Phase_Counter_WriteCompare, .-Left_Phase_Counter_WriteCompare
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  489:.\Generated_Source\PSoC4/Left_Phase_Counter.c **** uint32 Left_Phase_Counter_ReadCompare(void) 
  490:.\Generated_Source\PSoC4/Left_Phase_Counter.c **** {
  251              		.loc 1 490 0
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 14
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccP2yGz9.s 			page 14
 
 
  252              		.cfi_startproc
@@ -793,7 +793,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  259              	.L29:
  260 0006 C046     		.align	2
  261              	.L28:
- 262 0008 C0200F40 		.word	1074733248
+ 262 0008 D0200F40 		.word	1074733264
  263              		.cfi_endproc
  264              	.LFE14:
  265              		.size	Left_Phase_Counter_ReadCompare, .-Left_Phase_Counter_ReadCompare
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  523:.\Generated_Source\PSoC4/Left_Phase_Counter.c **** ********************************************************************************
  524:.\Generated_Source\PSoC4/Left_Phase_Counter.c **** * Summary:
  525:.\Generated_Source\PSoC4/Left_Phase_Counter.c **** *  Sets the software controlled Capture Mode.
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 15
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccP2yGz9.s 			page 15
 
 
  526:.\Generated_Source\PSoC4/Left_Phase_Counter.c **** *
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  289              	.LVL5:
  290 000c 4306     		lsl	r3, r0, #25
  291 000e F9D4     		bmi	.L32
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 16
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccP2yGz9.s 			page 16
 
 
  564:.\Generated_Source\PSoC4/Left_Phase_Counter.c ****     }
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  336              	.LVL11:
  115:.\Generated_Source\PSoC4/Left_Phase_Counter.c ****             
  337              		.loc 1 115 0
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 17
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccP2yGz9.s 			page 17
 
 
  338 0028 FFF7FEFF 		bl	CyEnterCriticalSection
@@ -981,7 +981,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  352              	.L35:
  353              		.align	2
  354              	.L34:
- 355 003c 94000F40 		.word	1074725012
+ 355 003c 97000F40 		.word	1074725015
  356              		.cfi_endproc
  357              	.LFE2:
  358              		.size	Left_Phase_Counter_Init, .-Left_Phase_Counter_Init
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  385              	.L36:
  189:.\Generated_Source\PSoC4/Left_Phase_Counter.c **** 
  386              		.loc 1 189 0
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 18
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccP2yGz9.s 			page 18
 
 
  387              		@ sp needed
@@ -1048,17 +1048,17 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  411 0006 00000000 		.4byte	.Ldebug_abbrev0
  412 000a 04       		.byte	0x4
  413 000b 01       		.uleb128 0x1
- 414 000c 10030000 		.4byte	.LASF35
+ 414 000c CE020000 		.4byte	.LASF35
  415 0010 01       		.byte	0x1
  416 0011 94010000 		.4byte	.LASF36
- 417 0015 81020000 		.4byte	.LASF37
+ 417 0015 66030000 		.4byte	.LASF37
  418 0019 00000000 		.4byte	.Ldebug_ranges0+0
  419 001d 00000000 		.4byte	0
  420 0021 00000000 		.4byte	.Ldebug_line0
  421 0025 02       		.uleb128 0x2
  422 0026 01       		.byte	0x1
  423 0027 06       		.byte	0x6
- 424 0028 D5030000 		.4byte	.LASF0
+ 424 0028 D6030000 		.4byte	.LASF0
  425 002c 02       		.uleb128 0x2
  426 002d 01       		.byte	0x1
  427 002e 08       		.byte	0x8
@@ -1066,7 +1066,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  429 0033 02       		.uleb128 0x2
  430 0034 02       		.byte	0x2
  431 0035 05       		.byte	0x5
- 432 0036 9E030000 		.4byte	.LASF2
+ 432 0036 5C030000 		.4byte	.LASF2
  433 003a 02       		.uleb128 0x2
  434 003b 02       		.byte	0x2
  435 003c 07       		.byte	0x7
@@ -1074,18 +1074,18 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  437 0041 02       		.uleb128 0x2
  438 0042 04       		.byte	0x4
  439 0043 05       		.byte	0x5
- 440 0044 CC030000 		.4byte	.LASF4
+ 440 0044 CD030000 		.4byte	.LASF4
  441 0048 02       		.uleb128 0x2
  442 0049 04       		.byte	0x4
  443 004a 07       		.byte	0x7
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 19
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccP2yGz9.s 			page 19
 
 
  444 004b 52010000 		.4byte	.LASF5
  445 004f 02       		.uleb128 0x2
  446 0050 08       		.byte	0x8
  447 0051 05       		.byte	0x5
- 448 0052 C3020000 		.4byte	.LASF6
+ 448 0052 81020000 		.4byte	.LASF6
  449 0056 02       		.uleb128 0x2
  450 0057 08       		.byte	0x8
  451 0058 07       		.byte	0x7
@@ -1119,7 +1119,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  479 0091 02       		.uleb128 0x2
  480 0092 01       		.byte	0x1
  481 0093 08       		.byte	0x8
- 482 0094 F3020000 		.4byte	.LASF13
+ 482 0094 B1020000 		.4byte	.LASF13
  483 0098 04       		.uleb128 0x4
  484 0099 4D010000 		.4byte	.LASF14
  485 009d 02       		.byte	0x2
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  498 00bb 04       		.byte	0x4
  499 00bc 07       		.byte	0x7
  500 00bd 78020000 		.4byte	.LASF16
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 20
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccP2yGz9.s 			page 20
 
 
  501 00c1 06       		.uleb128 0x6
@@ -1158,7 +1158,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  515 00e1 01       		.uleb128 0x1
  516 00e2 9C       		.byte	0x9c
  517 00e3 07       		.uleb128 0x7
- 518 00e4 A8030000 		.4byte	.LASF19
+ 518 00e4 A9030000 		.4byte	.LASF19
  519 00e8 01       		.byte	0x1
  520 00e9 ED       		.byte	0xed
  521 00ea 00000000 		.4byte	.LFB6
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  555 0138 4601     		.2byte	0x146
  556 013a 77000000 		.4byte	0x77
  557 013e 01       		.uleb128 0x1
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 21
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccP2yGz9.s 			page 21
 
 
  558 013f 50       		.byte	0x50
@@ -1257,8 +1257,8 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  611 01b9 9C       		.byte	0x9c
  612 01ba CD010000 		.4byte	0x1cd
  613 01be 0B       		.uleb128 0xb
- 614 01bf E1030000 		.4byte	.LASF30
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 22
+ 614 01bf E2030000 		.4byte	.LASF30
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccP2yGz9.s 			page 22
 
 
  615 01c3 01       		.byte	0x1
@@ -1293,7 +1293,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  644 0207 06010000 		.4byte	0x106
  645 020b 00       		.byte	0
  646 020c 07       		.uleb128 0x7
- 647 020d F8020000 		.4byte	.LASF33
+ 647 020d B6020000 		.4byte	.LASF33
  648 0211 01       		.byte	0x1
  649 0212 25       		.byte	0x25
  650 0213 00000000 		.4byte	.LFB2
@@ -1302,7 +1302,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  653 021c 9C       		.byte	0x9c
  654 021d A4020000 		.4byte	0x2a4
  655 0221 0D       		.uleb128 0xd
- 656 0222 D1020000 		.4byte	.LASF38
+ 656 0222 8F020000 		.4byte	.LASF38
  657 0226 01       		.byte	0x1
  658 0227 2D       		.byte	0x2d
  659 0228 6B000000 		.4byte	0x6b
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  669 0247 01       		.uleb128 0x1
  670 0248 50       		.byte	0x50
  671 0249 02       		.uleb128 0x2
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 23
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccP2yGz9.s 			page 23
 
 
  672 024a 74       		.byte	0x74
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  726 02b9 0C       		.uleb128 0xc
  727 02ba 0E000000 		.4byte	.LVL14
  728 02be 0C020000 		.4byte	0x20c
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 24
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccP2yGz9.s 			page 24
 
 
  729 02c2 00       		.byte	0
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  783 001e 03       		.uleb128 0x3
  784 001f 24       		.uleb128 0x24
  785 0020 00       		.byte	0
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 25
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccP2yGz9.s 			page 25
 
 
  786 0021 0B       		.uleb128 0xb
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  840 0058 3F       		.uleb128 0x3f
  841 0059 19       		.uleb128 0x19
  842 005a 03       		.uleb128 0x3
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 26
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccP2yGz9.s 			page 26
 
 
  843 005b 0E       		.uleb128 0xe
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  897 0092 18       		.uleb128 0x18
  898 0093 9742     		.uleb128 0x2117
  899 0095 19       		.uleb128 0x19
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 27
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccP2yGz9.s 			page 27
 
 
  900 0096 00       		.byte	0
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  954 00cf 03       		.uleb128 0x3
  955 00d0 0E       		.uleb128 0xe
  956 00d1 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 28
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccP2yGz9.s 			page 28
 
 
  957 00d2 0B       		.uleb128 0xb
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  1011 010d 0B       		.uleb128 0xb
  1012 010e 3B       		.uleb128 0x3b
  1013 010f 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 29
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccP2yGz9.s 			page 29
 
 
  1014 0110 27       		.uleb128 0x27
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  1068 0020 00000000 		.4byte	.LFB6
  1069 0024 0C000000 		.4byte	.LFE6-.LFB6
  1070 0028 00000000 		.4byte	.LFB7
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 30
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccP2yGz9.s 			page 30
 
 
  1071 002c 0C000000 		.4byte	.LFE7-.LFB7
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  1125 0074 00000000 		.4byte	0
  1126              		.section	.debug_line,"",%progbits
  1127              	.Ldebug_line0:
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 31
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccP2yGz9.s 			page 31
 
 
  1128 0000 70010000 		.section	.debug_str,"MS",%progbits,1
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  1148      5F506861 
  1148      73655F43 
  1148      6F756E74 
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 32
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccP2yGz9.s 			page 32
 
 
  1148      65725F57 
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  1172 0194 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\Left_Phase_Counter.c\000"
  1172      6E657261 
  1172      7465645F 
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 33
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccP2yGz9.s 			page 33
 
 
  1172      536F7572 
@@ -1969,78 +1969,78 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 1
  1190 0278 73697A65 		.ascii	"sizetype\000"
  1190      74797065 
  1190      00
- 1191              	.LASF37:
- 1192 0281 443A5C44 		.ascii	"D:\\Documents\\PSoC Creator\\IdeaArlobot\\SingleBoa"
- 1192      6F63756D 
- 1192      656E7473 
- 1192      5C50536F 
- 1192      43204372 
- 1193 02b0 72644465 		.ascii	"rdDesign-046.cydsn\000"
- 1193      7369676E 
- 1193      2D303436 
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 34
+ 1191              	.LASF6:
+ 1192 0281 6C6F6E67 		.ascii	"long long int\000"
+ 1192      206C6F6E 
+ 1192      6720696E 
+ 1192      7400
+ 1193              	.LASF38:
+ 1194 028f 4C656674 		.ascii	"Left_Phase_Counter_interruptState\000"
+ 1194      5F506861 
+ 1194      73655F43 
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccP2yGz9.s 			page 34
 
 
- 1193      2E637964 
- 1193      736E00
- 1194              	.LASF6:
- 1195 02c3 6C6F6E67 		.ascii	"long long int\000"
- 1195      206C6F6E 
- 1195      6720696E 
- 1195      7400
- 1196              	.LASF38:
- 1197 02d1 4C656674 		.ascii	"Left_Phase_Counter_interruptState\000"
- 1197      5F506861 
- 1197      73655F43 
- 1197      6F756E74 
- 1197      65725F69 
- 1198              	.LASF13:
- 1199 02f3 63686172 		.ascii	"char\000"
- 1199      00
- 1200              	.LASF33:
- 1201 02f8 4C656674 		.ascii	"Left_Phase_Counter_Init\000"
- 1201      5F506861 
- 1201      73655F43 
- 1201      6F756E74 
- 1201      65725F49 
- 1202              	.LASF35:
- 1203 0310 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
- 1203      4320342E 
- 1203      392E3320 
- 1203      32303135 
- 1203      30333033 
- 1204 0343 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
- 1204      20726576 
- 1204      6973696F 
- 1204      6E203232 
- 1204      31323230 
- 1205 0376 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
- 1205      66756E63 
- 1205      74696F6E 
- 1205      2D736563 
- 1205      74696F6E 
- 1206              	.LASF2:
- 1207 039e 73686F72 		.ascii	"short int\000"
- 1207      7420696E 
- 1207      7400
+ 1194      6F756E74 
+ 1194      65725F69 
+ 1195              	.LASF13:
+ 1196 02b1 63686172 		.ascii	"char\000"
+ 1196      00
+ 1197              	.LASF33:
+ 1198 02b6 4C656674 		.ascii	"Left_Phase_Counter_Init\000"
+ 1198      5F506861 
+ 1198      73655F43 
+ 1198      6F756E74 
+ 1198      65725F49 
+ 1199              	.LASF35:
+ 1200 02ce 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
+ 1200      4320342E 
+ 1200      392E3320 
+ 1200      32303135 
+ 1200      30333033 
+ 1201 0301 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
+ 1201      20726576 
+ 1201      6973696F 
+ 1201      6E203232 
+ 1201      31323230 
+ 1202 0334 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 1202      66756E63 
+ 1202      74696F6E 
+ 1202      2D736563 
+ 1202      74696F6E 
+ 1203              	.LASF2:
+ 1204 035c 73686F72 		.ascii	"short int\000"
+ 1204      7420696E 
+ 1204      7400
+ 1205              	.LASF37:
+ 1206 0366 443A5C44 		.ascii	"D:\\Documents\\PSoC Creator\\IdealArlobot\\SingleBo"
+ 1206      6F63756D 
+ 1206      656E7473 
+ 1206      5C50536F 
+ 1206      43204372 
+ 1207 0395 61726444 		.ascii	"ardDesign-046.cydsn\000"
+ 1207      65736967 
+ 1207      6E2D3034 
+ 1207      362E6379 
+ 1207      64736E00 
  1208              	.LASF19:
- 1209 03a8 4C656674 		.ascii	"Left_Phase_Counter_SetInterruptMode\000"
+ 1209 03a9 4C656674 		.ascii	"Left_Phase_Counter_SetInterruptMode\000"
  1209      5F506861 
  1209      73655F43 
  1209      6F756E74 
  1209      65725F53 
  1210              	.LASF4:
- 1211 03cc 6C6F6E67 		.ascii	"long int\000"
+ 1211 03cd 6C6F6E67 		.ascii	"long int\000"
  1211      20696E74 
  1211      00
  1212              	.LASF0:
- 1213 03d5 7369676E 		.ascii	"signed char\000"
+ 1213 03d6 7369676E 		.ascii	"signed char\000"
  1213      65642063 
  1213      68617200 
  1214              	.LASF30:
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuKwZTv.s 			page 35
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccP2yGz9.s 			page 35
 
 
- 1215 03e1 636F6D70 		.ascii	"compare\000"
+ 1215 03e2 636F6D70 		.ascii	"compare\000"
  1215      61726500 
  1216              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150303 (release) [ARM/embedded-4_9-br

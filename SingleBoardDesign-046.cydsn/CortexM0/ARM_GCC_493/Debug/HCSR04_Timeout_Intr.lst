@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cccpIgSb.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
   30:.\Generated_Source\PSoC4/HCSR04_Timeout_Intr.c **** 
   31:.\Generated_Source\PSoC4/HCSR04_Timeout_Intr.c **** /* `#END` */
   32:.\Generated_Source\PSoC4/HCSR04_Timeout_Intr.c **** 
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 2
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cccpIgSb.s 			page 2
 
 
   33:.\Generated_Source\PSoC4/HCSR04_Timeout_Intr.c **** extern cyisraddress CyRamVectors[CYINT_IRQ_BASE + CY_NUM_INTERRUPTS];
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
   87:.\Generated_Source\PSoC4/HCSR04_Timeout_Intr.c **** *   {
   88:.\Generated_Source\PSoC4/HCSR04_Timeout_Intr.c **** *   }
   89:.\Generated_Source\PSoC4/HCSR04_Timeout_Intr.c **** *   Function prototype example:
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 3
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cccpIgSb.s 			page 3
 
 
   90:.\Generated_Source\PSoC4/HCSR04_Timeout_Intr.c **** *   CY_ISR_PROTO(MyISR);
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  144:.\Generated_Source\PSoC4/HCSR04_Timeout_Intr.c **** *   The default Interrupt Service Routine for HCSR04_Timeout_Intr.
  145:.\Generated_Source\PSoC4/HCSR04_Timeout_Intr.c **** *
  146:.\Generated_Source\PSoC4/HCSR04_Timeout_Intr.c **** *   Add custom code between the START and END comments to keep the next version
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 4
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cccpIgSb.s 			page 4
 
 
  147:.\Generated_Source\PSoC4/HCSR04_Timeout_Intr.c **** *   of this file from over-writing your code.
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  185:.\Generated_Source\PSoC4/HCSR04_Timeout_Intr.c **** *   CY_ISR(MyISR)
  186:.\Generated_Source\PSoC4/HCSR04_Timeout_Intr.c **** *   {
  187:.\Generated_Source\PSoC4/HCSR04_Timeout_Intr.c **** *   }
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 5
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cccpIgSb.s 			page 5
 
 
  188:.\Generated_Source\PSoC4/HCSR04_Timeout_Intr.c **** *
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  217:.\Generated_Source\PSoC4/HCSR04_Timeout_Intr.c **** *
  218:.\Generated_Source\PSoC4/HCSR04_Timeout_Intr.c **** *******************************************************************************/
  219:.\Generated_Source\PSoC4/HCSR04_Timeout_Intr.c **** cyisraddress HCSR04_Timeout_Intr_GetVector(void)
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 6
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cccpIgSb.s 			page 6
 
 
  220:.\Generated_Source\PSoC4/HCSR04_Timeout_Intr.c **** {
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  250:.\Generated_Source\PSoC4/HCSR04_Timeout_Intr.c **** {
   91              		.loc 1 250 0
   92              		.cfi_startproc
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 7
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cccpIgSb.s 			page 7
 
 
   93              	.LVL1:
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  263:.\Generated_Source\PSoC4/HCSR04_Timeout_Intr.c **** ********************************************************************************
  264:.\Generated_Source\PSoC4/HCSR04_Timeout_Intr.c **** *
  265:.\Generated_Source\PSoC4/HCSR04_Timeout_Intr.c **** * Summary:
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 8
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cccpIgSb.s 			page 8
 
 
  266:.\Generated_Source\PSoC4/HCSR04_Timeout_Intr.c **** *   Gets the Priority of the Interrupt.
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  291:.\Generated_Source\PSoC4/HCSR04_Timeout_Intr.c **** *
  292:.\Generated_Source\PSoC4/HCSR04_Timeout_Intr.c **** * Summary:
  293:.\Generated_Source\PSoC4/HCSR04_Timeout_Intr.c **** *   Enables the interrupt to the interrupt controller. Do not call this function
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 9
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cccpIgSb.s 			page 9
 
 
  294:.\Generated_Source\PSoC4/HCSR04_Timeout_Intr.c **** *   unless ISR_Start() has been called or the functionality of the ISR_Start() 
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  323:.\Generated_Source\PSoC4/HCSR04_Timeout_Intr.c **** *
  324:.\Generated_Source\PSoC4/HCSR04_Timeout_Intr.c **** *******************************************************************************/
  325:.\Generated_Source\PSoC4/HCSR04_Timeout_Intr.c **** uint8 HCSR04_Timeout_Intr_GetState(void)
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 10
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cccpIgSb.s 			page 10
 
 
  326:.\Generated_Source\PSoC4/HCSR04_Timeout_Intr.c **** {
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  348:.\Generated_Source\PSoC4/HCSR04_Timeout_Intr.c ****     /* Disable the general interrupt. */
  349:.\Generated_Source\PSoC4/HCSR04_Timeout_Intr.c ****     *HCSR04_Timeout_Intr_INTC_CLR_EN = HCSR04_Timeout_Intr__INTC_MASK;
  220              		.loc 1 349 0
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 11
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cccpIgSb.s 			page 11
 
 
  221 0000 8022     		mov	r2, #128
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  268              	.L26:
  269 0018 00000000 		.word	HCSR04_Timeout_Intr_Interrupt
  270              		.cfi_endproc
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 12
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cccpIgSb.s 			page 12
 
 
  271              	.LFE2:
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  318              		.loc 1 130 0
  319              		.cfi_startproc
  320 0000 08B5     		push	{r3, lr}
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 13
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cccpIgSb.s 			page 13
 
 
  321              		.cfi_def_cfa_offset 8
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  374:.\Generated_Source\PSoC4/HCSR04_Timeout_Intr.c **** {
  349              		.loc 1 374 0
  350              		.cfi_startproc
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 14
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cccpIgSb.s 			page 14
 
 
  375:.\Generated_Source\PSoC4/HCSR04_Timeout_Intr.c ****     *HCSR04_Timeout_Intr_INTC_SET_PD = HCSR04_Timeout_Intr__INTC_MASK;
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  379 0004 014B     		ldr	r3, .L36
  380 0006 1A60     		str	r2, [r3]
  401:.\Generated_Source\PSoC4/HCSR04_Timeout_Intr.c **** }
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 15
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cccpIgSb.s 			page 15
 
 
  381              		.loc 1 401 0
@@ -862,17 +862,17 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  399 0006 00000000 		.4byte	.Ldebug_abbrev0
  400 000a 04       		.byte	0x4
  401 000b 01       		.uleb128 0x1
- 402 000c 53020000 		.4byte	.LASF33
+ 402 000c 11020000 		.4byte	.LASF33
  403 0010 01       		.byte	0x1
  404 0011 F3000000 		.4byte	.LASF34
- 405 0015 FE010000 		.4byte	.LASF35
+ 405 0015 A9020000 		.4byte	.LASF35
  406 0019 00000000 		.4byte	.Ldebug_ranges0+0
  407 001d 00000000 		.4byte	0
  408 0021 00000000 		.4byte	.Ldebug_line0
  409 0025 02       		.uleb128 0x2
  410 0026 01       		.byte	0x1
  411 0027 06       		.byte	0x6
- 412 0028 7D030000 		.4byte	.LASF0
+ 412 0028 7E030000 		.4byte	.LASF0
  413 002c 02       		.uleb128 0x2
  414 002d 01       		.byte	0x1
  415 002e 08       		.byte	0x8
@@ -880,7 +880,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  417 0033 02       		.uleb128 0x2
  418 0034 02       		.byte	0x2
  419 0035 05       		.byte	0x5
- 420 0036 E1020000 		.4byte	.LASF2
+ 420 0036 9F020000 		.4byte	.LASF2
  421 003a 02       		.uleb128 0x2
  422 003b 02       		.byte	0x2
  423 003c 07       		.byte	0x7
@@ -888,7 +888,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  425 0041 02       		.uleb128 0x2
  426 0042 04       		.byte	0x4
  427 0043 05       		.byte	0x5
- 428 0044 1A030000 		.4byte	.LASF4
+ 428 0044 1B030000 		.4byte	.LASF4
  429 0048 02       		.uleb128 0x2
  430 0049 04       		.byte	0x4
  431 004a 07       		.byte	0x7
@@ -896,9 +896,9 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  433 004f 02       		.uleb128 0x2
  434 0050 08       		.byte	0x8
  435 0051 05       		.byte	0x5
- 436 0052 40020000 		.4byte	.LASF6
+ 436 0052 FE010000 		.4byte	.LASF6
  437 0056 02       		.uleb128 0x2
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 16
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cccpIgSb.s 			page 16
 
 
  438 0057 08       		.byte	0x8
@@ -933,7 +933,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  467 0091 02       		.uleb128 0x2
  468 0092 01       		.byte	0x1
  469 0093 08       		.byte	0x8
- 470 0094 4E020000 		.4byte	.LASF13
+ 470 0094 0C020000 		.4byte	.LASF13
  471 0098 04       		.uleb128 0x4
  472 0099 00000000 		.4byte	.LASF14
  473 009d 02       		.byte	0x2
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  492 00c4 42000000 		.4byte	.LASF23
  493 00c8 01       		.byte	0x1
  494 00c9 9F       		.byte	0x9f
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 17
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cccpIgSb.s 			page 17
 
 
  495 00ca 00000000 		.4byte	.LFB5
@@ -966,7 +966,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  497 00d2 01       		.uleb128 0x1
  498 00d3 9C       		.byte	0x9c
  499 00d4 09       		.uleb128 0x9
- 500 00d5 5F030000 		.4byte	.LASF17
+ 500 00d5 60030000 		.4byte	.LASF17
  501 00d9 01       		.byte	0x1
  502 00da C7       		.byte	0xc7
  503 00db 00000000 		.4byte	.LFB6
@@ -992,7 +992,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  523 010a 01       		.uleb128 0x1
  524 010b 9C       		.byte	0x9c
  525 010c 09       		.uleb128 0x9
- 526 010d EB020000 		.4byte	.LASF18
+ 526 010d EC020000 		.4byte	.LASF18
  527 0111 01       		.byte	0x1
  528 0112 F9       		.byte	0xf9
  529 0113 00000000 		.4byte	.LFB8
@@ -1013,12 +1013,12 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  544 0137 6B000000 		.4byte	0x6b
  545 013b 21000000 		.4byte	.LLST1
  546 013f 0E       		.uleb128 0xe
- 547 0140 0B030000 		.4byte	.LASF22
+ 547 0140 0C030000 		.4byte	.LASF22
  548 0144 01       		.byte	0x1
  549 0145 FC       		.byte	0xfc
  550 0146 77000000 		.4byte	0x77
  551 014a 06       		.byte	0x6
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 18
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cccpIgSb.s 			page 18
 
 
  552 014b 0F       		.uleb128 0xf
@@ -1029,7 +1029,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  557 0159 F2020000 		.4byte	0x2f2
  558 015d 00       		.byte	0
  559 015e 10       		.uleb128 0x10
- 560 015f 3F030000 		.4byte	.LASF36
+ 560 015f 40030000 		.4byte	.LASF36
  561 0163 01       		.byte	0x1
  562 0164 1501     		.2byte	0x115
  563 0166 6B000000 		.4byte	0x6b
@@ -1045,14 +1045,14 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  573 0180 77000000 		.4byte	0x77
  574 0184 34000000 		.4byte	.LLST2
  575 0188 12       		.uleb128 0x12
- 576 0189 0B030000 		.4byte	.LASF22
+ 576 0189 0C030000 		.4byte	.LASF22
  577 018d 01       		.byte	0x1
  578 018e 1801     		.2byte	0x118
  579 0190 77000000 		.4byte	0x77
  580 0194 06       		.byte	0x6
  581 0195 00       		.byte	0
  582 0196 13       		.uleb128 0x13
- 583 0197 89030000 		.4byte	.LASF24
+ 583 0197 8A030000 		.4byte	.LASF24
  584 019b 01       		.byte	0x1
  585 019c 3001     		.2byte	0x130
  586 019e 00000000 		.4byte	.LFB10
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  606 01cf 9C       		.byte	0x9c
  607 01d0 09       		.uleb128 0x9
  608 01d1 60000000 		.4byte	.LASF28
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 19
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cccpIgSb.s 			page 19
 
 
  609 01d5 01       		.byte	0x1
@@ -1117,7 +1117,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  642 021d 96010000 		.4byte	0x196
  643 0221 00       		.byte	0
  644 0222 09       		.uleb128 0x9
- 645 0223 23030000 		.4byte	.LASF29
+ 645 0223 24030000 		.4byte	.LASF29
  646 0227 01       		.byte	0x1
  647 0228 63       		.byte	0x63
  648 0229 00000000 		.4byte	.LFB3
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  663 0250 0E000000 		.4byte	.LVL14
  664 0254 D4000000 		.4byte	0xd4
  665 0258 63020000 		.4byte	0x263
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 20
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cccpIgSb.s 			page 20
 
 
  666 025c 16       		.uleb128 0x16
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  720 02cd A9000000 		.4byte	0xa9
  721 02d1 DC020000 		.4byte	0x2dc
  722 02d5 18       		.uleb128 0x18
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 21
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cccpIgSb.s 			page 21
 
 
  723 02d6 BC000000 		.4byte	0xbc
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  777 001f 24       		.uleb128 0x24
  778 0020 00       		.byte	0
  779 0021 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 22
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cccpIgSb.s 			page 22
 
 
  780 0022 0B       		.uleb128 0xb
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  834 0058 27       		.uleb128 0x27
  835 0059 19       		.uleb128 0x19
  836 005a 11       		.uleb128 0x11
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 23
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cccpIgSb.s 			page 23
 
 
  837 005b 01       		.uleb128 0x1
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  891 0093 03       		.uleb128 0x3
  892 0094 0E       		.uleb128 0xe
  893 0095 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 24
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cccpIgSb.s 			page 24
 
 
  894 0096 0B       		.uleb128 0xb
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  948 00cd 3B       		.uleb128 0x3b
  949 00ce 0B       		.uleb128 0xb
  950 00cf 49       		.uleb128 0x49
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 25
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cccpIgSb.s 			page 25
 
 
  951 00d0 13       		.uleb128 0x13
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  1005 0109 00       		.byte	0
  1006 010a 00       		.byte	0
  1007 010b 12       		.uleb128 0x12
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 26
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cccpIgSb.s 			page 26
 
 
  1008 010c 34       		.uleb128 0x34
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  1062 0143 12       		.uleb128 0x12
  1063 0144 06       		.uleb128 0x6
  1064 0145 40       		.uleb128 0x40
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 27
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cccpIgSb.s 			page 27
 
 
  1065 0146 18       		.uleb128 0x18
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  1119 0182 3F       		.uleb128 0x3f
  1120 0183 19       		.uleb128 0x19
  1121 0184 3C       		.uleb128 0x3c
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 28
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cccpIgSb.s 			page 28
 
 
  1122 0185 19       		.uleb128 0x19
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  1176 000b 07000000 		.4byte	.LVL3-1
  1177 000f 20000000 		.4byte	.LFE8
  1178 0013 0400     		.2byte	0x4
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 29
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cccpIgSb.s 			page 29
 
 
  1179 0015 F3       		.byte	0xf3
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  1233 0010 00000000 		.4byte	.LFB5
  1234 0014 02000000 		.4byte	.LFE5-.LFB5
  1235 0018 00000000 		.4byte	.LFB6
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 30
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cccpIgSb.s 			page 30
 
 
  1236 001c 0C000000 		.4byte	.LFE6-.LFB6
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  1290 006c 00000000 		.4byte	0
  1291              		.section	.debug_line,"",%progbits
  1292              	.Ldebug_line0:
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 31
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cccpIgSb.s 			page 31
 
 
  1293 0000 74010000 		.section	.debug_str,"MS",%progbits,1
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  1313      676E6564 
  1313      20636861 
  1313      7200
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 32
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cccpIgSb.s 			page 32
 
 
  1314              	.LASF21:
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  1337 0192 61646472 		.ascii	"address\000"
  1337      65737300 
  1338              	.LASF39:
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 33
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cccpIgSb.s 			page 33
 
 
  1339 019a 43794578 		.ascii	"CyExitCriticalSection\000"
@@ -1947,87 +1947,87 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 1
  1347 01f5 73697A65 		.ascii	"sizetype\000"
  1347      74797065 
  1347      00
- 1348              	.LASF35:
- 1349 01fe 443A5C44 		.ascii	"D:\\Documents\\PSoC Creator\\IdeaArlobot\\SingleBoa"
- 1349      6F63756D 
- 1349      656E7473 
- 1349      5C50536F 
- 1349      43204372 
- 1350 022d 72644465 		.ascii	"rdDesign-046.cydsn\000"
- 1350      7369676E 
- 1350      2D303436 
- 1350      2E637964 
- 1350      736E00
- 1351              	.LASF6:
- 1352 0240 6C6F6E67 		.ascii	"long long int\000"
- 1352      206C6F6E 
- 1352      6720696E 
- 1352      7400
- 1353              	.LASF13:
- 1354 024e 63686172 		.ascii	"char\000"
- 1354      00
- 1355              	.LASF33:
- 1356 0253 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
- 1356      4320342E 
- 1356      392E3320 
- 1356      32303135 
- 1356      30333033 
- 1357 0286 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
- 1357      20726576 
- 1357      6973696F 
- 1357      6E203232 
- 1357      31323230 
- 1358 02b9 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccZie3Eu.s 			page 34
+ 1348              	.LASF6:
+ 1349 01fe 6C6F6E67 		.ascii	"long long int\000"
+ 1349      206C6F6E 
+ 1349      6720696E 
+ 1349      7400
+ 1350              	.LASF13:
+ 1351 020c 63686172 		.ascii	"char\000"
+ 1351      00
+ 1352              	.LASF33:
+ 1353 0211 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
+ 1353      4320342E 
+ 1353      392E3320 
+ 1353      32303135 
+ 1353      30333033 
+ 1354 0244 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
+ 1354      20726576 
+ 1354      6973696F 
+ 1354      6E203232 
+ 1354      31323230 
+ 1355 0277 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 1355      66756E63 
+ 1355      74696F6E 
+ 1355      2D736563 
+ 1355      74696F6E 
+ 1356              	.LASF2:
+ 1357 029f 73686F72 		.ascii	"short int\000"
+ 1357      7420696E 
+ 1357      7400
+ 1358              	.LASF35:
+ 1359 02a9 443A5C44 		.ascii	"D:\\Documents\\PSoC Creator\\IdealArlobot\\SingleBo"
+ 1359      6F63756D 
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cccpIgSb.s 			page 34
 
 
- 1358      66756E63 
- 1358      74696F6E 
- 1358      2D736563 
- 1358      74696F6E 
- 1359              	.LASF2:
- 1360 02e1 73686F72 		.ascii	"short int\000"
- 1360      7420696E 
- 1360      7400
+ 1359      656E7473 
+ 1359      5C50536F 
+ 1359      43204372 
+ 1360 02d8 61726444 		.ascii	"ardDesign-046.cydsn\000"
+ 1360      65736967 
+ 1360      6E2D3034 
+ 1360      362E6379 
+ 1360      64736E00 
  1361              	.LASF18:
- 1362 02eb 48435352 		.ascii	"HCSR04_Timeout_Intr_SetPriority\000"
+ 1362 02ec 48435352 		.ascii	"HCSR04_Timeout_Intr_SetPriority\000"
  1362      30345F54 
  1362      696D656F 
  1362      75745F49 
  1362      6E74725F 
  1363              	.LASF22:
- 1364 030b 7072696F 		.ascii	"priorityOffset\000"
+ 1364 030c 7072696F 		.ascii	"priorityOffset\000"
  1364      72697479 
  1364      4F666673 
  1364      657400
  1365              	.LASF4:
- 1366 031a 6C6F6E67 		.ascii	"long int\000"
+ 1366 031b 6C6F6E67 		.ascii	"long int\000"
  1366      20696E74 
  1366      00
  1367              	.LASF29:
- 1368 0323 48435352 		.ascii	"HCSR04_Timeout_Intr_StartEx\000"
+ 1368 0324 48435352 		.ascii	"HCSR04_Timeout_Intr_StartEx\000"
  1368      30345F54 
  1368      696D656F 
  1368      75745F49 
  1368      6E74725F 
  1369              	.LASF36:
- 1370 033f 48435352 		.ascii	"HCSR04_Timeout_Intr_GetPriority\000"
+ 1370 0340 48435352 		.ascii	"HCSR04_Timeout_Intr_GetPriority\000"
  1370      30345F54 
  1370      696D656F 
  1370      75745F49 
  1370      6E74725F 
  1371              	.LASF17:
- 1372 035f 48435352 		.ascii	"HCSR04_Timeout_Intr_SetVector\000"
+ 1372 0360 48435352 		.ascii	"HCSR04_Timeout_Intr_SetVector\000"
  1372      30345F54 
  1372      696D656F 
  1372      75745F49 
  1372      6E74725F 
  1373              	.LASF0:
- 1374 037d 7369676E 		.ascii	"signed char\000"
+ 1374 037e 7369676E 		.ascii	"signed char\000"
  1374      65642063 
  1374      68617200 
  1375              	.LASF24:
- 1376 0389 48435352 		.ascii	"HCSR04_Timeout_Intr_Enable\000"
+ 1376 038a 48435352 		.ascii	"HCSR04_Timeout_Intr_Enable\000"
  1376      30345F54 
  1376      696D656F 
  1376      75745F49 

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccJ4kI6S.s 			page 1
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc7dMyss.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccJ4kI6S.s 			page 1
   30:.\Generated_Source\PSoC4/HCSR04_Timer_PM.c **** *
   31:.\Generated_Source\PSoC4/HCSR04_Timer_PM.c **** * Parameters:
   32:.\Generated_Source\PSoC4/HCSR04_Timer_PM.c **** *  None
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccJ4kI6S.s 			page 2
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc7dMyss.s 			page 2
 
 
   33:.\Generated_Source\PSoC4/HCSR04_Timer_PM.c **** *
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccJ4kI6S.s 			page 1
   52 0008 03D5     		bpl	.L3
   61:.\Generated_Source\PSoC4/HCSR04_Timer_PM.c ****     {
   62:.\Generated_Source\PSoC4/HCSR04_Timer_PM.c ****         HCSR04_Timer_backup.enableState = 1u;
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccJ4kI6S.s 			page 3
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc7dMyss.s 			page 3
 
 
   53              		.loc 1 62 0
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccJ4kI6S.s 			page 1
   84:.\Generated_Source\PSoC4/HCSR04_Timer_PM.c **** * Return:
   85:.\Generated_Source\PSoC4/HCSR04_Timer_PM.c **** *  None
   86:.\Generated_Source\PSoC4/HCSR04_Timer_PM.c **** *
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccJ4kI6S.s 			page 4
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc7dMyss.s 			page 4
 
 
   87:.\Generated_Source\PSoC4/HCSR04_Timer_PM.c **** *******************************************************************************/
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccJ4kI6S.s 			page 1
  114:.\Generated_Source\PSoC4/HCSR04_Timer_PM.c ****         HCSR04_Timer_Enable();
  113              		.loc 1 114 0
  114 000a FFF7FEFF 		bl	HCSR04_Timer_Enable
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccJ4kI6S.s 			page 5
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc7dMyss.s 			page 5
 
 
  115              	.LVL1:
@@ -273,40 +273,40 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccJ4kI6S.s 			page 1
  142 0006 00000000 		.4byte	.Ldebug_abbrev0
  143 000a 04       		.byte	0x4
  144 000b 01       		.uleb128 0x1
- 145 000c C7010000 		.4byte	.LASF23
+ 145 000c C8010000 		.4byte	.LASF23
  146 0010 01       		.byte	0x1
- 147 0011 64000000 		.4byte	.LASF24
- 148 0015 AA000000 		.4byte	.LASF25
+ 147 0011 7F000000 		.4byte	.LASF24
+ 148 0015 85010000 		.4byte	.LASF25
  149 0019 00000000 		.4byte	.Ldebug_ranges0+0
  150 001d 00000000 		.4byte	0
  151 0021 00000000 		.4byte	.Ldebug_line0
  152 0025 02       		.uleb128 0x2
  153 0026 01       		.byte	0x1
  154 0027 06       		.byte	0x6
- 155 0028 9D010000 		.4byte	.LASF0
+ 155 0028 5B010000 		.4byte	.LASF0
  156 002c 02       		.uleb128 0x2
  157 002d 01       		.byte	0x1
  158 002e 08       		.byte	0x8
- 159 002f 35010000 		.4byte	.LASF1
+ 159 002f F3000000 		.4byte	.LASF1
  160 0033 02       		.uleb128 0x2
  161 0034 02       		.byte	0x2
  162 0035 05       		.byte	0x5
- 163 0036 55020000 		.4byte	.LASF2
+ 163 0036 56020000 		.4byte	.LASF2
  164 003a 02       		.uleb128 0x2
  165 003b 02       		.byte	0x2
  166 003c 07       		.byte	0x7
- 167 003d 8A010000 		.4byte	.LASF3
+ 167 003d 48010000 		.4byte	.LASF3
  168 0041 02       		.uleb128 0x2
  169 0042 04       		.byte	0x4
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccJ4kI6S.s 			page 6
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc7dMyss.s 			page 6
 
 
  170 0043 05       		.byte	0x5
- 171 0044 48010000 		.4byte	.LASF4
+ 171 0044 06010000 		.4byte	.LASF4
  172 0048 02       		.uleb128 0x2
  173 0049 04       		.byte	0x4
  174 004a 07       		.byte	0x7
- 175 004b F2000000 		.4byte	.LASF5
+ 175 004b B0000000 		.4byte	.LASF5
  176 004f 02       		.uleb128 0x2
  177 0050 08       		.byte	0x8
  178 0051 05       		.byte	0x5
@@ -314,7 +314,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccJ4kI6S.s 			page 1
  180 0056 02       		.uleb128 0x2
  181 0057 08       		.byte	0x8
  182 0058 07       		.byte	0x7
- 183 0059 04010000 		.4byte	.LASF7
+ 183 0059 C2000000 		.4byte	.LASF7
  184 005d 03       		.uleb128 0x3
  185 005e 04       		.byte	0x4
  186 005f 05       		.byte	0x5
@@ -324,7 +324,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccJ4kI6S.s 			page 1
  190 0066 07       		.byte	0x7
  191 0067 29000000 		.4byte	.LASF8
  192 006b 04       		.uleb128 0x4
- 193 006c EC000000 		.4byte	.LASF9
+ 193 006c AA000000 		.4byte	.LASF9
  194 0070 02       		.byte	0x2
  195 0071 3801     		.2byte	0x138
  196 0073 2C000000 		.4byte	0x2c
@@ -336,17 +336,17 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccJ4kI6S.s 			page 1
  202 0083 02       		.uleb128 0x2
  203 0084 04       		.byte	0x4
  204 0085 04       		.byte	0x4
- 205 0086 1B010000 		.4byte	.LASF11
+ 205 0086 D9000000 		.4byte	.LASF11
  206 008a 02       		.uleb128 0x2
  207 008b 08       		.byte	0x8
  208 008c 04       		.byte	0x4
- 209 008d 65010000 		.4byte	.LASF12
+ 209 008d 23010000 		.4byte	.LASF12
  210 0091 02       		.uleb128 0x2
  211 0092 01       		.byte	0x1
  212 0093 08       		.byte	0x8
- 213 0094 43010000 		.4byte	.LASF13
+ 213 0094 01010000 		.4byte	.LASF13
  214 0098 04       		.uleb128 0x4
- 215 0099 84010000 		.4byte	.LASF14
+ 215 0099 42010000 		.4byte	.LASF14
  216 009d 02       		.byte	0x2
  217 009e E401     		.2byte	0x1e4
  218 00a0 A4000000 		.4byte	0xa4
@@ -355,29 +355,29 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccJ4kI6S.s 			page 1
  221 00a9 02       		.uleb128 0x2
  222 00aa 04       		.byte	0x4
  223 00ab 07       		.byte	0x7
- 224 00ac 5F020000 		.4byte	.LASF15
+ 224 00ac 60020000 		.4byte	.LASF15
  225 00b0 06       		.uleb128 0x6
  226 00b1 01       		.byte	0x1
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccJ4kI6S.s 			page 7
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc7dMyss.s 			page 7
 
 
  227 00b2 03       		.byte	0x3
  228 00b3 21       		.byte	0x21
  229 00b4 C5000000 		.4byte	0xc5
  230 00b8 07       		.uleb128 0x7
- 231 00b9 A9010000 		.4byte	.LASF26
+ 231 00b9 67010000 		.4byte	.LASF26
  232 00bd 03       		.byte	0x3
  233 00be 23       		.byte	0x23
  234 00bf 6B000000 		.4byte	0x6b
  235 00c3 00       		.byte	0
  236 00c4 00       		.byte	0
  237 00c5 08       		.uleb128 0x8
- 238 00c6 8F000000 		.4byte	.LASF16
+ 238 00c6 64000000 		.4byte	.LASF16
  239 00ca 03       		.byte	0x3
  240 00cb 24       		.byte	0x24
  241 00cc B0000000 		.4byte	0xb0
  242 00d0 09       		.uleb128 0x9
- 243 00d1 6C010000 		.4byte	.LASF17
+ 243 00d1 2A010000 		.4byte	.LASF17
  244 00d5 01       		.byte	0x1
  245 00d6 26       		.byte	0x26
  246 00d7 00000000 		.4byte	.LFB2
@@ -406,7 +406,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccJ4kI6S.s 			page 1
  269 010f 01       		.uleb128 0x1
  270 0110 9C       		.byte	0x9c
  271 0111 0A       		.uleb128 0xa
- 272 0112 51010000 		.4byte	.LASF20
+ 272 0112 0F010000 		.4byte	.LASF20
  273 0116 01       		.byte	0x1
  274 0117 6C       		.byte	0x6c
  275 0118 00000000 		.4byte	.LFB5
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccJ4kI6S.s 			page 1
  281 0127 0E000000 		.4byte	.LVL1
  282 012b 49010000 		.4byte	0x149
  283 012f 00       		.byte	0
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccJ4kI6S.s 			page 8
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc7dMyss.s 			page 8
 
 
  284 0130 0C       		.uleb128 0xc
@@ -430,11 +430,11 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccJ4kI6S.s 			page 1
  290 013c 03       		.byte	0x3
  291 013d 00000000 		.4byte	HCSR04_Timer_backup
  292 0141 0D       		.uleb128 0xd
- 293 0142 B5010000 		.4byte	.LASF21
+ 293 0142 73010000 		.4byte	.LASF21
  294 0146 03       		.byte	0x3
  295 0147 3201     		.2byte	0x132
  296 0149 0D       		.uleb128 0xd
- 297 014a 21010000 		.4byte	.LASF22
+ 297 014a DF000000 		.4byte	.LASF22
  298 014e 03       		.byte	0x3
  299 014f 3001     		.2byte	0x130
  300 0151 00       		.byte	0
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccJ4kI6S.s 			page 1
  338 0023 3E       		.uleb128 0x3e
  339 0024 0B       		.uleb128 0xb
  340 0025 03       		.uleb128 0x3
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccJ4kI6S.s 			page 9
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc7dMyss.s 			page 9
 
 
  341 0026 08       		.uleb128 0x8
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccJ4kI6S.s 			page 1
  395 005c 03       		.uleb128 0x3
  396 005d 0E       		.uleb128 0xe
  397 005e 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccJ4kI6S.s 			page 10
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc7dMyss.s 			page 10
 
 
  398 005f 0B       		.uleb128 0xb
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccJ4kI6S.s 			page 1
  452 0097 00       		.byte	0
  453 0098 0B       		.uleb128 0xb
  454 0099 898201   		.uleb128 0x4109
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccJ4kI6S.s 			page 11
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc7dMyss.s 			page 11
 
 
  455 009c 00       		.byte	0
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccJ4kI6S.s 			page 1
  509 0028 00000000 		.4byte	.LFB5
  510 002c 14000000 		.4byte	.LFE5-.LFB5
  511 0030 00000000 		.4byte	0
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccJ4kI6S.s 			page 12
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc7dMyss.s 			page 12
 
 
  512 0034 00000000 		.4byte	0
@@ -712,133 +712,133 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccJ4kI6S.s 			page 1
  539      696D6572 
  539      5F536C65 
  539      657000
- 540              	.LASF24:
- 541 0064 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\HCSR04_Timer_PM.c\000"
- 541      6E657261 
- 541      7465645F 
- 541      536F7572 
- 541      63655C50 
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccJ4kI6S.s 			page 13
+ 540              	.LASF16:
+ 541 0064 48435352 		.ascii	"HCSR04_Timer_BACKUP_STRUCT\000"
+ 541      30345F54 
+ 541      696D6572 
+ 541      5F424143 
+ 541      4B55505F 
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc7dMyss.s 			page 13
 
 
- 542              	.LASF16:
- 543 008f 48435352 		.ascii	"HCSR04_Timer_BACKUP_STRUCT\000"
- 543      30345F54 
- 543      696D6572 
- 543      5F424143 
- 543      4B55505F 
- 544              	.LASF25:
- 545 00aa 443A5C44 		.ascii	"D:\\Documents\\PSoC Creator\\IdeaArlobot\\SingleBoa"
- 545      6F63756D 
- 545      656E7473 
- 545      5C50536F 
- 545      43204372 
- 546 00d9 72644465 		.ascii	"rdDesign-046.cydsn\000"
- 546      7369676E 
- 546      2D303436 
- 546      2E637964 
- 546      736E00
- 547              	.LASF9:
- 548 00ec 75696E74 		.ascii	"uint8\000"
- 548      3800
- 549              	.LASF5:
- 550 00f2 6C6F6E67 		.ascii	"long unsigned int\000"
- 550      20756E73 
- 550      69676E65 
- 550      6420696E 
- 550      7400
- 551              	.LASF7:
- 552 0104 6C6F6E67 		.ascii	"long long unsigned int\000"
- 552      206C6F6E 
- 552      6720756E 
- 552      7369676E 
- 552      65642069 
- 553              	.LASF11:
- 554 011b 666C6F61 		.ascii	"float\000"
- 554      7400
- 555              	.LASF22:
- 556 0121 48435352 		.ascii	"HCSR04_Timer_Enable\000"
- 556      30345F54 
- 556      696D6572 
- 556      5F456E61 
- 556      626C6500 
- 557              	.LASF1:
- 558 0135 756E7369 		.ascii	"unsigned char\000"
- 558      676E6564 
- 558      20636861 
- 558      7200
- 559              	.LASF13:
- 560 0143 63686172 		.ascii	"char\000"
- 560      00
- 561              	.LASF4:
- 562 0148 6C6F6E67 		.ascii	"long int\000"
- 562      20696E74 
- 562      00
- 563              	.LASF20:
- 564 0151 48435352 		.ascii	"HCSR04_Timer_Wakeup\000"
- 564      30345F54 
- 564      696D6572 
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccJ4kI6S.s 			page 14
+ 542              	.LASF24:
+ 543 007f 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\HCSR04_Timer_PM.c\000"
+ 543      6E657261 
+ 543      7465645F 
+ 543      536F7572 
+ 543      63655C50 
+ 544              	.LASF9:
+ 545 00aa 75696E74 		.ascii	"uint8\000"
+ 545      3800
+ 546              	.LASF5:
+ 547 00b0 6C6F6E67 		.ascii	"long unsigned int\000"
+ 547      20756E73 
+ 547      69676E65 
+ 547      6420696E 
+ 547      7400
+ 548              	.LASF7:
+ 549 00c2 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 549      206C6F6E 
+ 549      6720756E 
+ 549      7369676E 
+ 549      65642069 
+ 550              	.LASF11:
+ 551 00d9 666C6F61 		.ascii	"float\000"
+ 551      7400
+ 552              	.LASF22:
+ 553 00df 48435352 		.ascii	"HCSR04_Timer_Enable\000"
+ 553      30345F54 
+ 553      696D6572 
+ 553      5F456E61 
+ 553      626C6500 
+ 554              	.LASF1:
+ 555 00f3 756E7369 		.ascii	"unsigned char\000"
+ 555      676E6564 
+ 555      20636861 
+ 555      7200
+ 556              	.LASF13:
+ 557 0101 63686172 		.ascii	"char\000"
+ 557      00
+ 558              	.LASF4:
+ 559 0106 6C6F6E67 		.ascii	"long int\000"
+ 559      20696E74 
+ 559      00
+ 560              	.LASF20:
+ 561 010f 48435352 		.ascii	"HCSR04_Timer_Wakeup\000"
+ 561      30345F54 
+ 561      696D6572 
+ 561      5F57616B 
+ 561      65757000 
+ 562              	.LASF12:
+ 563 0123 646F7562 		.ascii	"double\000"
+ 563      6C6500
+ 564              	.LASF17:
+ 565 012a 48435352 		.ascii	"HCSR04_Timer_SaveConfig\000"
+ 565      30345F54 
+ 565      696D6572 
+ 565      5F536176 
+ 565      65436F6E 
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc7dMyss.s 			page 14
 
 
- 564      5F57616B 
- 564      65757000 
- 565              	.LASF12:
- 566 0165 646F7562 		.ascii	"double\000"
- 566      6C6500
- 567              	.LASF17:
- 568 016c 48435352 		.ascii	"HCSR04_Timer_SaveConfig\000"
- 568      30345F54 
- 568      696D6572 
- 568      5F536176 
- 568      65436F6E 
- 569              	.LASF14:
- 570 0184 72656733 		.ascii	"reg32\000"
- 570      3200
- 571              	.LASF3:
- 572 018a 73686F72 		.ascii	"short unsigned int\000"
- 572      7420756E 
- 572      7369676E 
- 572      65642069 
- 572      6E7400
- 573              	.LASF0:
- 574 019d 7369676E 		.ascii	"signed char\000"
- 574      65642063 
- 574      68617200 
- 575              	.LASF26:
- 576 01a9 656E6162 		.ascii	"enableState\000"
- 576      6C655374 
- 576      61746500 
- 577              	.LASF21:
- 578 01b5 48435352 		.ascii	"HCSR04_Timer_Stop\000"
- 578      30345F54 
- 578      696D6572 
- 578      5F53746F 
- 578      7000
+ 566              	.LASF14:
+ 567 0142 72656733 		.ascii	"reg32\000"
+ 567      3200
+ 568              	.LASF3:
+ 569 0148 73686F72 		.ascii	"short unsigned int\000"
+ 569      7420756E 
+ 569      7369676E 
+ 569      65642069 
+ 569      6E7400
+ 570              	.LASF0:
+ 571 015b 7369676E 		.ascii	"signed char\000"
+ 571      65642063 
+ 571      68617200 
+ 572              	.LASF26:
+ 573 0167 656E6162 		.ascii	"enableState\000"
+ 573      6C655374 
+ 573      61746500 
+ 574              	.LASF21:
+ 575 0173 48435352 		.ascii	"HCSR04_Timer_Stop\000"
+ 575      30345F54 
+ 575      696D6572 
+ 575      5F53746F 
+ 575      7000
+ 576              	.LASF25:
+ 577 0185 443A5C44 		.ascii	"D:\\Documents\\PSoC Creator\\IdealArlobot\\SingleBo"
+ 577      6F63756D 
+ 577      656E7473 
+ 577      5C50536F 
+ 577      43204372 
+ 578 01b4 61726444 		.ascii	"ardDesign-046.cydsn\000"
+ 578      65736967 
+ 578      6E2D3034 
+ 578      362E6379 
+ 578      64736E00 
  579              	.LASF23:
- 580 01c7 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
+ 580 01c8 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
  580      4320342E 
  580      392E3320 
  580      32303135 
  580      30333033 
- 581 01fa 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
+ 581 01fb 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
  581      20726576 
  581      6973696F 
  581      6E203232 
  581      31323230 
- 582 022d 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 582 022e 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
  582      66756E63 
  582      74696F6E 
  582      2D736563 
  582      74696F6E 
  583              	.LASF2:
- 584 0255 73686F72 		.ascii	"short int\000"
+ 584 0256 73686F72 		.ascii	"short int\000"
  584      7420696E 
  584      7400
  585              	.LASF15:
- 586 025f 73697A65 		.ascii	"sizetype\000"
+ 586 0260 73697A65 		.ascii	"sizetype\000"
  586      74797065 
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccJ4kI6S.s 			page 15
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc7dMyss.s 			page 15
 
 
  586      00

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 1
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc9nBAkt.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 1
   30:.\Generated_Source\PSoC4/HCSR04_Echo_9.c ****         #define HCSR04_Echo_9_SetP4PinDriveMode(shift, mode)  \
   31:.\Generated_Source\PSoC4/HCSR04_Echo_9.c ****         do { \
   32:.\Generated_Source\PSoC4/HCSR04_Echo_9.c ****             HCSR04_Echo_9_USBIO_CTRL_REG = (HCSR04_Echo_9_USBIO_CTRL_REG & \
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 2
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc9nBAkt.s 			page 2
 
 
   33:.\Generated_Source\PSoC4/HCSR04_Echo_9.c ****                                     (uint32)(~(uint32)(HCSR04_Echo_9_DRIVE_MODE_IND_MASK << \
@@ -111,22 +111,22 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 1
   31 0002 1168     		ldr	r1, [r2]
   32 0004 034B     		ldr	r3, .L2+4
   33 0006 0B40     		and	r3, r1
-  34 0008 0003     		lsl	r0, r0, #12
+  34 0008 8004     		lsl	r0, r0, #18
   35              	.LVL1:
   36 000a 1843     		orr	r0, r3
   37 000c 1060     		str	r0, [r2]
   75:.\Generated_Source\PSoC4/HCSR04_Echo_9.c ****     }
   38              		.loc 1 75 0
   39              		@ sp needed
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 3
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc9nBAkt.s 			page 3
 
 
   40 000e 7047     		bx	lr
   41              	.L3:
   42              		.align	2
   43              	.L2:
-  44 0010 08050440 		.word	1074005256
-  45 0014 FF8FFFFF 		.word	-28673
+  44 0010 08040440 		.word	1074005000
+  45 0014 FFFFE3FF 		.word	-1835009
   46              		.cfi_endproc
   47              	.LFE0:
   48              		.size	HCSR04_Echo_9_SetDriveMode, .-HCSR04_Echo_9_SetDriveMode
@@ -178,21 +178,21 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 1
   57              		.loc 1 112 0
   58              		.cfi_startproc
   59              	.LVL2:
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 4
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc9nBAkt.s 			page 4
 
 
  113:.\Generated_Source\PSoC4/HCSR04_Echo_9.c ****     uint8 drVal = (uint8)(HCSR04_Echo_9_DR & (uint8)(~HCSR04_Echo_9_MASK));
   60              		.loc 1 113 0
   61 0000 0449     		ldr	r1, .L5
   62 0002 0A68     		ldr	r2, [r1]
-  63 0004 EF23     		mov	r3, #239
+  63 0004 BF23     		mov	r3, #191
   64 0006 1A40     		and	r2, r3
   65              	.LVL3:
  114:.\Generated_Source\PSoC4/HCSR04_Echo_9.c ****     drVal = (drVal | ((uint8)(value << HCSR04_Echo_9_SHIFT) & HCSR04_Echo_9_MASK));
   66              		.loc 1 114 0
-  67 0008 0001     		lsl	r0, r0, #4
+  67 0008 8001     		lsl	r0, r0, #6
   68              	.LVL4:
-  69 000a DF3B     		sub	r3, r3, #223
+  69 000a 7F3B     		sub	r3, r3, #127
   70 000c 1840     		and	r0, r3
   71 000e 1043     		orr	r0, r2
   72              	.LVL5:
@@ -206,7 +206,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 1
   78              	.L6:
   79              		.align	2
   80              	.L5:
-  81 0014 00050440 		.word	1074005248
+  81 0014 00040440 		.word	1074004992
   82              		.cfi_endproc
   83              	.LFE1:
   84              		.size	HCSR04_Echo_9_Write, .-HCSR04_Echo_9_Write
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 1
  134:.\Generated_Source\PSoC4/HCSR04_Echo_9.c **** *  \snippet HCSR04_Echo_9_SUT.c usage_HCSR04_Echo_9_Read  
  135:.\Generated_Source\PSoC4/HCSR04_Echo_9.c **** *******************************************************************************/
  136:.\Generated_Source\PSoC4/HCSR04_Echo_9.c **** uint8 HCSR04_Echo_9_Read(void)
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 5
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc9nBAkt.s 			page 5
 
 
  137:.\Generated_Source\PSoC4/HCSR04_Echo_9.c **** {
@@ -248,7 +248,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 1
   95              		.loc 1 138 0
   96 0000 024B     		ldr	r3, .L8
   97 0002 1868     		ldr	r0, [r3]
-  98 0004 C006     		lsl	r0, r0, #27
+  98 0004 4006     		lsl	r0, r0, #25
   99 0006 C00F     		lsr	r0, r0, #31
  139:.\Generated_Source\PSoC4/HCSR04_Echo_9.c **** }
  100              		.loc 1 139 0
@@ -257,7 +257,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 1
  103              	.L9:
  104 000a C046     		.align	2
  105              	.L8:
- 106 000c 04050440 		.word	1074005252
+ 106 000c 04040440 		.word	1074004996
  107              		.cfi_endproc
  108              	.LFE2:
  109              		.size	HCSR04_Echo_9_Read, .-HCSR04_Echo_9_Read
@@ -298,13 +298,13 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 1
  118              		.loc 1 165 0
  119              		.cfi_startproc
  166:.\Generated_Source\PSoC4/HCSR04_Echo_9.c ****     return (uint8)((HCSR04_Echo_9_DR & HCSR04_Echo_9_MASK) >> HCSR04_Echo_9_SHIFT);
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 6
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc9nBAkt.s 			page 6
 
 
  120              		.loc 1 166 0
  121 0000 024B     		ldr	r3, .L11
  122 0002 1868     		ldr	r0, [r3]
- 123 0004 C006     		lsl	r0, r0, #27
+ 123 0004 4006     		lsl	r0, r0, #25
  124 0006 C00F     		lsr	r0, r0, #31
  167:.\Generated_Source\PSoC4/HCSR04_Echo_9.c **** }
  125              		.loc 1 167 0
@@ -313,7 +313,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 1
  128              	.L12:
  129 000a C046     		.align	2
  130              	.L11:
- 131 000c 00050440 		.word	1074005248
+ 131 000c 00040440 		.word	1074004992
  132              		.cfi_endproc
  133              	.LFE3:
  134              		.size	HCSR04_Echo_9_ReadDataReg, .-HCSR04_Echo_9_ReadDataReg
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 1
  198:.\Generated_Source\PSoC4/HCSR04_Echo_9.c **** * \sideeffect
  199:.\Generated_Source\PSoC4/HCSR04_Echo_9.c **** *  It is recommended that the interrupt be disabled before calling this 
  200:.\Generated_Source\PSoC4/HCSR04_Echo_9.c **** *  function to avoid unintended interrupt requests. Note that the interrupt
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 7
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc9nBAkt.s 			page 7
 
 
  201:.\Generated_Source\PSoC4/HCSR04_Echo_9.c **** *  type is port wide, and therefore will trigger for any enabled pin on the 
@@ -393,7 +393,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 1
  159              	.L15:
  160 000e C046     		.align	2
  161              	.L14:
- 162 0010 0C050440 		.word	1074005260
+ 162 0010 0C040440 		.word	1074005004
  163              		.cfi_endproc
  164              	.LFE4:
  165              		.size	HCSR04_Echo_9_SetInterruptMode, .-HCSR04_Echo_9_SetInterruptMode
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 1
  224:.\Generated_Source\PSoC4/HCSR04_Echo_9.c **** * \return 
  225:.\Generated_Source\PSoC4/HCSR04_Echo_9.c **** *  The right-shifted current value of the interrupt status register. Each pin 
  226:.\Generated_Source\PSoC4/HCSR04_Echo_9.c **** *  has one bit set if it generated an interrupt event. For example, bit 0 is 
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 8
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc9nBAkt.s 			page 8
 
 
  227:.\Generated_Source\PSoC4/HCSR04_Echo_9.c **** *  for pin 0 and bit 1 is for pin 1 of the Pins component.
@@ -438,7 +438,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 1
  176              		.loc 1 238 0
  177 0000 034A     		ldr	r2, .L17
  178 0002 1068     		ldr	r0, [r2]
- 179 0004 1023     		mov	r3, #16
+ 179 0004 4023     		mov	r3, #64
  180 0006 1840     		and	r0, r3
  181              	.LVL9:
  239:.\Generated_Source\PSoC4/HCSR04_Echo_9.c **** 	HCSR04_Echo_9_INTSTAT = maskedStatus;
@@ -446,7 +446,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 1
  183 0008 1060     		str	r0, [r2]
  240:.\Generated_Source\PSoC4/HCSR04_Echo_9.c ****     return maskedStatus >> HCSR04_Echo_9_SHIFT;
  184              		.loc 1 240 0
- 185 000a 0009     		lsr	r0, r0, #4
+ 185 000a 8009     		lsr	r0, r0, #6
  186              	.LVL10:
  187 000c C0B2     		uxtb	r0, r0
  241:.\Generated_Source\PSoC4/HCSR04_Echo_9.c **** }
@@ -456,7 +456,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 1
  191              	.L18:
  192              		.align	2
  193              	.L17:
- 194 0010 10050440 		.word	1074005264
+ 194 0010 10040440 		.word	1074005008
  195              		.cfi_endproc
  196              	.LFE5:
  197              		.size	HCSR04_Echo_9_ClearInterrupt, .-HCSR04_Echo_9_ClearInterrupt
@@ -470,20 +470,20 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 1
  205 0006 00000000 		.4byte	.Ldebug_abbrev0
  206 000a 04       		.byte	0x4
  207 000b 01       		.uleb128 0x1
- 208 000c 60010000 		.4byte	.LASF28
+ 208 000c 1E010000 		.4byte	.LASF28
  209 0010 01       		.byte	0x1
- 210 0011 41020000 		.4byte	.LASF29
- 211 0015 FE000000 		.4byte	.LASF30
+ 210 0011 42020000 		.4byte	.LASF29
+ 211 0015 B6010000 		.4byte	.LASF30
  212 0019 00000000 		.4byte	.Ldebug_ranges0+0
  213 001d 00000000 		.4byte	0
  214 0021 00000000 		.4byte	.Ldebug_line0
  215 0025 02       		.uleb128 0x2
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 9
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc9nBAkt.s 			page 9
 
 
  216 0026 01       		.byte	0x1
  217 0027 06       		.byte	0x6
- 218 0028 35020000 		.4byte	.LASF0
+ 218 0028 36020000 		.4byte	.LASF0
  219 002c 02       		.uleb128 0x2
  220 002d 01       		.byte	0x1
  221 002e 08       		.byte	0x8
@@ -491,7 +491,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 1
  223 0033 02       		.uleb128 0x2
  224 0034 02       		.byte	0x2
  225 0035 05       		.byte	0x5
- 226 0036 EE010000 		.4byte	.LASF2
+ 226 0036 AC010000 		.4byte	.LASF2
  227 003a 02       		.uleb128 0x2
  228 003b 02       		.byte	0x2
  229 003c 07       		.byte	0x7
@@ -499,7 +499,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 1
  231 0041 02       		.uleb128 0x2
  232 0042 04       		.byte	0x4
  233 0043 05       		.byte	0x5
- 234 0044 2C020000 		.4byte	.LASF4
+ 234 0044 2D020000 		.4byte	.LASF4
  235 0048 02       		.uleb128 0x2
  236 0049 04       		.byte	0x4
  237 004a 07       		.byte	0x7
@@ -507,7 +507,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 1
  239 004f 02       		.uleb128 0x2
  240 0050 08       		.byte	0x8
  241 0051 05       		.byte	0x5
- 242 0052 40010000 		.4byte	.LASF6
+ 242 0052 FE000000 		.4byte	.LASF6
  243 0056 02       		.uleb128 0x2
  244 0057 08       		.byte	0x8
  245 0058 07       		.byte	0x7
@@ -521,7 +521,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 1
  253 0066 07       		.byte	0x7
  254 0067 D5000000 		.4byte	.LASF8
  255 006b 04       		.uleb128 0x4
- 256 006c F8010000 		.4byte	.LASF9
+ 256 006c F9010000 		.4byte	.LASF9
  257 0070 02       		.byte	0x2
  258 0071 3801     		.2byte	0x138
  259 0073 2C000000 		.4byte	0x2c
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 1
  270 008f 02       		.uleb128 0x2
  271 0090 04       		.byte	0x4
  272 0091 04       		.byte	0x4
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 10
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc9nBAkt.s 			page 10
 
 
  273 0092 0C000000 		.4byte	.LASF12
@@ -549,7 +549,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 1
  278 009d 02       		.uleb128 0x2
  279 009e 01       		.byte	0x1
  280 009f 08       		.byte	0x8
- 281 00a0 5B010000 		.4byte	.LASF14
+ 281 00a0 19010000 		.4byte	.LASF14
  282 00a4 04       		.uleb128 0x4
  283 00a5 00000000 		.4byte	.LASF15
  284 00a9 02       		.byte	0x2
@@ -558,7 +558,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 1
  287 00b0 05       		.uleb128 0x5
  288 00b1 83000000 		.4byte	0x83
  289 00b5 06       		.uleb128 0x6
- 290 00b6 FE010000 		.4byte	.LASF16
+ 290 00b6 FF010000 		.4byte	.LASF16
  291 00ba 01       		.byte	0x1
  292 00bb 48       		.byte	0x48
  293 00bc 00000000 		.4byte	.LFB0
@@ -589,16 +589,16 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 1
  318 00f6 6B000000 		.4byte	0x6b
  319 00fa 21000000 		.4byte	.LLST1
  320 00fe 08       		.uleb128 0x8
- 321 00ff 6A020000 		.4byte	.LASF24
+ 321 00ff 6B020000 		.4byte	.LASF24
  322 0103 01       		.byte	0x1
  323 0104 71       		.byte	0x71
  324 0105 6B000000 		.4byte	0x6b
  325 0109 42000000 		.4byte	.LLST2
  326 010d 00       		.byte	0
  327 010e 09       		.uleb128 0x9
- 328 010f 19020000 		.4byte	.LASF20
+ 328 010f 1A020000 		.4byte	.LASF20
  329 0113 01       		.byte	0x1
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 11
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc9nBAkt.s 			page 11
 
 
  330 0114 88       		.byte	0x88
@@ -656,9 +656,9 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 1
  382 018a 01       		.uleb128 0x1
  383 018b 9C       		.byte	0x9c
  384 018c 08       		.uleb128 0x8
- 385 018d 4E010000 		.4byte	.LASF27
+ 385 018d 0C010000 		.4byte	.LASF27
  386 0191 01       		.byte	0x1
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 12
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc9nBAkt.s 			page 12
 
 
  387 0192 EE       		.byte	0xee
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 1
  441 002f 0B       		.uleb128 0xb
  442 0030 3B       		.uleb128 0x3b
  443 0031 05       		.uleb128 0x5
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 13
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc9nBAkt.s 			page 13
 
 
  444 0032 49       		.uleb128 0x49
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 1
  498 0069 03       		.uleb128 0x3
  499 006a 0E       		.uleb128 0xe
  500 006b 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 14
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc9nBAkt.s 			page 14
 
 
  501 006c 0B       		.uleb128 0xb
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 1
  555 00a3 3A       		.uleb128 0x3a
  556 00a4 0B       		.uleb128 0xb
  557 00a5 3B       		.uleb128 0x3b
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 15
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc9nBAkt.s 			page 15
 
 
  558 00a6 0B       		.uleb128 0xb
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 1
  612 002c 0A000000 		.4byte	.LVL4
  613 0030 18000000 		.4byte	.LFE1
  614 0034 0400     		.2byte	0x4
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 16
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc9nBAkt.s 			page 16
 
 
  615 0036 F3       		.byte	0xf3
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 1
  669 0014 18000000 		.4byte	.LFE0-.LFB0
  670 0018 00000000 		.4byte	.LFB1
  671 001c 18000000 		.4byte	.LFE1-.LFB1
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 17
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc9nBAkt.s 			page 17
 
 
  672 0020 00000000 		.4byte	.LFB2
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 1
  712 003f 48435352 		.ascii	"HCSR04_Echo_9_ReadDataReg\000"
  712      30345F45 
  712      63686F5F 
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 18
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc9nBAkt.s 			page 18
 
 
  712      395F5265 
@@ -1077,86 +1077,86 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 1
  735              	.LASF18:
  736 00f9 6D6F6465 		.ascii	"mode\000"
  736      00
- 737              	.LASF30:
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 19
+ 737              	.LASF6:
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc9nBAkt.s 			page 19
 
 
- 738 00fe 443A5C44 		.ascii	"D:\\Documents\\PSoC Creator\\IdeaArlobot\\SingleBoa"
- 738      6F63756D 
- 738      656E7473 
- 738      5C50536F 
- 738      43204372 
- 739 012d 72644465 		.ascii	"rdDesign-046.cydsn\000"
- 739      7369676E 
- 739      2D303436 
- 739      2E637964 
- 739      736E00
- 740              	.LASF6:
- 741 0140 6C6F6E67 		.ascii	"long long int\000"
- 741      206C6F6E 
- 741      6720696E 
- 741      7400
- 742              	.LASF27:
- 743 014e 6D61736B 		.ascii	"maskedStatus\000"
- 743      65645374 
- 743      61747573 
- 743      00
- 744              	.LASF14:
- 745 015b 63686172 		.ascii	"char\000"
- 745      00
- 746              	.LASF28:
- 747 0160 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
- 747      4320342E 
- 747      392E3320 
- 747      32303135 
- 747      30333033 
- 748 0193 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
- 748      20726576 
- 748      6973696F 
- 748      6E203232 
- 748      31323230 
- 749 01c6 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
- 749      66756E63 
- 749      74696F6E 
- 749      2D736563 
- 749      74696F6E 
- 750              	.LASF2:
- 751 01ee 73686F72 		.ascii	"short int\000"
- 751      7420696E 
- 751      7400
+ 738 00fe 6C6F6E67 		.ascii	"long long int\000"
+ 738      206C6F6E 
+ 738      6720696E 
+ 738      7400
+ 739              	.LASF27:
+ 740 010c 6D61736B 		.ascii	"maskedStatus\000"
+ 740      65645374 
+ 740      61747573 
+ 740      00
+ 741              	.LASF14:
+ 742 0119 63686172 		.ascii	"char\000"
+ 742      00
+ 743              	.LASF28:
+ 744 011e 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
+ 744      4320342E 
+ 744      392E3320 
+ 744      32303135 
+ 744      30333033 
+ 745 0151 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
+ 745      20726576 
+ 745      6973696F 
+ 745      6E203232 
+ 745      31323230 
+ 746 0184 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 746      66756E63 
+ 746      74696F6E 
+ 746      2D736563 
+ 746      74696F6E 
+ 747              	.LASF2:
+ 748 01ac 73686F72 		.ascii	"short int\000"
+ 748      7420696E 
+ 748      7400
+ 749              	.LASF30:
+ 750 01b6 443A5C44 		.ascii	"D:\\Documents\\PSoC Creator\\IdealArlobot\\SingleBo"
+ 750      6F63756D 
+ 750      656E7473 
+ 750      5C50536F 
+ 750      43204372 
+ 751 01e5 61726444 		.ascii	"ardDesign-046.cydsn\000"
+ 751      65736967 
+ 751      6E2D3034 
+ 751      362E6379 
+ 751      64736E00 
  752              	.LASF9:
- 753 01f8 75696E74 		.ascii	"uint8\000"
+ 753 01f9 75696E74 		.ascii	"uint8\000"
  753      3800
  754              	.LASF16:
- 755 01fe 48435352 		.ascii	"HCSR04_Echo_9_SetDriveMode\000"
+ 755 01ff 48435352 		.ascii	"HCSR04_Echo_9_SetDriveMode\000"
  755      30345F45 
  755      63686F5F 
  755      395F5365 
  755      74447269 
  756              	.LASF20:
- 757 0219 48435352 		.ascii	"HCSR04_Echo_9_Read\000"
+ 757 021a 48435352 		.ascii	"HCSR04_Echo_9_Read\000"
  757      30345F45 
  757      63686F5F 
  757      395F5265 
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\cchJoxIT.s 			page 20
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cc9nBAkt.s 			page 20
 
 
  757      616400
  758              	.LASF4:
- 759 022c 6C6F6E67 		.ascii	"long int\000"
+ 759 022d 6C6F6E67 		.ascii	"long int\000"
  759      20696E74 
  759      00
  760              	.LASF0:
- 761 0235 7369676E 		.ascii	"signed char\000"
+ 761 0236 7369676E 		.ascii	"signed char\000"
  761      65642063 
  761      68617200 
  762              	.LASF29:
- 763 0241 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\HCSR04_Echo_9.c\000"
+ 763 0242 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\HCSR04_Echo_9.c\000"
  763      6E657261 
  763      7465645F 
  763      536F7572 
  763      63655C50 
  764              	.LASF24:
- 765 026a 64725661 		.ascii	"drVal\000"
+ 765 026b 64725661 		.ascii	"drVal\000"
  765      6C00
  766              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150303 (release) [ARM/embedded-4_9-br

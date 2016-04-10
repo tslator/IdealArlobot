@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuJgY4j.s 			page 1
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccy60sfS.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuJgY4j.s 			page 1
   30:.\Generated_Source\PSoC4/HCSR04_Control.c **** * Parameters:
   31:.\Generated_Source\PSoC4/HCSR04_Control.c **** *  control:  The value to be assigned to the Control Register.
   32:.\Generated_Source\PSoC4/HCSR04_Control.c **** *
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuJgY4j.s 			page 2
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccy60sfS.s 			page 2
 
 
   33:.\Generated_Source\PSoC4/HCSR04_Control.c **** * Return:
@@ -81,7 +81,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuJgY4j.s 			page 1
   35              	.L3:
   36 0006 C046     		.align	2
   37              	.L2:
-  38 0008 70000F40 		.word	1074724976
+  38 0008 74000F40 		.word	1074724980
   39              		.cfi_endproc
   40              	.LFE0:
   41              		.size	HCSR04_Control_Write, .-HCSR04_Control_Write
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuJgY4j.s 			page 1
   53 0000 014B     		ldr	r3, .L5
   54 0002 1878     		ldrb	r0, [r3]
   55 0004 C0B2     		uxtb	r0, r0
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuJgY4j.s 			page 3
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccy60sfS.s 			page 3
 
 
   60:.\Generated_Source\PSoC4/HCSR04_Control.c **** }
@@ -128,7 +128,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuJgY4j.s 			page 1
   59              	.L6:
   60              		.align	2
   61              	.L5:
-  62 0008 70000F40 		.word	1074724976
+  62 0008 74000F40 		.word	1074724980
   63              		.cfi_endproc
   64              	.LFE1:
   65              		.size	HCSR04_Control_Read, .-HCSR04_Control_Read
@@ -142,17 +142,17 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuJgY4j.s 			page 1
   73 0006 00000000 		.4byte	.Ldebug_abbrev0
   74 000a 04       		.byte	0x4
   75 000b 01       		.uleb128 0x1
-  76 000c 04010000 		.4byte	.LASF14
+  76 000c C2000000 		.4byte	.LASF14
   77 0010 01       		.byte	0x1
   78 0011 61000000 		.4byte	.LASF15
-  79 0015 AF000000 		.4byte	.LASF16
+  79 0015 5A010000 		.4byte	.LASF16
   80 0019 00000000 		.4byte	.Ldebug_ranges0+0
   81 001d 00000000 		.4byte	0
   82 0021 00000000 		.4byte	.Ldebug_line0
   83 0025 02       		.uleb128 0x2
   84 0026 01       		.byte	0x1
   85 0027 06       		.byte	0x6
-  86 0028 AB010000 		.4byte	.LASF0
+  86 0028 AC010000 		.4byte	.LASF0
   87 002c 02       		.uleb128 0x2
   88 002d 01       		.byte	0x1
   89 002e 08       		.byte	0x8
@@ -160,7 +160,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuJgY4j.s 			page 1
   91 0033 02       		.uleb128 0x2
   92 0034 02       		.byte	0x2
   93 0035 05       		.byte	0x5
-  94 0036 92010000 		.4byte	.LASF2
+  94 0036 50010000 		.4byte	.LASF2
   95 003a 02       		.uleb128 0x2
   96 003b 02       		.byte	0x2
   97 003c 07       		.byte	0x7
@@ -168,7 +168,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuJgY4j.s 			page 1
   99 0041 02       		.uleb128 0x2
  100 0042 04       		.byte	0x4
  101 0043 05       		.byte	0x5
- 102 0044 A2010000 		.4byte	.LASF4
+ 102 0044 A3010000 		.4byte	.LASF4
  103 0048 02       		.uleb128 0x2
  104 0049 04       		.byte	0x4
  105 004a 07       		.byte	0x7
@@ -176,9 +176,9 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuJgY4j.s 			page 1
  107 004f 02       		.uleb128 0x2
  108 0050 08       		.byte	0x8
  109 0051 05       		.byte	0x5
- 110 0052 F1000000 		.4byte	.LASF6
+ 110 0052 AF000000 		.4byte	.LASF6
  111 0056 02       		.uleb128 0x2
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuJgY4j.s 			page 4
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccy60sfS.s 			page 4
 
 
  112 0057 08       		.byte	0x8
@@ -193,7 +193,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuJgY4j.s 			page 1
  121 0066 07       		.byte	0x7
  122 0067 8B000000 		.4byte	.LASF8
  123 006b 04       		.uleb128 0x4
- 124 006c 9C010000 		.4byte	.LASF12
+ 124 006c 9D010000 		.4byte	.LASF12
  125 0070 02       		.byte	0x2
  126 0071 3801     		.2byte	0x138
  127 0073 2C000000 		.4byte	0x2c
@@ -208,7 +208,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuJgY4j.s 			page 1
  136 0085 02       		.uleb128 0x2
  137 0086 01       		.byte	0x1
  138 0087 08       		.byte	0x8
- 139 0088 FF000000 		.4byte	.LASF11
+ 139 0088 BD000000 		.4byte	.LASF11
  140 008c 04       		.uleb128 0x4
  141 008d 14000000 		.4byte	.LASF13
  142 0091 02       		.byte	0x2
@@ -217,7 +217,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuJgY4j.s 			page 1
  145 0098 05       		.uleb128 0x5
  146 0099 6B000000 		.4byte	0x6b
  147 009d 06       		.uleb128 0x6
- 148 009e B7010000 		.4byte	.LASF17
+ 148 009e B8010000 		.4byte	.LASF17
  149 00a2 01       		.byte	0x1
  150 00a3 25       		.byte	0x25
  151 00a4 00000000 		.4byte	.LFB0
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuJgY4j.s 			page 1
  166 00c5 01       		.byte	0x1
  167 00c6 39       		.byte	0x39
  168 00c7 6B000000 		.4byte	0x6b
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuJgY4j.s 			page 5
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccy60sfS.s 			page 5
 
 
  169 00cb 00000000 		.4byte	.LFB1
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuJgY4j.s 			page 1
  223 002f 0B       		.uleb128 0xb
  224 0030 3B       		.uleb128 0x3b
  225 0031 05       		.uleb128 0x5
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuJgY4j.s 			page 6
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccy60sfS.s 			page 6
 
 
  226 0032 49       		.uleb128 0x49
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuJgY4j.s 			page 1
  280 0069 3F       		.uleb128 0x3f
  281 006a 19       		.uleb128 0x19
  282 006b 03       		.uleb128 0x3
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuJgY4j.s 			page 7
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccy60sfS.s 			page 7
 
 
  283 006c 0E       		.uleb128 0xe
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuJgY4j.s 			page 1
  331      676E6564 
  331      20636861 
  331      7200
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuJgY4j.s 			page 8
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccy60sfS.s 			page 8
 
 
  332              	.LASF13:
@@ -465,61 +465,61 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuJgY4j.s 			page 1
  349      6720756E 
  349      7369676E 
  349      65642069 
- 350              	.LASF16:
- 351 00af 443A5C44 		.ascii	"D:\\Documents\\PSoC Creator\\IdeaArlobot\\SingleBoa"
- 351      6F63756D 
- 351      656E7473 
- 351      5C50536F 
- 351      43204372 
- 352 00de 72644465 		.ascii	"rdDesign-046.cydsn\000"
- 352      7369676E 
- 352      2D303436 
- 352      2E637964 
- 352      736E00
- 353              	.LASF6:
- 354 00f1 6C6F6E67 		.ascii	"long long int\000"
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccuJgY4j.s 			page 9
+ 350              	.LASF6:
+ 351 00af 6C6F6E67 		.ascii	"long long int\000"
+ 351      206C6F6E 
+ 351      6720696E 
+ 351      7400
+ 352              	.LASF11:
+ 353 00bd 63686172 		.ascii	"char\000"
+ 353      00
+ 354              	.LASF14:
+ 355 00c2 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
+ 355      4320342E 
+ 355      392E3320 
+ 355      32303135 
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccy60sfS.s 			page 9
 
 
- 354      206C6F6E 
- 354      6720696E 
- 354      7400
- 355              	.LASF11:
- 356 00ff 63686172 		.ascii	"char\000"
- 356      00
- 357              	.LASF14:
- 358 0104 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
- 358      4320342E 
- 358      392E3320 
- 358      32303135 
- 358      30333033 
- 359 0137 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
- 359      20726576 
- 359      6973696F 
- 359      6E203232 
- 359      31323230 
- 360 016a 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
- 360      66756E63 
- 360      74696F6E 
- 360      2D736563 
- 360      74696F6E 
- 361              	.LASF2:
- 362 0192 73686F72 		.ascii	"short int\000"
- 362      7420696E 
- 362      7400
+ 355      30333033 
+ 356 00f5 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
+ 356      20726576 
+ 356      6973696F 
+ 356      6E203232 
+ 356      31323230 
+ 357 0128 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 357      66756E63 
+ 357      74696F6E 
+ 357      2D736563 
+ 357      74696F6E 
+ 358              	.LASF2:
+ 359 0150 73686F72 		.ascii	"short int\000"
+ 359      7420696E 
+ 359      7400
+ 360              	.LASF16:
+ 361 015a 443A5C44 		.ascii	"D:\\Documents\\PSoC Creator\\IdealArlobot\\SingleBo"
+ 361      6F63756D 
+ 361      656E7473 
+ 361      5C50536F 
+ 361      43204372 
+ 362 0189 61726444 		.ascii	"ardDesign-046.cydsn\000"
+ 362      65736967 
+ 362      6E2D3034 
+ 362      362E6379 
+ 362      64736E00 
  363              	.LASF12:
- 364 019c 75696E74 		.ascii	"uint8\000"
+ 364 019d 75696E74 		.ascii	"uint8\000"
  364      3800
  365              	.LASF4:
- 366 01a2 6C6F6E67 		.ascii	"long int\000"
+ 366 01a3 6C6F6E67 		.ascii	"long int\000"
  366      20696E74 
  366      00
  367              	.LASF0:
- 368 01ab 7369676E 		.ascii	"signed char\000"
+ 368 01ac 7369676E 		.ascii	"signed char\000"
  368      65642063 
  368      68617200 
  369              	.LASF17:
- 370 01b7 48435352 		.ascii	"HCSR04_Control_Write\000"
+ 370 01b8 48435352 		.ascii	"HCSR04_Control_Write\000"
  370      30345F43 
  370      6F6E7472 
  370      6F6C5F57 

@@ -1,163 +1,95 @@
---------------- Rebuild Started: 04/09/2016 20:06:00 Project: SingleBoardDesign-046, Configuration: ARM GCC 4.9-2015-q1-update Debug ---------------
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\main.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\cyfitter_cfg.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\cymetadata.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\PWM_1MHz.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Cm0Start.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\CyBootAsmGnu.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\CyFlash.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\CyLib.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\cyPm.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\cyutils.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\CyDMA.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\CyLFClk.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Control.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Control_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Clock.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Timeout_Intr.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Timer.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Timer_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Infrared_ADC.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Infrared_ADC_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Infrared_ADC_INT.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_15.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_15_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_14.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_14_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_13.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_13_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_12.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_12_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_11.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_11_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_10.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_10_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_9.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_9_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_8.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_8_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_7.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_7_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_6.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_6_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_5.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_5_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_4.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_4_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_3.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_3_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_2.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_2_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_1.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_1_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_0.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_0_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Control_Reg_1.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Control_Reg_1_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Clock_1.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Infrared_ADC_IRQ.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Infrared_ADC_intClock.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Left_HB25_Enable_Pin.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Left_HB25_Enable_Pin_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Left_HB25_PWM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Left_HB25_PWM_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Right_HB25_PWM_Pin.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Right_HB25_PWM_Pin_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Right_HB25_PWM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Right_HB25_PWM_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Right_HB25_Enable_Pin.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Right_HB25_Enable_Pin_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Left_HB25_PWM_Pin.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\Left_HB25_PWM_Pin_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Echo_5.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Echo_5_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Echo_4.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Echo_4_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Echo_3.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Echo_3_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Echo_2.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Echo_2_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Trigger_1.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Trigger_1_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Trigger_2.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Trigger_2_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Trigger_3.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Trigger_3_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Trigger_4.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Trigger_4_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Trigger_5.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Trigger_5_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Trigger_6.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Trigger_6_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Trigger_9.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Trigger_9_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Trigger_10.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Trigger_10_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Trigger_11.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Trigger_11_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Trigger_12.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Trigger_12_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Trigger_13.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Trigger_13_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Trigger_14.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Trigger_14_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Trigger_15.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Trigger_15_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Echo_12.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Echo_12_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Echo_11.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Echo_11_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Echo_10.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Echo_10_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Echo_9.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Echo_9_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Echo_8.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Echo_8_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Echo_7.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Echo_7_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Echo_6.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Echo_6_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Trigger_0.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Trigger_0_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Echo_0.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Echo_0_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Echo_1.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Echo_1_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Echo_15.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Echo_15_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Trigger_8.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Trigger_8_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Trigger_7.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Trigger_7_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Echo_14.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Echo_14_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Echo_13.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\HCSR04_Echo_13_PM.o"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\SingleBoardDesign-046.hex"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\SingleBoardDesign-046.elf"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\SingleBoardDesign-046.map"
-Deleting file ".\SingleBoardDesign-046.cycdx"
-Deleting file ".\SingleBoardDesign-046.svd"
+--------------- Rebuild Started: 04/10/2016 07:35:59 Project: SingleBoardDesign-046, Configuration: ARM GCC 4.9-2015-q1-update Debug ---------------
 Deleting file ".\SingleBoardDesign-046.rpt"
-Deleting file ".\SingleBoardDesign-046_timing.html"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\.deps\C_FILE.P"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\.deps\ARM_C_FILE.P"
-Deleting file ".\CortexM0\ARM_GCC_493\Debug\.deps\GNU_ARM_ASM_FILE.P"
-cydsfit.exe -.appdatapath "C:\Users\Tim\AppData\Local\Cypress Semiconductor\PSoC Creator\3.3" -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -p "D:\Documents\PSoC Creator\IdeaArlobot\SingleBoardDesign-046.cydsn\SingleBoardDesign-046.cyprj" -d CY8C4248BZI-L489 -s "D:\Documents\PSoC Creator\IdeaArlobot\SingleBoardDesign-046.cydsn\Generated_Source\PSoC4" -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
+cydsfit.exe -.appdatapath "C:\Users\Tim\AppData\Local\Cypress Semiconductor\PSoC Creator\3.3" -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -p "D:\Documents\PSoC Creator\IdealArlobot\SingleBoardDesign-046.cydsn\SingleBoardDesign-046.cyprj" -d CY8C4248BZI-L489 -s "D:\Documents\PSoC Creator\IdealArlobot\SingleBoardDesign-046.cydsn\Generated_Source\PSoC4" -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
 Elaborating Design...
+ADD: sdb.M0061: information: Info from component: Infrared_ADC. The actual sample rate (888888 SPS) differs from the desired sample rate (1000000 SPS) due to the clock configuration in the DWR.
+ * D:\Documents\PSoC Creator\IdealArlobot\SingleBoardDesign-046.cydsn\TopDesign\TopDesign.cysch (Instance:Infrared_ADC)
 HDL Generation ...
 Synthesis ...
 Place and Route ...
 Tech mapping ...
-Warning: mpr.M0021: Control signal "dsrff(clock)" driving signal "cydff_1" is always "low". (App=cydsfit)
 Warning: mpr.M0021: Control signal "dsrff(clock)" driving signal "cydff_2" is always "low". (App=cydsfit)
-ADD: pft.M0040: information: The following 4 pin(s) will be assigned a location by the fitter: Left_HB25_Enable_Pin(0), Left_HB25_PWM_Pin(0), Right_HB25_Enable_Pin(0), Right_HB25_PWM_Pin(0)
+Warning: mpr.M0021: Control signal "dsrff(clock)" driving signal "cydff_1" is always "low". (App=cydsfit)
+ADD: pft.M0040: information: The following 20 pin(s) will be assigned a location by the fitter: Infrared_Distance_Pin_0(0), Infrared_Distance_Pin_1(0), Infrared_Distance_Pin_2(0), Infrared_Distance_Pin_3(0), Infrared_Distance_Pin_4(0), Infrared_Distance_Pin_5(0), Infrared_Distance_Pin_6(0), Infrared_Distance_Pin_7(0), Infrared_Distance_Pin_8(0), Infrared_Distance_Pin_9(0), Infrared_Distance_Pin_10(0), Infrared_Distance_Pin_11(0), Infrared_Distance_Pin_12(0), Infrared_Distance_Pin_13(0), Infrared_Distance_Pin_14(0), Infrared_Distance_Pin_15(0), Left_HB25_Enable_Pin(0), Left_HB25_PWM_Pin(0), Right_HB25_Enable_Pin(0), Right_HB25_PWM_Pin(0)
 Analog Placement ...
 Analog Routing ...
 Analog Code Generation ...
 Digital Placement ...
-Error: plm.M0005: Fixed location constraints could not be satisfied during macrocell to LAB packing.  See report file for more information. (App=cydsfit)
+Digital Routing ...
+Bitstream Generation ...
+Static timing analysis ...
+API Generation ...
 Dependency Generation ...
 Clean Temporary Files ...
-Error: cdf.M0005: CyDsFit aborted due to errors, please address all errors and rerun CyDsFit. (App=cydsfit)
---------------- Rebuild Failed: 04/09/2016 20:06:04 ---------------
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/main.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\main.c -o .\CortexM0\ARM_GCC_493\Debug\main.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/cyfitter_cfg.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\cyfitter_cfg.c -o .\CortexM0\ARM_GCC_493\Debug\cyfitter_cfg.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/cymetadata.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\cymetadata.c -o .\CortexM0\ARM_GCC_493\Debug\cymetadata.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/PWM_1MHz.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\PWM_1MHz.c -o .\CortexM0\ARM_GCC_493\Debug\PWM_1MHz.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Cm0Start.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Cm0Start.c -o .\CortexM0\ARM_GCC_493\Debug\Cm0Start.o
+arm-none-eabi-as.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -alh=.\CortexM0\ARM_GCC_493\Debug/CyBootAsmGnu.lst -g -W -o .\CortexM0\ARM_GCC_493\Debug\CyBootAsmGnu.o .\Generated_Source\PSoC4\CyBootAsmGnu.s
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/CyFlash.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\CyFlash.c -o .\CortexM0\ARM_GCC_493\Debug\CyFlash.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/CyLib.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\CyLib.c -o .\CortexM0\ARM_GCC_493\Debug\CyLib.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/cyPm.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\cyPm.c -o .\CortexM0\ARM_GCC_493\Debug\cyPm.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/cyutils.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\cyutils.c -o .\CortexM0\ARM_GCC_493\Debug\cyutils.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/CyDMA.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\CyDMA.c -o .\CortexM0\ARM_GCC_493\Debug\CyDMA.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/CyLFClk.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\CyLFClk.c -o .\CortexM0\ARM_GCC_493\Debug\CyLFClk.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Infrared_ADC.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Infrared_ADC.c -o .\CortexM0\ARM_GCC_493\Debug\Infrared_ADC.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Infrared_ADC_PM.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Infrared_ADC_PM.c -o .\CortexM0\ARM_GCC_493\Debug\Infrared_ADC_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Infrared_ADC_INT.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Infrared_ADC_INT.c -o .\CortexM0\ARM_GCC_493\Debug\Infrared_ADC_INT.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Infrared_Distance_Pin_15.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Infrared_Distance_Pin_15.c -o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_15.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Infrared_Distance_Pin_15_PM.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Infrared_Distance_Pin_15_PM.c -o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_15_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Infrared_Distance_Pin_14.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Infrared_Distance_Pin_14.c -o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_14.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Infrared_Distance_Pin_14_PM.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Infrared_Distance_Pin_14_PM.c -o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_14_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Infrared_Distance_Pin_13.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Infrared_Distance_Pin_13.c -o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_13.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Infrared_Distance_Pin_13_PM.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Infrared_Distance_Pin_13_PM.c -o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_13_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Infrared_Distance_Pin_12.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Infrared_Distance_Pin_12.c -o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_12.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Infrared_Distance_Pin_12_PM.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Infrared_Distance_Pin_12_PM.c -o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_12_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Infrared_Distance_Pin_11.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Infrared_Distance_Pin_11.c -o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_11.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Infrared_Distance_Pin_11_PM.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Infrared_Distance_Pin_11_PM.c -o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_11_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Infrared_Distance_Pin_10.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Infrared_Distance_Pin_10.c -o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_10.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Infrared_Distance_Pin_10_PM.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Infrared_Distance_Pin_10_PM.c -o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_10_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Infrared_Distance_Pin_9.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Infrared_Distance_Pin_9.c -o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_9.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Infrared_Distance_Pin_9_PM.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Infrared_Distance_Pin_9_PM.c -o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_9_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Infrared_Distance_Pin_8.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Infrared_Distance_Pin_8.c -o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_8.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Infrared_Distance_Pin_8_PM.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Infrared_Distance_Pin_8_PM.c -o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_8_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Infrared_Distance_Pin_7.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Infrared_Distance_Pin_7.c -o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_7.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Infrared_Distance_Pin_7_PM.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Infrared_Distance_Pin_7_PM.c -o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_7_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Infrared_Distance_Pin_6.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Infrared_Distance_Pin_6.c -o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_6.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Infrared_Distance_Pin_6_PM.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Infrared_Distance_Pin_6_PM.c -o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_6_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Infrared_Distance_Pin_5.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Infrared_Distance_Pin_5.c -o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_5.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Infrared_Distance_Pin_5_PM.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Infrared_Distance_Pin_5_PM.c -o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_5_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Infrared_Distance_Pin_4.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Infrared_Distance_Pin_4.c -o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_4.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Infrared_Distance_Pin_4_PM.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Infrared_Distance_Pin_4_PM.c -o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_4_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Infrared_Distance_Pin_3.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Infrared_Distance_Pin_3.c -o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_3.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Infrared_Distance_Pin_3_PM.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Infrared_Distance_Pin_3_PM.c -o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_3_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Infrared_Distance_Pin_2.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Infrared_Distance_Pin_2.c -o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_2.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Infrared_Distance_Pin_2_PM.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Infrared_Distance_Pin_2_PM.c -o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_2_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Infrared_Distance_Pin_1.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Infrared_Distance_Pin_1.c -o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_1.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Infrared_Distance_Pin_1_PM.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Infrared_Distance_Pin_1_PM.c -o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_1_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Infrared_Distance_Pin_0.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Infrared_Distance_Pin_0.c -o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_0.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Infrared_Distance_Pin_0_PM.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Infrared_Distance_Pin_0_PM.c -o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_0_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Control_Reg_1.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Control_Reg_1.c -o .\CortexM0\ARM_GCC_493\Debug\Control_Reg_1.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Control_Reg_1_PM.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Control_Reg_1_PM.c -o .\CortexM0\ARM_GCC_493\Debug\Control_Reg_1_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Clock_1.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Clock_1.c -o .\CortexM0\ARM_GCC_493\Debug\Clock_1.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Infrared_ADC_IRQ.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Infrared_ADC_IRQ.c -o .\CortexM0\ARM_GCC_493\Debug\Infrared_ADC_IRQ.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Infrared_ADC_intClock.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Infrared_ADC_intClock.c -o .\CortexM0\ARM_GCC_493\Debug\Infrared_ADC_intClock.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Left_HB25_Enable_Pin.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Left_HB25_Enable_Pin.c -o .\CortexM0\ARM_GCC_493\Debug\Left_HB25_Enable_Pin.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Left_HB25_Enable_Pin_PM.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Left_HB25_Enable_Pin_PM.c -o .\CortexM0\ARM_GCC_493\Debug\Left_HB25_Enable_Pin_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Left_HB25_PWM.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Left_HB25_PWM.c -o .\CortexM0\ARM_GCC_493\Debug\Left_HB25_PWM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Left_HB25_PWM_PM.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Left_HB25_PWM_PM.c -o .\CortexM0\ARM_GCC_493\Debug\Left_HB25_PWM_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Right_HB25_PWM_Pin.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Right_HB25_PWM_Pin.c -o .\CortexM0\ARM_GCC_493\Debug\Right_HB25_PWM_Pin.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Right_HB25_PWM_Pin_PM.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Right_HB25_PWM_Pin_PM.c -o .\CortexM0\ARM_GCC_493\Debug\Right_HB25_PWM_Pin_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Right_HB25_PWM.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Right_HB25_PWM.c -o .\CortexM0\ARM_GCC_493\Debug\Right_HB25_PWM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Right_HB25_PWM_PM.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Right_HB25_PWM_PM.c -o .\CortexM0\ARM_GCC_493\Debug\Right_HB25_PWM_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Right_HB25_Enable_Pin.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Right_HB25_Enable_Pin.c -o .\CortexM0\ARM_GCC_493\Debug\Right_HB25_Enable_Pin.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Right_HB25_Enable_Pin_PM.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Right_HB25_Enable_Pin_PM.c -o .\CortexM0\ARM_GCC_493\Debug\Right_HB25_Enable_Pin_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Left_HB25_PWM_Pin.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Left_HB25_PWM_Pin.c -o .\CortexM0\ARM_GCC_493\Debug\Left_HB25_PWM_Pin.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/Left_HB25_PWM_Pin_PM.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\Generated_Source\PSoC4\Left_HB25_PWM_Pin_PM.c -o .\CortexM0\ARM_GCC_493\Debug\Left_HB25_PWM_Pin_PM.o
+arm-none-eabi-ar.exe -rs .\CortexM0\ARM_GCC_493\Debug\SingleBoardDesign-046.a .\CortexM0\ARM_GCC_493\Debug\cyfitter_cfg.o .\CortexM0\ARM_GCC_493\Debug\PWM_1MHz.o .\CortexM0\ARM_GCC_493\Debug\CyBootAsmGnu.o .\CortexM0\ARM_GCC_493\Debug\CyFlash.o .\CortexM0\ARM_GCC_493\Debug\CyLib.o .\CortexM0\ARM_GCC_493\Debug\cyPm.o .\CortexM0\ARM_GCC_493\Debug\cyutils.o .\CortexM0\ARM_GCC_493\Debug\CyDMA.o .\CortexM0\ARM_GCC_493\Debug\CyLFClk.o .\CortexM0\ARM_GCC_493\Debug\Infrared_ADC.o .\CortexM0\ARM_GCC_493\Debug\Infrared_ADC_PM.o .\CortexM0\ARM_GCC_493\Debug\Infrared_ADC_INT.o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_15.o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_15_PM.o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_14.o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_14_PM.o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_13.o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_13_PM.o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_12.o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_12_PM.o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_11.o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_11_PM.o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_10.o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_10_PM.o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_9.o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_9_PM.o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_8.o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_8_PM.o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_7.o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_7_PM.o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_6.o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_6_PM.o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_5.o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_5_PM.o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_4.o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_4_PM.o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_3.o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_3_PM.o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_2.o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_2_PM.o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_1.o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_1_PM.o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_0.o .\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_0_PM.o .\CortexM0\ARM_GCC_493\Debug\Control_Reg_1.o .\CortexM0\ARM_GCC_493\Debug\Control_Reg_1_PM.o .\CortexM0\ARM_GCC_493\Debug\Clock_1.o .\CortexM0\ARM_GCC_493\Debug\Infrared_ADC_IRQ.o .\CortexM0\ARM_GCC_493\Debug\Infrared_ADC_intClock.o .\CortexM0\ARM_GCC_493\Debug\Left_HB25_Enable_Pin.o .\CortexM0\ARM_GCC_493\Debug\Left_HB25_Enable_Pin_PM.o .\CortexM0\ARM_GCC_493\Debug\Left_HB25_PWM.o .\CortexM0\ARM_GCC_493\Debug\Left_HB25_PWM_PM.o .\CortexM0\ARM_GCC_493\Debug\Right_HB25_PWM_Pin.o .\CortexM0\ARM_GCC_493\Debug\Right_HB25_PWM_Pin_PM.o .\CortexM0\ARM_GCC_493\Debug\Right_HB25_PWM.o .\CortexM0\ARM_GCC_493\Debug\Right_HB25_PWM_PM.o .\CortexM0\ARM_GCC_493\Debug\Right_HB25_Enable_Pin.o .\CortexM0\ARM_GCC_493\Debug\Right_HB25_Enable_Pin_PM.o .\CortexM0\ARM_GCC_493\Debug\Left_HB25_PWM_Pin.o .\CortexM0\ARM_GCC_493\Debug\Left_HB25_PWM_Pin_PM.o
+arm-none-eabi-ar.exe: creating .\CortexM0\ARM_GCC_493\Debug\SingleBoardDesign-046.a
+arm-none-eabi-gcc.exe -Wl,--start-group -o .\CortexM0\ARM_GCC_493\Debug\SingleBoardDesign-046.elf .\CortexM0\ARM_GCC_493\Debug\main.o .\CortexM0\ARM_GCC_493\Debug\cymetadata.o .\CortexM0\ARM_GCC_493\Debug\Cm0Start.o .\CortexM0\ARM_GCC_493\Debug\SingleBoardDesign-046.a "C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM0\ARM_GCC_493\Debug\CyComponentLibrary.a" -mcpu=cortex-m0 -mthumb -g -ffunction-sections -Og -L Generated_Source\PSoC4 -Wl,-Map,.\CortexM0\ARM_GCC_493\Debug/SingleBoardDesign-046.map -T Generated_Source\PSoC4\cm0gcc.ld -specs=nano.specs -Wl,--gc-sections -Wl,--end-group
+cyelftool.exe -C "D:\Documents\PSoC Creator\IdealArlobot\SingleBoardDesign-046.cydsn\CortexM0\ARM_GCC_493\Debug\SingleBoardDesign-046.elf" --flash_row_size 256 --flash_size 262144
+cyelftool.exe -S "D:\Documents\PSoC Creator\IdealArlobot\SingleBoardDesign-046.cydsn\CortexM0\ARM_GCC_493\Debug\SingleBoardDesign-046.elf"
+Flash used: 3328 of 262144 bytes (1.3 %).
+SRAM used: 2484 of 32768 bytes (7.6 %). Stack: 2048 bytes. Heap: 128 bytes.
+--------------- Rebuild Succeeded: 04/10/2016 07:36:25 ---------------
