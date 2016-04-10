@@ -22,16 +22,6 @@ D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_So
 
 D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/cyapicallbacks.h : 
 
-D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/CortexM0/ARM_GCC_493/Debug/Control_Reg_1.o : D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/Control_Reg_1.c D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/Control_Reg_1.h D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/cydevice_trm.h D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/cyfitter.h D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/cytypes.h 
-
-D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/Control_Reg_1.c : 
-
-D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/Control_Reg_1.h : 
-
-D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/CortexM0/ARM_GCC_493/Debug/Control_Reg_1_PM.o : D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/Control_Reg_1.h D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/Control_Reg_1_PM.c D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/cydevice_trm.h D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/cyfitter.h D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/cytypes.h 
-
-D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/Control_Reg_1_PM.c : 
-
 D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/CortexM0/ARM_GCC_493/Debug/CyDMA.o : D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/CyDMA.c D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/CyDMA.h D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/CyLFClk.h D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/CyLib.h D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/cydevice_trm.h D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/cyfitter.h D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/cytypes.h 
 
 D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/CyDMA.c : 
@@ -759,6 +749,16 @@ D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_So
 D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/CortexM0/ARM_GCC_493/Debug/Infrared_Distance_Pin_9_PM.o : D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/Infrared_Distance_Pin_9.h D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/Infrared_Distance_Pin_9_PM.c D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/Infrared_Distance_Pin_9_aliases.h D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/cydevice_trm.h D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/cyfitter.h D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/cypins.h D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/cytypes.h 
 
 D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/Infrared_Distance_Pin_9_PM.c : 
+
+D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/CortexM0/ARM_GCC_493/Debug/Infrared_Mux_Control.o : D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/Infrared_Mux_Control.c D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/Infrared_Mux_Control.h D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/cydevice_trm.h D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/cyfitter.h D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/Infrared_Mux_Control.c : 
+
+D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/Infrared_Mux_Control.h : 
+
+D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/CortexM0/ARM_GCC_493/Debug/Infrared_Mux_Control_PM.o : D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/Infrared_Mux_Control.h D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/Infrared_Mux_Control_PM.c D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/cydevice_trm.h D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/cyfitter.h D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/Infrared_Mux_Control_PM.c : 
 
 D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/CortexM0/ARM_GCC_493/Debug/Left_Encoder_A.o : D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/Left_Encoder_A.c D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/Left_Encoder_A.h D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/Left_Encoder_A_aliases.h D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/cydevice_trm.h D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/cyfitter.h D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/cypins.h D:/Documents/PSoC\ Creator/IdealArlobot/SingleBoardDesign-046.cydsn/Generated_Source/PSoC4/cytypes.h 
 

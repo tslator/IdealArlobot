@@ -1,5 +1,5 @@
 /*******************************************************************************
-* File Name: Control_Reg_1_PM.c
+* File Name: Infrared_Mux_Control_PM.c
 * Version 1.80
 *
 * Description:
@@ -15,16 +15,16 @@
 * the software package with which this file was provided.
 *******************************************************************************/
 
-#include "Control_Reg_1.h"
+#include "Infrared_Mux_Control.h"
 
 /* Check for removal by optimization */
-#if !defined(Control_Reg_1_Sync_ctrl_reg__REMOVED)
+#if !defined(Infrared_Mux_Control_Sync_ctrl_reg__REMOVED)
 
-static Control_Reg_1_BACKUP_STRUCT  Control_Reg_1_backup = {0u};
+static Infrared_Mux_Control_BACKUP_STRUCT  Infrared_Mux_Control_backup = {0u};
 
     
 /*******************************************************************************
-* Function Name: Control_Reg_1_SaveConfig
+* Function Name: Infrared_Mux_Control_SaveConfig
 ********************************************************************************
 *
 * Summary:
@@ -37,14 +37,14 @@ static Control_Reg_1_BACKUP_STRUCT  Control_Reg_1_backup = {0u};
 *  None
 *
 *******************************************************************************/
-void Control_Reg_1_SaveConfig(void) 
+void Infrared_Mux_Control_SaveConfig(void) 
 {
-    Control_Reg_1_backup.controlState = Control_Reg_1_Control;
+    Infrared_Mux_Control_backup.controlState = Infrared_Mux_Control_Control;
 }
 
 
 /*******************************************************************************
-* Function Name: Control_Reg_1_RestoreConfig
+* Function Name: Infrared_Mux_Control_RestoreConfig
 ********************************************************************************
 *
 * Summary:
@@ -58,14 +58,14 @@ void Control_Reg_1_SaveConfig(void)
 *
 *
 *******************************************************************************/
-void Control_Reg_1_RestoreConfig(void) 
+void Infrared_Mux_Control_RestoreConfig(void) 
 {
-     Control_Reg_1_Control = Control_Reg_1_backup.controlState;
+     Infrared_Mux_Control_Control = Infrared_Mux_Control_backup.controlState;
 }
 
 
 /*******************************************************************************
-* Function Name: Control_Reg_1_Sleep
+* Function Name: Infrared_Mux_Control_Sleep
 ********************************************************************************
 *
 * Summary:
@@ -78,14 +78,14 @@ void Control_Reg_1_RestoreConfig(void)
 *  None
 *
 *******************************************************************************/
-void Control_Reg_1_Sleep(void) 
+void Infrared_Mux_Control_Sleep(void) 
 {
-    Control_Reg_1_SaveConfig();
+    Infrared_Mux_Control_SaveConfig();
 }
 
 
 /*******************************************************************************
-* Function Name: Control_Reg_1_Wakeup
+* Function Name: Infrared_Mux_Control_Wakeup
 ********************************************************************************
 *
 * Summary:
@@ -98,9 +98,9 @@ void Control_Reg_1_Sleep(void)
 *  None
 *
 *******************************************************************************/
-void Control_Reg_1_Wakeup(void)  
+void Infrared_Mux_Control_Wakeup(void)  
 {
-    Control_Reg_1_RestoreConfig();
+    Infrared_Mux_Control_RestoreConfig();
 }
 
 #endif /* End check for removal by optimization */

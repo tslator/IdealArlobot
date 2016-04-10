@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
   31:.\Generated_Source\PSoC4/CyFlash.c **** *******************************************************************************/
   32:.\Generated_Source\PSoC4/CyFlash.c **** #define CY_FLASH_CHECKSUM_WORKAROUND    (CY_PSOC4_4000 || CY_PSOC4_4100 || CY_PSOC4_4200)
   33:.\Generated_Source\PSoC4/CyFlash.c **** 
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 2
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 2
 
 
   34:.\Generated_Source\PSoC4/CyFlash.c **** #if (CY_IP_FM || ((!CY_PSOC4_4000) && CY_IP_SPCIF_SYNCHRONOUS) || (!CY_IP_FM) && CY_PSOC4_4000)
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
   88:.\Generated_Source\PSoC4/CyFlash.c **** *   frequency of 12 MHz. This will impact the operation of most of the hardware
   89:.\Generated_Source\PSoC4/CyFlash.c **** *   in the device.
   90:.\Generated_Source\PSoC4/CyFlash.c **** *
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 3
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 3
 
 
   91:.\Generated_Source\PSoC4/CyFlash.c **** *******************************************************************************/
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
  145:.\Generated_Source\PSoC4/CyFlash.c ****         if(retValue == CY_SYS_FLASH_SUCCESS)
  146:.\Generated_Source\PSoC4/CyFlash.c ****         {
  147:.\Generated_Source\PSoC4/CyFlash.c ****             /***************************************************************
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 4
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 4
 
 
  148:.\Generated_Source\PSoC4/CyFlash.c ****             * Mask all the exceptions to guarantee that Flash write will
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
  202:.\Generated_Source\PSoC4/CyFlash.c ****                         CY_FLASH_CPUSS_SYSARG_REG = (uint32) &parameters[0u];
  203:.\Generated_Source\PSoC4/CyFlash.c ****                         CY_FLASH_CPUSS_SYSREQ_REG = CY_FLASH_CPUSS_REQ_START | CY_FLASH_API_OPCODE_
  204:.\Generated_Source\PSoC4/CyFlash.c ****                         retValue = CY_FLASH_API_RETURN;
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 5
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 5
 
 
  205:.\Generated_Source\PSoC4/CyFlash.c ****                     }
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
  259:.\Generated_Source\PSoC4/CyFlash.c ****             CY_SYS_CLK_SELECT_REG |= CY_FLASH_WAIT_STATE_EN;
  260:.\Generated_Source\PSoC4/CyFlash.c ****         }
  261:.\Generated_Source\PSoC4/CyFlash.c ****     #else /* CY_IP_CPUSSV2 */
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 6
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 6
 
 
  262:.\Generated_Source\PSoC4/CyFlash.c **** 
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
  316:.\Generated_Source\PSoC4/CyFlash.c **** *    CY_SYS_SFLASH_PROTECTED        Specified flash row is protected
  317:.\Generated_Source\PSoC4/CyFlash.c **** *    Other non-zero                 Failure
  318:.\Generated_Source\PSoC4/CyFlash.c **** *
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 7
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 7
 
 
  319:.\Generated_Source\PSoC4/CyFlash.c **** *******************************************************************************/
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
  373:.\Generated_Source\PSoC4/CyFlash.c ****             {
  374:.\Generated_Source\PSoC4/CyFlash.c ****                 clkCnfRetValue = CySysFlashClockRestore();
  375:.\Generated_Source\PSoC4/CyFlash.c ****             }
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 8
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 8
 
 
  376:.\Generated_Source\PSoC4/CyFlash.c ****             CyExitCriticalSection(interruptState);
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
  427:.\Generated_Source\PSoC4/CyFlash.c ****         * Perform firmware clock settings backup for the PSOC4 4000 devices (the
  428:.\Generated_Source\PSoC4/CyFlash.c ****         * corresponding system call is not available).
  429:.\Generated_Source\PSoC4/CyFlash.c ****         ***************************************************************************/
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 9
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 9
 
 
  430:.\Generated_Source\PSoC4/CyFlash.c **** 
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
   38              		.thumb_func
   39              		.type	CySysFlashClockRestore, %function
   40              	CySysFlashClockRestore:
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 10
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 10
 
 
   41              	.LFB6:
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
  527:.\Generated_Source\PSoC4/CyFlash.c ****         }
  528:.\Generated_Source\PSoC4/CyFlash.c ****         CySysClkImoStart();
  529:.\Generated_Source\PSoC4/CyFlash.c **** 
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 11
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 11
 
 
  530:.\Generated_Source\PSoC4/CyFlash.c ****         /* The IMO should be source for the HFCLK */
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
  581:.\Generated_Source\PSoC4/CyFlash.c **** 
  582:.\Generated_Source\PSoC4/CyFlash.c ****     /***************************************************************
  583:.\Generated_Source\PSoC4/CyFlash.c ****     * Restore IMO configuration that could be changed during
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 12
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 12
 
 
  584:.\Generated_Source\PSoC4/CyFlash.c ****     * system call execution (Cypress ID #150448).
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
  638:.\Generated_Source\PSoC4/CyFlash.c **** 
  639:.\Generated_Source\PSoC4/CyFlash.c ****     return (retValue);
  640:.\Generated_Source\PSoC4/CyFlash.c **** }
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 13
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 13
 
 
   45              		.loc 1 640 0
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
   92 0022 9C42     		cmp	r4, r3
   93 0024 01D9     		bls	.L11
   94 0026 254B     		ldr	r3, .L13+8
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 14
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 14
 
 
   95 0028 00E0     		b	.L5
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
  138              		.loc 1 155 0
  139 0060 FFF7FEFF 		bl	CySysFlashClockBackup
  140              	.LVL7:
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 15
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 15
 
 
  141 0064 4290     		str	r0, [sp, #264]
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
  214:.\Generated_Source\PSoC4/CyFlash.c ****         }
  185              		.loc 1 214 0
  186 00a2 281C     		mov	r0, r5
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 16
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 16
 
 
  187 00a4 FFF7FEFF 		bl	CyExitCriticalSection
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
  236              		.loc 1 249 0
  237 0004 FFF7FEFF 		bl	CyEnterCriticalSection
  238              	.LVL13:
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 17
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 17
 
 
  239 0008 051C     		mov	r5, r0
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
  285 004a FFF7FEFF 		bl	CyExitCriticalSection
  286              	.LVL16:
  287:.\Generated_Source\PSoC4/CyFlash.c **** 
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 18
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 18
 
 
  287              		.loc 1 287 0
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
  335 001c 254B     		ldr	r3, .L32+8
  336              	.L24:
  337 001e 041C     		mov	r4, r0
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 19
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 19
 
 
  331:.\Generated_Source\PSoC4/CyFlash.c ****                          (uint32) (CY_FLASH_PAGE_LATCH_START_ADDR             << CY_FLASH_PARAM_ADD
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
  381              	.LVL22:
  382 005c 051C     		mov	r5, r0
  383              	.LVL23:
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 20
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 20
 
 
  352:.\Generated_Source\PSoC4/CyFlash.c **** 
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
  427              	.L29:
  376:.\Generated_Source\PSoC4/CyFlash.c ****         }
  428              		.loc 1 376 0
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 21
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 21
 
 
  429 009a 281C     		mov	r0, r5
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
  480 0027 06       		.byte	0x6
  481 0028 70020000 		.4byte	.LASF0
  482 002c 02       		.uleb128 0x2
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 22
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 22
 
 
  483 002d 01       		.byte	0x1
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
  537 0096 02       		.uleb128 0x2
  538 0097 08       		.byte	0x8
  539 0098 04       		.byte	0x4
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 23
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 23
 
 
  540 0099 C3000000 		.4byte	.LASF13
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
  594 0114 A4000000 		.4byte	0xa4
  595 0118 00       		.byte	0
  596 0119 00       		.byte	0
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 24
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 24
 
 
  597 011a 09       		.uleb128 0x9
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
  651 0190 1F030000 		.4byte	0x31f
  652 0194 AE010000 		.4byte	0x1ae
  653 0198 0E       		.uleb128 0xe
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 25
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 25
 
 
  654 0199 01       		.uleb128 0x1
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
  708 01fb 8F020000 		.4byte	.LASF34
  709 01ff 01       		.byte	0x1
  710 0200 F5       		.byte	0xf5
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 26
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 26
 
 
  711 0201 00000000 		.4byte	.LFB3
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
  765 027a 4001     		.2byte	0x140
  766 027c 83000000 		.4byte	0x83
  767 0280 C3000000 		.4byte	.LLST5
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 27
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 27
 
 
  768 0284 17       		.uleb128 0x17
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
  822 02ef 5C000000 		.4byte	.LVL22
  823 02f3 43030000 		.4byte	0x343
  824 02f7 0F       		.uleb128 0xf
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 28
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 28
 
 
  825 02f8 62000000 		.4byte	.LVL24
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
  879              		.section	.debug_abbrev,"",%progbits
  880              	.Ldebug_abbrev0:
  881 0000 01       		.uleb128 0x1
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 29
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 29
 
 
  882 0001 11       		.uleb128 0x11
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
  936 0037 35       		.uleb128 0x35
  937 0038 00       		.byte	0
  938 0039 49       		.uleb128 0x49
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 30
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 30
 
 
  939 003a 13       		.uleb128 0x13
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
  993 0071 19       		.uleb128 0x19
  994 0072 03       		.uleb128 0x3
  995 0073 0E       		.uleb128 0xe
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 31
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 31
 
 
  996 0074 3A       		.uleb128 0x3a
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
  1050 00ab 0E       		.uleb128 0xe
  1051 00ac 3A       		.uleb128 0x3a
  1052 00ad 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 32
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 32
 
 
  1053 00ae 3B       		.uleb128 0x3b
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
  1107 00ed 00       		.byte	0
  1108 00ee 12       		.uleb128 0x12
  1109 00ef 26       		.uleb128 0x26
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 33
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 33
 
 
  1110 00f0 00       		.byte	0
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
  1164 0127 0E       		.uleb128 0xe
  1165 0128 3A       		.uleb128 0x3a
  1166 0129 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 34
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 34
 
 
  1167 012a 3B       		.uleb128 0x3b
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
  1221 0161 0B       		.uleb128 0xb
  1222 0162 3B       		.uleb128 0x3b
  1223 0163 05       		.uleb128 0x5
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 35
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 35
 
 
  1224 0164 49       		.uleb128 0x49
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
  1278 019a 00       		.byte	0
  1279 019b 00       		.byte	0
  1280 019c 1E       		.uleb128 0x1e
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 36
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 36
 
 
  1281 019d 2E       		.uleb128 0x2e
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
  1335 002b F3       		.byte	0xf3
  1336 002c 01       		.uleb128 0x1
  1337 002d 50       		.byte	0x50
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 37
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 37
 
 
  1338 002e 9F       		.byte	0x9f
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
  1392 00b0 0A000000 		.4byte	.LVL14
  1393 00b4 4E000000 		.4byte	.LVL18
  1394 00b8 0100     		.2byte	0x1
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 38
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 38
 
 
  1395 00ba 55       		.byte	0x55
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
  1449 013e 55       		.byte	0x55
  1450 013f 00000000 		.4byte	0
  1451 0143 00000000 		.4byte	0
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 39
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 39
 
 
  1452              		.section	.debug_aranges,"",%progbits
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
  1496      756D00
  1497              	.LASF32:
  1498 001f 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\CyFlash.c\000"
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 40
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 40
 
 
  1498      6E657261 
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
  1522 00d4 75696E74 		.ascii	"uint16\000"
  1522      313600
  1523              	.LASF11:
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 41
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 41
 
 
  1524 00db 75696E74 		.ascii	"uint32\000"
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 1
  1544      74696F6E 
  1545              	.LASF26:
  1546 01de 66726571 		.ascii	"freq\000"
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccNGOMDc.s 			page 42
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\cciLCsg4.s 			page 42
 
 
  1546      00

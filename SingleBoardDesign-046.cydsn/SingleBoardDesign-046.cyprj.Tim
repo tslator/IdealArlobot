@@ -13,7 +13,6 @@
 <CyGuid_1173175f-1b9b-4ad4-a065-754a48a27021 type_name="CyDesigner.Common.Base.CyFileDeps" version="1">
 <file name=".\CortexM0\ARM_GCC_493\Debug\main.o">
 <dep name=".\Generated_Source\PSoC4\Clock_1.h" />
-<dep name=".\Generated_Source\PSoC4\Control_Reg_1.h" />
 <dep name=".\Generated_Source\PSoC4\CyDMA.h" />
 <dep name=".\Generated_Source\PSoC4\CyFlash.h" />
 <dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
@@ -133,6 +132,7 @@
 <dep name=".\Generated_Source\PSoC4\Infrared_Distance_Pin_8_aliases.h" />
 <dep name=".\Generated_Source\PSoC4\Infrared_Distance_Pin_9.h" />
 <dep name=".\Generated_Source\PSoC4\Infrared_Distance_Pin_9_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\Infrared_Mux_Control.h" />
 <dep name=".\Generated_Source\PSoC4\Left_Encoder_A.h" />
 <dep name=".\Generated_Source\PSoC4\Left_Encoder_A_aliases.h" />
 <dep name=".\Generated_Source\PSoC4\Left_Encoder_B.h" />
@@ -172,7 +172,6 @@
 <dep name=".\main.c" />
 </file>
 <file name=".\Generated_Source\PSoC4\Clock_1.h" />
-<file name=".\Generated_Source\PSoC4\Control_Reg_1.h" />
 <file name=".\Generated_Source\PSoC4\CyDMA.h" />
 <file name=".\Generated_Source\PSoC4\CyFlash.h" />
 <file name=".\Generated_Source\PSoC4\CyLFClk.h" />
@@ -292,6 +291,7 @@
 <file name=".\Generated_Source\PSoC4\Infrared_Distance_Pin_8_aliases.h" />
 <file name=".\Generated_Source\PSoC4\Infrared_Distance_Pin_9.h" />
 <file name=".\Generated_Source\PSoC4\Infrared_Distance_Pin_9_aliases.h" />
+<file name=".\Generated_Source\PSoC4\Infrared_Mux_Control.h" />
 <file name=".\Generated_Source\PSoC4\Left_Encoder_A.h" />
 <file name=".\Generated_Source\PSoC4\Left_Encoder_A_aliases.h" />
 <file name=".\Generated_Source\PSoC4\Left_Encoder_B.h" />
@@ -349,22 +349,6 @@
 </file>
 <file name=".\Generated_Source\PSoC4\Cm0Start.c" />
 <file name=".\cyapicallbacks.h" />
-<file name=".\CortexM0\ARM_GCC_493\Debug\Control_Reg_1.o">
-<dep name=".\Generated_Source\PSoC4\Control_Reg_1.c" />
-<dep name=".\Generated_Source\PSoC4\Control_Reg_1.h" />
-<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC4\cytypes.h" />
-</file>
-<file name=".\Generated_Source\PSoC4\Control_Reg_1.c" />
-<file name=".\CortexM0\ARM_GCC_493\Debug\Control_Reg_1_PM.o">
-<dep name=".\Generated_Source\PSoC4\Control_Reg_1.h" />
-<dep name=".\Generated_Source\PSoC4\Control_Reg_1_PM.c" />
-<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC4\cytypes.h" />
-</file>
-<file name=".\Generated_Source\PSoC4\Control_Reg_1_PM.c" />
 <file name=".\CortexM0\ARM_GCC_493\Debug\CyDMA.o">
 <dep name=".\Generated_Source\PSoC4\CyDMA.c" />
 <dep name=".\Generated_Source\PSoC4\CyDMA.h" />
@@ -1650,6 +1634,22 @@
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
 </file>
 <file name=".\Generated_Source\PSoC4\Infrared_Distance_Pin_9_PM.c" />
+<file name=".\CortexM0\ARM_GCC_493\Debug\Infrared_Mux_Control.o">
+<dep name=".\Generated_Source\PSoC4\Infrared_Mux_Control.c" />
+<dep name=".\Generated_Source\PSoC4\Infrared_Mux_Control.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\Infrared_Mux_Control.c" />
+<file name=".\CortexM0\ARM_GCC_493\Debug\Infrared_Mux_Control_PM.o">
+<dep name=".\Generated_Source\PSoC4\Infrared_Mux_Control.h" />
+<dep name=".\Generated_Source\PSoC4\Infrared_Mux_Control_PM.c" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\Infrared_Mux_Control_PM.c" />
 <file name=".\CortexM0\ARM_GCC_493\Debug\Left_Encoder_A.o">
 <dep name=".\Generated_Source\PSoC4\Left_Encoder_A.c" />
 <dep name=".\Generated_Source\PSoC4\Left_Encoder_A.h" />
@@ -1971,6 +1971,23 @@
 <file name=".\Generated_Source\PSoC4\CyBootAsmGnu.s" />
 <file name=".\Generated_Source\PSoC4\cydevicegnu_trm.inc" />
 <file name=".\Generated_Source\PSoC4\cyfittergnu.inc" />
+<file name=".\Generated_Source\PSoC4\Control_Reg_1.h" />
+<file name=".\CortexM0\ARM_GCC_493\Debug\Control_Reg_1.o">
+<dep name=".\Generated_Source\PSoC4\Control_Reg_1.c" />
+<dep name=".\Generated_Source\PSoC4\Control_Reg_1.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\Control_Reg_1.c" />
+<file name=".\CortexM0\ARM_GCC_493\Debug\Control_Reg_1_PM.o">
+<dep name=".\Generated_Source\PSoC4\Control_Reg_1.h" />
+<dep name=".\Generated_Source\PSoC4\Control_Reg_1_PM.c" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\Control_Reg_1_PM.c" />
 <file name=".\Generated_Source\PSoC4\Clock_2.h" />
 <file name=".\Generated_Source\PSoC4\Clock_3.h" />
 <file name=".\Generated_Source\PSoC4\UARTCOMMS.h" />
@@ -2425,8 +2442,6 @@
 <dep name=".\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_1_PM.o" />
 <dep name=".\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_0.o" />
 <dep name=".\CortexM0\ARM_GCC_493\Debug\Infrared_Distance_Pin_0_PM.o" />
-<dep name=".\CortexM0\ARM_GCC_493\Debug\Control_Reg_1.o" />
-<dep name=".\CortexM0\ARM_GCC_493\Debug\Control_Reg_1_PM.o" />
 <dep name=".\CortexM0\ARM_GCC_493\Debug\Clock_1.o" />
 <dep name=".\CortexM0\ARM_GCC_493\Debug\Infrared_ADC_IRQ.o" />
 <dep name=".\CortexM0\ARM_GCC_493\Debug\Infrared_ADC_intClock.o" />
@@ -2533,6 +2548,8 @@
 <dep name=".\CortexM0\ARM_GCC_493\Debug\EZI2C_1_scl.o" />
 <dep name=".\CortexM0\ARM_GCC_493\Debug\EZI2C_1_scl_PM.o" />
 <dep name=".\CortexM0\ARM_GCC_493\Debug\EZI2C_1_SCB_IRQ.o" />
+<dep name=".\CortexM0\ARM_GCC_493\Debug\Infrared_Mux_Control.o" />
+<dep name=".\CortexM0\ARM_GCC_493\Debug\Infrared_Mux_Control_PM.o" />
 <dep name=".\CortexM0\ARM_GCC_493\Debug\SingleBoardDesign-046.a" />
 <dep name="${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM0\ARM_GCC_493\Debug\CyComponentLibrary.a" />
 </file>
@@ -2740,6 +2757,8 @@
 <name_val_pair name=".\Generated_Source\PSoC4\EZI2C_1_scl.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
 <name_val_pair name=".\Generated_Source\PSoC4\EZI2C_1_scl_PM.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
 <name_val_pair name=".\Generated_Source\PSoC4\EZI2C_1_SCB_IRQ.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
+<name_val_pair name=".\Generated_Source\PSoC4\Infrared_Mux_Control.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
+<name_val_pair name=".\Generated_Source\PSoC4\Infrared_Mux_Control_PM.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
 </name>
 </genericCmdLineData>
 <codeGenCmdLineTag v="-.appdatapath &quot;C:\Users\Tim\AppData\Local\Cypress Semiconductor\PSoC Creator\3.3&quot; -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -p &quot;D:\Documents\PSoC Creator\IdealArlobot\SingleBoardDesign-046.cydsn\SingleBoardDesign-046.cyprj&quot; -d CY8C4248BZI-L489 -s &quot;D:\Documents\PSoC Creator\IdealArlobot\SingleBoardDesign-046.cydsn\Generated_Source\PSoC4&quot; -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE" />
@@ -6559,6 +6578,9 @@
 <v>.\Generated_Source\PSoC4\EZI2C_1_scl_PM.c</v>
 <v>.\Generated_Source\PSoC4\EZI2C_1_SCB_IRQ.c</v>
 <v>.\Generated_Source\PSoC4\EZI2C_1_SCB_IRQ.h</v>
+<v>.\Generated_Source\PSoC4\Infrared_Mux_Control.h</v>
+<v>.\Generated_Source\PSoC4\Infrared_Mux_Control.c</v>
+<v>.\Generated_Source\PSoC4\Infrared_Mux_Control_PM.c</v>
 </gen_list>
 <warp_dep>
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\ieee\work\stdlogic.vif</v>
@@ -6568,14 +6590,14 @@
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif</v>
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3.vif</v>
 </warp_dep>
-<deps_time v="131047736297554153" />
+<deps_time v="131047758975716940" />
 <top_block v="TopDesign" />
 <last_generation v="1" />
 </CyGuid_925cc1e1-309e-4e08-b0a1-09a83c35b157>
 </dataGuid>
 <dataGuid v="769d31ea-68b1-4f0c-b90a-7c10a43ee563">
 <CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563 type_name="CyDesigner.Common.ProjMgmt.Model.CyLinkCustomData" version="1">
-<deps_time v="131047736502994170" />
+<deps_time v="131047759175080826" />
 </CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563>
 </dataGuid>
 <dataGuid v="237c8ed1-e161-4c9d-af97-582eda6d6952">
@@ -6664,6 +6686,7 @@
 <CyGuid_50eb6c77-9735-4e57-8808-b714f60fbc0d type_name="CyDesigner.PSoC.P3Fit.Common.DesignWideResources.DeviceEditor.CyItemState" version="1" Name="\Infrared_ADC:Net_3227\" Color="-5000448" />
 <CyGuid_50eb6c77-9735-4e57-8808-b714f60fbc0d type_name="CyDesigner.PSoC.P3Fit.Common.DesignWideResources.DeviceEditor.CyItemState" version="1" Name="\Infrared_ADC:mux_bus_minus_0\" Color="-9644032" />
 <CyGuid_50eb6c77-9735-4e57-8808-b714f60fbc0d type_name="CyDesigner.PSoC.P3Fit.Common.DesignWideResources.DeviceEditor.CyItemState" version="1" Name="Net_1772" Color="-16722432" />
+<CyGuid_50eb6c77-9735-4e57-8808-b714f60fbc0d type_name="CyDesigner.PSoC.P3Fit.Common.DesignWideResources.DeviceEditor.CyItemState" version="1" Name="AMuxNet::Infrared_Analog_Mux" Color="-9580801" />
 </ComponentStates>
 </CyGuid_d442b0b8-dd66-4eee-b5be-1cb213792b31>
 </dataGuid>

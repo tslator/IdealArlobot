@@ -18,7 +18,7 @@
 #include "cydevice_trm.h"
 #include "cyfitter.h"
 #include "cydisabledsheets.h"
-#include "Control_Reg_1.h"
+#include "Infrared_Mux_Control.h"
 #include "Clock_1.h"
 #include "Infrared_ADC.h"
 #include "Infrared_Distance_Pin_15.h"

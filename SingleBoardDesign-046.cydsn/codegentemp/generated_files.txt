@@ -14,9 +14,9 @@
   <file name="D:\Documents\PSoC Creator\IdealArlobot\SingleBoardDesign-046.cydsn\codegentemp\cyfitteriar.inc" value="NONE;" />
   <file name="D:\Documents\PSoC Creator\IdealArlobot\SingleBoardDesign-046.cydsn\codegentemp\cyfitter.h" value="NONE;" />
   <file name="D:\Documents\PSoC Creator\IdealArlobot\SingleBoardDesign-046.cydsn\codegentemp\cydisabledsheets.h" value="NONE;" />
-  <file name="D:\Documents\PSoC Creator\IdealArlobot\SingleBoardDesign-046.cydsn\codegentemp\Control_Reg_1.h" value="NONE;Control_Reg_1" />
-  <file name="D:\Documents\PSoC Creator\IdealArlobot\SingleBoardDesign-046.cydsn\codegentemp\Control_Reg_1.c" value="ARM_C_FILE;Control_Reg_1" />
-  <file name="D:\Documents\PSoC Creator\IdealArlobot\SingleBoardDesign-046.cydsn\codegentemp\Control_Reg_1_PM.c" value="ARM_C_FILE;Control_Reg_1" />
+  <file name="D:\Documents\PSoC Creator\IdealArlobot\SingleBoardDesign-046.cydsn\codegentemp\Infrared_Mux_Control.h" value="NONE;Infrared_Mux_Control" />
+  <file name="D:\Documents\PSoC Creator\IdealArlobot\SingleBoardDesign-046.cydsn\codegentemp\Infrared_Mux_Control.c" value="ARM_C_FILE;Infrared_Mux_Control" />
+  <file name="D:\Documents\PSoC Creator\IdealArlobot\SingleBoardDesign-046.cydsn\codegentemp\Infrared_Mux_Control_PM.c" value="ARM_C_FILE;Infrared_Mux_Control" />
   <file name="D:\Documents\PSoC Creator\IdealArlobot\SingleBoardDesign-046.cydsn\codegentemp\Clock_1.c" value="ARM_C_FILE;Clock_1" />
   <file name="D:\Documents\PSoC Creator\IdealArlobot\SingleBoardDesign-046.cydsn\codegentemp\Clock_1.h" value="NONE;Clock_1" />
   <file name="D:\Documents\PSoC Creator\IdealArlobot\SingleBoardDesign-046.cydsn\codegentemp\Infrared_ADC.c" value="ARM_C_FILE;Infrared_ADC" />

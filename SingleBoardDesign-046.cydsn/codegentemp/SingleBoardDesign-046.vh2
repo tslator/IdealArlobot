@@ -2,7 +2,7 @@
 --	Conversion of SingleBoardDesign-046.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Sun Apr 10 07:53:29 2016
+--	Sun Apr 10 08:31:17 2016
 --
 
 USE cypress.cypress.all;
@@ -18,32 +18,32 @@ SIGNAL cydff_2R : bit;
 SIGNAL Net_96 : bit;
 SIGNAL cydff_2S : bit;
 SIGNAL Net_95 : bit;
-SIGNAL \Control_Reg_1:clk\ : bit;
-SIGNAL \Control_Reg_1:rst\ : bit;
+SIGNAL \Infrared_Mux_Control:clk\ : bit;
+SIGNAL \Infrared_Mux_Control:rst\ : bit;
 SIGNAL Net_1809_0 : bit;
-SIGNAL \Control_Reg_1:control_out_0\ : bit;
+SIGNAL \Infrared_Mux_Control:control_out_0\ : bit;
 SIGNAL Net_1809_1 : bit;
-SIGNAL \Control_Reg_1:control_out_1\ : bit;
+SIGNAL \Infrared_Mux_Control:control_out_1\ : bit;
 SIGNAL Net_1809_2 : bit;
-SIGNAL \Control_Reg_1:control_out_2\ : bit;
+SIGNAL \Infrared_Mux_Control:control_out_2\ : bit;
 SIGNAL Net_1809_3 : bit;
-SIGNAL \Control_Reg_1:control_out_3\ : bit;
+SIGNAL \Infrared_Mux_Control:control_out_3\ : bit;
 SIGNAL Net_3061 : bit;
-SIGNAL \Control_Reg_1:control_out_4\ : bit;
+SIGNAL \Infrared_Mux_Control:control_out_4\ : bit;
 SIGNAL Net_3062 : bit;
-SIGNAL \Control_Reg_1:control_out_5\ : bit;
+SIGNAL \Infrared_Mux_Control:control_out_5\ : bit;
 SIGNAL Net_3063 : bit;
-SIGNAL \Control_Reg_1:control_out_6\ : bit;
+SIGNAL \Infrared_Mux_Control:control_out_6\ : bit;
 SIGNAL Net_3064 : bit;
-SIGNAL \Control_Reg_1:control_out_7\ : bit;
-SIGNAL \Control_Reg_1:control_7\ : bit;
-SIGNAL \Control_Reg_1:control_6\ : bit;
-SIGNAL \Control_Reg_1:control_5\ : bit;
-SIGNAL \Control_Reg_1:control_4\ : bit;
-SIGNAL \Control_Reg_1:control_3\ : bit;
-SIGNAL \Control_Reg_1:control_2\ : bit;
-SIGNAL \Control_Reg_1:control_1\ : bit;
-SIGNAL \Control_Reg_1:control_0\ : bit;
+SIGNAL \Infrared_Mux_Control:control_out_7\ : bit;
+SIGNAL \Infrared_Mux_Control:control_7\ : bit;
+SIGNAL \Infrared_Mux_Control:control_6\ : bit;
+SIGNAL \Infrared_Mux_Control:control_5\ : bit;
+SIGNAL \Infrared_Mux_Control:control_4\ : bit;
+SIGNAL \Infrared_Mux_Control:control_3\ : bit;
+SIGNAL \Infrared_Mux_Control:control_2\ : bit;
+SIGNAL \Infrared_Mux_Control:control_1\ : bit;
+SIGNAL \Infrared_Mux_Control:control_0\ : bit;
 SIGNAL Net_1760 : bit;
 SIGNAL Infrared_Analog_Mux_Decoder_enable : bit;
 SIGNAL Infrared_Analog_Mux_Decoder_is_active : bit;
@@ -1559,7 +1559,7 @@ Net_109 <= ((Net_149_0 and Net_149_1 and Net_149_2 and Net_149_3 and Net_147)
 	OR (not Infrared_Analog_Mux_Decoder_old_id_1 and Net_1809_1 and Net_1809_2)
 	OR (not Infrared_Analog_Mux_Decoder_old_id_2 and Net_1809_2));
 
-\Control_Reg_1:Sync:ctrl_reg\:cy_psoc3_control
+\Infrared_Mux_Control:Sync:ctrl_reg\:cy_psoc3_control
 	GENERIC MAP(cy_init_value=>"00000000",
 		cy_force_order=>'1',
 		cy_ctrl_mode_1=>"00000000",
@@ -1567,7 +1567,7 @@ Net_109 <= ((Net_149_0 and Net_149_1 and Net_149_2 and Net_149_3 and Net_147)
 		cy_ext_reset=>'0')
 	PORT MAP(reset=>Net_101,
 		clock=>Net_101,
-		control=>(\Control_Reg_1:control_7\, \Control_Reg_1:control_6\, \Control_Reg_1:control_5\, \Control_Reg_1:control_4\,
+		control=>(\Infrared_Mux_Control:control_7\, \Infrared_Mux_Control:control_6\, \Infrared_Mux_Control:control_5\, \Infrared_Mux_Control:control_4\,
 			Net_1809_3, Net_1809_2, Net_1809_1, Net_1809_0));
 Clock_1:cy_clock_v1_0
 	GENERIC MAP(cy_registers=>"",

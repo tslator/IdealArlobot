@@ -1,6 +1,6 @@
 // ======================================================================
 // SingleBoardDesign-046.v generated from TopDesign.cysch
-// 04/10/2016 at 07:53
+// 04/10/2016 at 08:31
 // This file is auto generated. ANY EDITS YOU MAKE MAY BE LOST WHEN THIS FILE IS REGENERATED!!!
 // ======================================================================
 
@@ -1634,7 +1634,7 @@ module top ;
     assign Net_95 = cydff_2;
     // -- DFF End --
 
-    CyControlReg_v1_80 Control_Reg_1 (
+    CyControlReg_v1_80 Infrared_Mux_Control (
         .control_1(Net_1809[1]),
         .control_2(Net_1809[2]),
         .control_3(Net_1809[3]),
@@ -1645,18 +1645,18 @@ module top ;
         .control_7(Net_3064),
         .clock(1'b0),
         .reset(1'b0));
-    defparam Control_Reg_1.Bit0Mode = 0;
-    defparam Control_Reg_1.Bit1Mode = 0;
-    defparam Control_Reg_1.Bit2Mode = 0;
-    defparam Control_Reg_1.Bit3Mode = 0;
-    defparam Control_Reg_1.Bit4Mode = 0;
-    defparam Control_Reg_1.Bit5Mode = 0;
-    defparam Control_Reg_1.Bit6Mode = 0;
-    defparam Control_Reg_1.Bit7Mode = 0;
-    defparam Control_Reg_1.BitValue = 0;
-    defparam Control_Reg_1.BusDisplay = 0;
-    defparam Control_Reg_1.ExtrReset = 0;
-    defparam Control_Reg_1.NumOutputs = 4;
+    defparam Infrared_Mux_Control.Bit0Mode = 0;
+    defparam Infrared_Mux_Control.Bit1Mode = 0;
+    defparam Infrared_Mux_Control.Bit2Mode = 0;
+    defparam Infrared_Mux_Control.Bit3Mode = 0;
+    defparam Infrared_Mux_Control.Bit4Mode = 0;
+    defparam Infrared_Mux_Control.Bit5Mode = 0;
+    defparam Infrared_Mux_Control.Bit6Mode = 0;
+    defparam Infrared_Mux_Control.Bit7Mode = 0;
+    defparam Infrared_Mux_Control.BitValue = 0;
+    defparam Infrared_Mux_Control.BusDisplay = 0;
+    defparam Infrared_Mux_Control.ExtrReset = 0;
+    defparam Infrared_Mux_Control.NumOutputs = 4;
 
 
 	cy_clock_v1_0

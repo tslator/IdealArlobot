@@ -25064,7 +25064,7 @@
       </registers>
     </peripheral>
     <peripheral>
-      <name>Control_Reg_1</name>
+      <name>Infrared_Mux_Control</name>
       <description>No description available</description>
       <baseAddress>0x400F0073</baseAddress>
       <addressBlock>
@@ -25074,7 +25074,7 @@
       </addressBlock>
       <registers>
         <register>
-          <name>Control_Reg_1_CONTROL_REG</name>
+          <name>Infrared_Mux_Control_CONTROL_REG</name>
           <description>No description available</description>
           <addressOffset>0x0</addressOffset>
           <size>8</size>

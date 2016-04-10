@@ -72,7 +72,7 @@ set_location "\Infrared_ADC:cy_psoc4_sar\" p4sarcell -1 -1 0
 set_location "\Right_HB25_PWM:cy_m0s8_tcpwm_1\" m0s8tcpwmcell -1 -1 1
 set_io "HCSR04_Echo_13(0)" iocell 4 2
 set_io "HCSR04_Echo_9(0)" iocell 4 6
-set_location "\Control_Reg_1:Sync:ctrl_reg\" controlcell 0 2 6 
+set_location "\Infrared_Mux_Control:Sync:ctrl_reg\" controlcell 0 2 6 
 set_io "HCSR04_Echo_10(0)" iocell 5 2
 set_io "HCSR04_Echo_7(0)" iocell 11 0
 set_io "Right_HB25_PWM_Pin(0)" iocell 10 2
